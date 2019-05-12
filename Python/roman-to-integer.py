@@ -9,15 +9,11 @@ class Solution:
                    'D': 500,
                    'M': 1000}
         for index, char in enumerate(s):
-            if index <= len(s)-2:
 
-                if (symbols[s[index + 1]] > symbols[s[index]]):
+            if index <= len(s)-2 and (symbols[s[index + 1]] > symbols[s[index]]):
 
-                   result -= symbols[s[index]]
-                else:
-                    result += symbols[char]
+               result -= symbols[s[index]]
             else:
-
-                result+= symbols[char]
+                result += symbols[char]
 
         return result

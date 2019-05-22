@@ -4,7 +4,6 @@ class Solution:
         L = []
     
         for char in s:
-            print(char, len(L))
             if char in lookup:
                 L.append(char)
             elif len(L) == 0 or lookup[L.pop()] != char:

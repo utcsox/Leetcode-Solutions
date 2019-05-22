@@ -16,6 +16,19 @@ class Solution:
     :type target: int
     :rtype: List[int]
     """
+    index_dict = {}
+    for idx in range(len(nums)):
+        if target - nums[idx] not in index_dict:
+            index_dict[nums[idx]] = idx
+        else:
+            return[index_dict[target-nums[idx]], idx]
+    
+    def twoSum3(self, nums, target):
+    """
+    :type nums: List[int]
+    :type target: int
+    :rtype: List[int]
+    """
     for i in nums:
         j = target - i
         start_index = nums.index(i)

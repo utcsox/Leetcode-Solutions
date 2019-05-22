@@ -1,15 +1,16 @@
 class Solution:
-    def reverse(self, x: int) -> int:
-        b = 0 
-        if x < 0:
-            x = abs(x)
-            b = 1
+    def reverse(self, x):
+        """
+        :type x: int
+        :rtype: int
+        """
+        
+        xx = str(abs(x))
+        l1 = [i for i in xx][::-1]
+        L1 = int(''.join(l1))
+        if abs(L1) > 0x7FFFFFFF:
+            L1 = 0
+        elif x <0:
+            L1 = -L1
 
-        x = str(x)
-        l1 = [i for i in x]
-        l1.reverse()
-        L1=''.join(l1)
-        L1 = int(L1)
-        L1= L1*(-1) if b == 1 else L1   
-        L1 = 0 if abs((L1)) > 0x7FFFFFFF else (L1)
-        return  (L1)
+        return L1

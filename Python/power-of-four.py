@@ -11,9 +11,7 @@ class Solution(object):
                 num = num /4
             else:
                 return False
-        if num == 0:
-            return False
-        elif num == 1:
+        if num == 1:
             return True
-        elif num < 4:
+        else:
             return False

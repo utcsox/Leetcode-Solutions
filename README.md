@@ -29,6 +29,7 @@
 0206| [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)| [Python](./Python/reverse-linked-list.py) | _O(n)_       | _O(1)_         | Easy         || 
 0215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [Python](./Python/kth-largest-element-in-an-array.py)| _O(n)_ ~ _O(n^2)_ | _O(1)_ |  Medium | EPI|
 0326 | [Power of Three](https://leetcode.com/problems/power-of-three/) | [Python](./Python/power-of-three.py) | _O(1)_ | _O(1)_ | Easy |||
+0342 | [Power of Four](https://leetcode.com/problems/power-of-four/) | [Python](./Python/power-of-four.py) | _O(1)_ | _O(1)_ | Easy | |
 0344| [Reverse String](https://leetcode.com/problems/reverse-string/) | [Python](./Python/reverse-string.py) | _O(n)_ | _O(1)_ | Easy         | |
 0345| [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/) | [Python](./Python/reverse-vowels-of-a-string.py) | _O(n)_ | _O(1)_ | Easy  
 0349| [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) |  [Python](./Python/intersection-of-two-arrays.py) | _O(m + n)_ | _O(min(m, n))_ | Easy         | EPI | Hash, Binary Search

@@ -18,6 +18,7 @@
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
 0001| [Two Sum](https://leetcode.com/problems/two-sum/)      | [Python](./Python/two-sum.py)      | _O(n)_         | _O(n)_          | Easy         ||
 0002| [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [Python](./Python/add-two-numbers.py) | _O(n)_   | _O(1)_          | Medium         ||
+0003| [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Python](./Python/longest-substring-without-repeating-characters.py) | _O(n)_ | _O(1)_ | Medium ||
 0007| [Reverse Integer](https://leetcode.com/problems/reverse-integer/) |[Python](./Python/reverse-integer.py) | _O(1)_ | _O(1)_         | Easy           ||
 0008| [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | [Python](./Python/string-to-integer-atoi.py) | _O(n)_ | _O(1)_ | Medium      ||
 0011| [Container With Most Water](https://leetcode.com/problems/container-with-most-water/)| [Python](./Python/container-with-most-water.py) | _O(n)_ | _O(1)_ | Medium ||

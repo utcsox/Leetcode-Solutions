@@ -17,6 +17,7 @@
 ## Bit Manipulation
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
+0342 | [Power of Four](https://leetcode.com/problems/power-of-four/) | [Python](./Python/power-of-four.py) | _O(1)_ | _O(1)_ | Easy | |
 0389 | [Find the Difference](https://leetcode.com/problems/find-the-difference/) | [Python](./Python/find-the-difference.py) | _O(n)_ | _O(1)_ | Easy | |
 
 
@@ -53,7 +54,6 @@
 0283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [Python](./Python/move-zeroes.py) | _O(n)_ | _O(1)_          | Easy         | |
 0303| [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)| [Python](./Python/range-sum-query-immutable.py) | ctor: _O(n)_, lookup: _O(1)_          | _O(n)_          | Easy           ||
 0326 | [Power of Three](https://leetcode.com/problems/power-of-three/) | [Python](./Python/power-of-three.py) | _O(1)_ | _O(1)_ | Easy |||
-0342 | [Power of Four](https://leetcode.com/problems/power-of-four/) | [Python](./Python/power-of-four.py) | _O(1)_ | _O(1)_ | Easy | |
 0344| [Reverse String](https://leetcode.com/problems/reverse-string/) | [Python](./Python/reverse-string.py) | _O(n)_ | _O(1)_ | Easy         | |
 0345| [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/) | [Python](./Python/reverse-vowels-of-a-string.py) | _O(n)_ | _O(1)_ | Easy  
 0349| [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) |  [Python](./Python/intersection-of-two-arrays.py) | _O(m + n)_ | _O(min(m, n))_ | Easy         | EPI | Hash, Binary Search

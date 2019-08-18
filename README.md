@@ -27,6 +27,12 @@
 0112| [Path Sum](https://leetcode.com/problems/path-sum/)      | [Python](./Python/path-sum.py)   | _O(n)_          | _O(h)_          | Easy           ||
 0113| [Path Sum II](https://leetcode.com/problems/path-sum-ii/)   | [Python](./Python/path-sum-ii.py) | _O(n)_         | _O(h)_          | Medium         ||
 
+## Dynamic Programming
+|  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
+|-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
+0053| [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[Python](./Python/maximum-subarray.py)| _O(n)_     | _O(1)_         | Medium         ||
+0303| [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)| [Python](./Python/range-sum-query-immutable.py) | ctor: _O(n)_, lookup: _O(1)_          | _O(n)_          | Easy           ||
+
 ## Hash Table
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
@@ -57,7 +63,6 @@
 0206| [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)| [Python](./Python/reverse-linked-list.py) | _O(n)_       | _O(1)_         | Easy         || 
 0215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [Python](./Python/kth-largest-element-in-an-array.py)| _O(n)_ ~ _O(n^2)_ | _O(1)_ |  Medium | EPI|
 0283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [Python](./Python/move-zeroes.py) | _O(n)_ | _O(1)_          | Easy         | |
-0303| [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)| [Python](./Python/range-sum-query-immutable.py) | ctor: _O(n)_, lookup: _O(1)_          | _O(n)_          | Easy           ||
 0326 | [Power of Three](https://leetcode.com/problems/power-of-three/) | [Python](./Python/power-of-three.py) | _O(1)_ | _O(1)_ | Easy |||
 0344| [Reverse String](https://leetcode.com/problems/reverse-string/) | [Python](./Python/reverse-string.py) | _O(n)_ | _O(1)_ | Easy         | |
 0345| [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/) | [Python](./Python/reverse-vowels-of-a-string.py) | _O(n)_ | _O(1)_ | Easy  

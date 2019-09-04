@@ -42,6 +42,7 @@
 ## Recursion
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
+0100| [Same Tree](https://leetcode.com/problems/same-tree/)      |[Python](./Python/same-tree.py)  | _O(n)_          | _O(h)_        | Easy          ||
 0404| [Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/) | [Python](./Python/sum-of-left-leaves.py) | _O(n)_          | _O(h)_          | Easy           ||
  
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 

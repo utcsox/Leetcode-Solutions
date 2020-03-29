@@ -14,6 +14,11 @@
 
 
 ## PYTHON
+## Array
+|  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
+|-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
+0054 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | [Python](./Python/spiral-matrix.py) | _O(m * n)_    | _O(1)_         | Medium         ||
+
 ## Bit Manipulation
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|

@@ -29,3 +29,44 @@ class Solution:
             M.append(matrix[row][1:-1])
 
         return res + self.spiralOrder(M)
+
+    from typing import List
+
+class Solution:
+    def spiralOrder(self, matrix: List[List[int]]) -> List[int]:
+
+    #check if input list of list exist, if not return empty list
+        if matrix == []:
+            return []
+        # initialize four quadrants
+        left, right, top, bottom = 0, len(matrix[0])-1, 0, len(matrix)-1
+        result = []
+
+        while left <= right and top <= bottom:
+            print(f"Left :{left}. \nRight: {right} \nTop:{top} \nBottom:{bottom} " )
+            
+            # Add top row element(left, right)
+            for col in range(left, right+1, 1):
+                result.append(matrix[top][col])
+                
+            # Add rightmost column element(top+1, bottom)
+
+            for row in range(top+1, bottom+1, 1):
+                result.append(matrix[row][right])
+            
+            # add bottom row if exist
+            if top < bottom:
+                for col in range(right-1, left-1, -1):
+                        result.append(matrix[bottom][col])         
+            # Add leftmost column
+            
+            if left < right:
+                for row in range(bottom-1, top, -1):
+                    result.append(matrix[row][left])
+
+            left, right, top, bottom = left+1, right-1, top+1, bottom-1
+            print(f"Left :{left}. \nRight: {right} \nTop:{top} \nBottom:{bottom} " )
+
+
+        return result
+

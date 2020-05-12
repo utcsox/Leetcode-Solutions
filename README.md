@@ -31,6 +31,8 @@
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
 0035| [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [Python](./Python/search-insert-position.py) | _O(logn)_ | _O(1)_   | Easy         ||
+0367| [Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/)|  [Python](./Python/valid-perfect-square.py)   | _O(logn)_          | _O(1)_          | Easy  
+0374| [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/)|[Python](./Python/guess-number-higher-or-lower.py)   | _O(logn)_          | _O(1)_          | Easy         | |
 
 ## Bit Manipulation
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
@@ -57,6 +59,7 @@
 0001| [Two Sum](https://leetcode.com/problems/two-sum/)      | [Python](./Python/two-sum.py)      | _O(n)_         | _O(n)_          | Easy         ||
 0003| [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Python](./Python/longest-substring-without-repeating-characters.py) | _O(n)_ | _O(1)_ | Medium ||
 217| [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)  | [Python](./Python/contains-duplicate.py) | _O(n)_        | _O(n)_          | Easy           ||
+0387| [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) | [Python](./Python/first-unique-character-in-a-string.py) | _O(n)_| _O(n)_| Easy |||
 
 ## Linked List
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
@@ -70,6 +73,7 @@
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
 0007| [Reverse Integer](https://leetcode.com/problems/reverse-integer/) |[Python](./Python/reverse-integer.py) | _O(1)_ | _O(1)_         | Easy           ||
 0013| [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | [Python](./Python/roman-to-integer.py) | _O(n)_ | _O(1)_          | Easy           ||
+0326 | [Power of Three](https://leetcode.com/problems/power-of-three/) | [Python](./Python/power-of-three.py) | _O(1)_ | _O(1)_ | Easy |||  
 
 ## Recursion
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
@@ -88,6 +92,7 @@
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
 0019| [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)| [Python](./Python/remove-nth-node-from-end-of-list.py) | _O(n)_       | _O(1)_         | Medium         || 
+0283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [Python](./Python/move-zeroes.py) | _O(n)_ | _O(1)_          | Easy         | | 
 0344| [Reverse String](https://leetcode.com/problems/reverse-string/) | [Python](./Python/reverse-string.py) | _O(n)_ | _O(1)_ | Easy         | |
 0345| [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/) | [Python](./Python/reverse-vowels-of-a-string.py) | _O(n)_ | _O(1)_ | Easy  
 0349| [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) |  [Python](./Python/intersection-of-two-arrays.py) | _O(m + n)_ | _O(min(m, n))_ | Easy         | EPI | Hash, Binary Search
@@ -97,9 +102,4 @@
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
 0017| [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)| [Python](./Python/letter-combinations-of-a-phone-number.py) | _O(n * 4^n)_ | _O(n)_ | Medium ||
 0020| [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)| [Python](./Python/valid-parentheses.py) | _O(n)_        | _O(n)_          | Easy           ||
-0283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [Python](./Python/move-zeroes.py) | _O(n)_ | _O(1)_          | Easy         | |
-0326 | [Power of Three](https://leetcode.com/problems/power-of-three/) | [Python](./Python/power-of-three.py) | _O(1)_ | _O(1)_ | Easy |||
-0344| [Reverse String](https://leetcode.com/problems/reverse-string/) | [Python](./Python/reverse-string.py) | _O(n)_ | _O(1)_ | Easy         | |      
-0367| [Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/)|  [Python](./Python/valid-perfect-square.py)   | _O(logn)_          | _O(1)_          | Easy  
-0374| [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/)|[Python](./Python/guess-number-higher-or-lower.py)   | _O(logn)_          | _O(1)_          | Easy         | |
-0387| [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) | [Python](./Python/first-unique-character-in-a-string.py) | _O(n)_| _O(n)_| Easy |||
+

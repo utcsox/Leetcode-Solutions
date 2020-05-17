@@ -21,7 +21,7 @@
 0015 | [3 Sum](https://leetcode.com/problems/3sum/)         | [Python](./Python/3sum.py)       | _O(n^2)_        | _O(1)_          | Medium         || Two Pointers
 0026 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)| [Python](./Python/remove-duplicates-from-sorted-array.py) | _O(n)_       | _O(1)_         | Easy           || Two Pointers
 0027 | [Remove Element](https://leetcode.com/problems/remove-element/) | [Python](./Python/remove-element.py) | _O(n)_      | _O(1)_         | Easy           ||
-0031 | [Next Permutation](https://leetcode.com/problems/next-permutation/)| [C++](./C++/next-permutation.cpp) [Python](./Python/next-permutation.py) | _O(n)_  | _O(1)_          | Medium         || Tricky
+0031 | [Next Permutation](https://leetcode.com/problems/next-permutation/)| [Python](./Python/next-permutation.py) | _O(n)_  | _O(1)_          | Medium         || Tricky
 0048 | [Rotate Image](https://leetcode.com/problems/rotate-image/)   | [Python](./Python/rotate-image.py) | _O(n^2)_      | _O(1)_         | Medium         ||
 0054 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | [Python](./Python/spiral-matrix.py) | _O(m * n)_    | _O(1)_         | Medium         ||
 0059 | [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/) | [Python](./Python/spiral-matrix-ii.py) | _O(n^2)_ | _O(1)_      | Medium         ||

@@ -60,6 +60,7 @@
 0001| [Two Sum](https://leetcode.com/problems/two-sum/)      | [Python](./Python/two-sum.py)      | _O(n)_         | _O(n)_          | Easy         ||
 0003| [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Python](./Python/longest-substring-without-repeating-characters.py) | _O(n)_ | _O(1)_ | Medium ||
 217| [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)  | [Python](./Python/contains-duplicate.py) | _O(n)_        | _O(n)_          | Easy           ||
+0049| [Group Anagrams](https://leetcode.com/problems/group-anagrams/)     | [[Python](./Python/group-anagrams.py)   | _O(n * glogg)_          | _O(n)_          | Medium         ||
 0387| [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) | [Python](./Python/first-unique-character-in-a-string.py) | _O(n)_| _O(n)_| Easy |||
 
 ## Linked List

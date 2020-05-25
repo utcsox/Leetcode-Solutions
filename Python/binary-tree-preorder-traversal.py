@@ -14,3 +14,21 @@ class Solution1:
             result = result + self.preorderTraversal(root.left)
             result = result + self.preorderTraversal(root.right)
         return result
+    
+class Solution2:
+    def preorderTraversal(self, root: TreeNode) -> List[int]:
+        if root is None:
+            return []
+        
+        result = []
+        stack = [root]
+        
+        while stack:
+            root = stack.pop()
+            if root:
+                result.append(root.val)
+                if root.right:
+                    stack.append(root.right)
+                if root.left:
+                    stack.append(root.left)
+        return result

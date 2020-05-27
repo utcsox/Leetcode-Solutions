@@ -39,6 +39,11 @@
 0374| [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/)|[Python](./Python/guess-number-higher-or-lower.py)   | _O(logn)_          | _O(1)_          | Easy         | |
 0700| [Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)| [Python](./Python/search-in-a-binary-search-tree.py)  | _O(logn)_          | _O(logn)_        | Easy         | |
 
+## Breadth-First Search
+|  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
+|-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
+0102| [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)|  [Python](./Python/binary-tree-level-order-traversal.py)| _O(n)_| _O(n)_| Medium || 
+
 ## Bit Manipulation
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|

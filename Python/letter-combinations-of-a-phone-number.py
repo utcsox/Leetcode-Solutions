@@ -10,7 +10,6 @@ class Solution1:
               '8': 'tuv',
               '9': 'wxyz'}
         if not digits: return []      
-        d = [" ", "", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv","wxyz"]
         ans = [""]
         for digit in digits:
             tmp = []       

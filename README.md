@@ -35,6 +35,7 @@
 ## Binary Search
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
+0033| [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [Python](./Python/search-in-rotated-sorted-array.py) | _O(logn)_ | _O(1)_   | Medium         ||
 0035| [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [Python](./Python/search-insert-position.py) | _O(logn)_ | _O(1)_   | Easy         ||
 0367| [Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/)|  [Python](./Python/valid-perfect-square.py)   | _O(logn)_          | _O(1)_          | Easy  
 0374| [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/)|[Python](./Python/guess-number-higher-or-lower.py)   | _O(logn)_          | _O(1)_          | Easy         | |

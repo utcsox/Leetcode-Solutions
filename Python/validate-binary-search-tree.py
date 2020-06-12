@@ -4,7 +4,7 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
-class Solution:
+class Solution1:
     def isValidBST(self, root: TreeNode) -> bool:
         def helper(node, lower = float('-inf'), upper = float('inf')):
             if node is None:
@@ -21,3 +21,20 @@ class Solution:
             return True
         
         return helper(root)
+
+class Solution2:
+    def isValidBST(self, root: TreeNode) -> bool:
+        
+        stack, inorder = [], float('-inf')
+        
+        while root or stack:
+            while root:
+                stack.append(root)
+                root = root.left
+            root = stack.pop()
+            if root.val <= inorder:
+                return False
+            inorder = root.val
+            root = root.right
+            
+        return True

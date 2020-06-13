@@ -32,6 +32,10 @@
 0238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | [Python](./Python/product-of-array-except-self.py) | _O(n)_ | _O(1)_          | Medium           | LintCode |
 0240 | [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/) | [Python](./Python/search-a-2d-matrix-ii.py) | _O(m + n)_ | _O(1)_ | Medium   | EPI, LintCode |
 
+## Backtracking
+|  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
+|-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
+046| [Permutations](https://leetcode.com/problems/permutations/)| [Python](./Python/permutations.py) | _O(n * n!)_         | _O(n)_          | Medium         ||
 ## Binary Search
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
@@ -99,7 +103,6 @@
 ## Recursion
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
-046| [Permutations](https://leetcode.com/problems/permutations/)| [Python](./Python/permutations.py) | _O(n * n!)_         | _O(n)_          | Medium         ||
 0095| [Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/) | [Python](./Python/unique-binary-search-trees-ii.py) | _O(4^n / n^(3/2)_      | _O(4^n / n^(3/2)_         | Medium         ||
 0098| [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)|[Python](./Python/validate-binary-search-tree.py)| _O(n)_ | _O(1)_ | Medium ||
 0100| [Same Tree](https://leetcode.com/problems/same-tree/)      |[Python](./Python/same-tree.py)  | _O(n)_          | _O(h)_        | Easy          ||

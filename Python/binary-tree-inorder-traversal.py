@@ -6,17 +6,14 @@
 #         self.right = right
 class Solution1:
     def inorderTraversal(self, root: TreeNode) -> List[int]:
-        res = []
-        
-        if root is None:
-            return []
-        
-        if root:
-            res = res + self.inorderTraversal(root.left)
-            res.append(root.val)
-            res = res + self.inorderTraversal(root.right)
-
-        return res
+        def helper(root, output):
+            if root:
+                helper(root.left, result)
+                result.append(root.val)
+                helper(root.right, result)
+        result = []
+        helper(root, result)
+        return result
     
 # Definition for a binary tree node.
 # class TreeNode:

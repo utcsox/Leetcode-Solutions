@@ -35,17 +35,18 @@ class Solution1:
 #         self.right = right
 
 from collections import deque
-class Solution2:
+class Solution:
     def levelOrder(self, root: TreeNode) -> List[List[int]]:
-        output = []
         
         if not root:
-            return output
+            return []
         
+        output = []
         level = 0
         queue = deque([root, ])
         
         while queue:
+            # add an empty list tod hold all elements in that level
             output.append([])
             num_elements_level = len(queue)
             
@@ -53,7 +54,7 @@ class Solution2:
                 node = queue.popleft()
                 output[level].append(node.val)
                 
-                # add left child into the queue
+                # add children to the queue
                 if node.left:
                     queue.append(node.left)
                 if node.right:

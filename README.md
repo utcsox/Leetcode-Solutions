@@ -130,6 +130,7 @@
 ## Sort
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
+0056| [Merge Intervals](https://leetcode.com/problems/merge-intervals/)|  [Python](./Python/merge-intervals.py) | _O(nlogn)_  | _O(1)_        | Medium           ||
 
 ## Tree
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 

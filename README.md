@@ -138,6 +138,7 @@
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
 0056| [Merge Intervals](https://leetcode.com/problems/merge-intervals/)|  [Python](./Python/merge-intervals.py) | _O(nlogn)_  | _O(1)_        | Medium           ||
+0973| [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) | [Python](./Python/k-closest-points-to-origin.py) | _O(n)_ on average | _O(1)_        | Medium         | | Quick Select, Heap|
 
 ## Tree
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 

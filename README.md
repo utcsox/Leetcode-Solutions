@@ -130,6 +130,7 @@
 0028| [Implement strStr()](https://leetcode.com/problems/implement-strstr/) | [Python](./Python/implement-strstr.py) | _O(n + k)_   | _O(k)_  | Easy           || `KMP Algorithm`
 0043| [Multiply Strings](https://leetcode.com/problems/multiply-strings/) | [Python](./Python/multiply-strings.py) | _O(m * n)_ | _O(m + n)_  | Medium         ||
 0067| [Add Binary](https://leetcode.com/problems/add-binary/)    | [Python](./Python/add-binary.py) | _O(n)_          | _O(1)_          | Easy           ||
+0076| [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | [Python](./Python/minimum-window-substring.py) | _O(n)_ | _O(k)_ | Hard          ||
 0125| [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) |  [Python](./Python/valid-palindrome.py) | _O(n)_  | _O(1)_         | Easy  
 0415| [Add Strings](https://leetcode.com/problems/add-strings/) | [Python](./Python/add-strings.py) | _O(n)_ | _O(1)_ | Easy         | |
 0468| [Validate IP Address](https://leetcode.com/problems/validate-ip-address/) | [Python](./Python/validate-ip-address.py) | _O(1)_ | _O(1)_ | Medium         | |

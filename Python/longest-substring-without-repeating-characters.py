@@ -26,8 +26,29 @@ class Solution1:
                     
         return max_length
         
-        
 class Solution2:
+    def lengthOfLongestSubstring(self, s: str) -> int:
+        
+        if len(s) <= 1:
+            return len(s)
+        
+        slow, fast = 0, 0
+        max_length = 0
+        hashset = set()
+        
+        while fast < len(s) and slow < len(s):
+            if s[fast] not in hashset:
+                hashset.add(s[fast])
+                max_length = max(max_length, len(hashset))
+                fast += 1
+                
+            else:
+                hashset.remove(s[slow])
+                slow += 1
+                
+        return max_length   
+    
+class Solution3:
     def lengthOfLongestSubstring(self, s):
         """
         :type s: str

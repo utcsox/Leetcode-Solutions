@@ -7,7 +7,22 @@
 
 class Solution:
     def isSameTree(self, p: TreeNode, q: TreeNode) -> bool:
-        if p is None and q is None:
-            return True
-        if p is not None and q is not None:
-            return p.val == q.val and self.isSameTree(p.left, q.left) and       self.isSameTree(p.right, q.right)
+        
+        def helper(p, q):
+            
+            # both p and q are None
+            if not p and not q:
+                return True
+
+            # q or p is None
+            if not q or not p:
+                return False
+
+            # if p and q have different value 
+            if p.val != q.val:
+                return False
+
+            # check recursion
+            return helper(p.left, q.left) and helper(p.right, q.right)
+
+        return helper(p, q)

@@ -123,6 +123,18 @@
 0104| [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)| [Python](./Python/maximum-depth-of-binary-tree.py)| _O(n)_ | _O(h)_ | Easy ||
 0404| [Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/) | [Python](./Python/sum-of-left-leaves.py) | _O(n)_          | _O(h)_          | Easy           ||
 
+## Sort
+|  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
+|-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
+0056| [Merge Intervals](https://leetcode.com/problems/merge-intervals/)|  [Python](./Python/merge-intervals.py) | _O(nlogn)_  | _O(1)_        | Medium           ||
+0973| [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) | [Python](./Python/k-closest-points-to-origin.py) | _O(n)_ on average | _O(1)_        | Medium         | | Quick Select, Heap|
+
+## Stack
+|  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
+|-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
+0020| [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)| [Python](./Python/valid-parentheses.py) | _O(n)_        | _O(n)_          | Easy           ||
+0101| [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)| [Python](./Python/symmetric-tree.py) | _O(n)_      | _O(h)_          | Easy           ||
+
 ## String
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
@@ -137,17 +149,6 @@
 0468| [Validate IP Address](https://leetcode.com/problems/validate-ip-address/) | [Python](./Python/validate-ip-address.py) | _O(1)_ | _O(1)_ | Medium         | |
 0680| [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/) | [Python](./Python/valid-palindrome-ii.py) | _O(n)_  | _O(1)_         | Easy           ||
 0953 | [Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary/) | [Python](./Python/verifying-an-alien-dictionary.py) | _O(n * l)_ | _O(1)_      | Easy         ||
-
-## Sort
-|  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
-|-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
-0056| [Merge Intervals](https://leetcode.com/problems/merge-intervals/)|  [Python](./Python/merge-intervals.py) | _O(nlogn)_  | _O(1)_        | Medium           ||
-0973| [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) | [Python](./Python/k-closest-points-to-origin.py) | _O(n)_ on average | _O(1)_        | Medium         | | Quick Select, Heap|
-
-## Stack
-|  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
-|-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
-0020| [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)| [Python](./Python/valid-parentheses.py) | _O(n)_        | _O(n)_          | Easy           ||
 
 ## Tree
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 

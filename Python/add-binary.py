@@ -24,8 +24,12 @@ class Solution2:
     
 class Solution3:
     def addBinary(self, a: str, b: str) -> str:
+        
+        # answer is equal to sum of two binary + carry
         x, y = int(a, 2), int(b, 2)
         
+        # (x^y) -> ^ exclusive or is sum of two binary
+        # (x&y) << 1 the carry bit is 1 if both binary are 1.  shift to the left by 1
         while y:
             x, y = x^y , (x&y)<<1
             

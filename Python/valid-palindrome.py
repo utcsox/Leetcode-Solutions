@@ -1,5 +1,5 @@
 class Solution:
-    def isPalindrome(self, s: str) -> bool:
+    def isPalindrome1(self, s: str) -> bool:
         string = s.lower()
         beg, end = 0, len(string)-1
         while beg < end:
@@ -16,3 +16,18 @@ class Solution:
                 beg = beg +1
                 end = end -1
         return True
+    
+class Solution2:
+    def isPalindrome(self, s: str) -> bool:
+        
+        # a string is a palindrome if itself and its reverse are the same 
+        # 1.  convert the string to lower case
+        # 2.  add all alpha numeric element into a new string
+        # 3.  verify the string is equal to its reverse  
+        
+        new_s = ''
+        s = s.lower()
+        for char in s:
+            if char.isalnum():
+                new_s += char
+        return new_s ==  new_s[::-1]

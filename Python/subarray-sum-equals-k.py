@@ -1,5 +1,5 @@
 # Brute Force -> not accepted
-# O(3) time , O(n) space
+# O(n**3) time , O(n) space
 # get the sums of every i, j
 
 class Solution1:
@@ -15,6 +15,36 @@ class Solution1:
                 if summation == k:
                     cnt += 1
         return cnt    
+    
+# Using cumulative sum -> not accepted
+# O(n**2) time , O(n) space
+# cumulative sum of j - cumulative sum of i + value of i = cumulative sum between i and j
+
+class Solution2:
+    def subarraySum(self, nums: List[int], k: int) -> int:
+
+        # Intuition:  The sum between i, j is equals to:
+        #             cumulative sum from 0 to j  - cumulative sum from 0 to i + nums[i]
+
+        # Construct the cumulative sum array
+        N = len(nums)
+        cumu_sum = [0 for x in range(len(nums))]
+        cumu_sum[0] = nums[0]
+
+        for idx in range(1, len(nums)):
+            cumu_sum[idx] = cumu_sum[idx-1] + nums[idx]
+
+        result = 0
+
+        for i in range(N):
+            for j in range(i, N):
+                sumij = cumu_sum[j] - cumu_sum[i] + nums[i]
+
+                if sumij == k:
+                    result += 1
+        return result
+    
+    
     def subarraySum3(self, nums: List[int], k: int) -> int:
         
         count = 0

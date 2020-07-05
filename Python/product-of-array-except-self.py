@@ -1,18 +1,28 @@
 class Solution:
     def productExceptSelf(self, nums: List[int]) -> List[int]:
-        if len(nums) == 0:
-            return []
-        result = []
-        left = [1] + [0] * (len(nums)-1)
-        right = [0] * (len(nums)-1) + [1]
         
-        for i in range(1, len(nums)):
-            left[i] = left[i-1] * nums[i-1]
-        for j in range(len(nums)-2, -1, -1):
-            right[j] = right[j+1] * nums[j+1]
-        
-        for index in range(len(nums)):
-            result.append(left[index]*right[index])
-            
+        # This problem can be solved by multiple product of left and right of itself
+        # 1.  Create left/right array that 
     
-        return result
+        output = []
+        if len(nums) == 0:
+            return output
+        
+        # initialize the empty array for the left/right side
+        left = [0 for x in range(len(nums))]
+        right = [0 for x in range(len(nums))]
+        
+        left[0] = 1
+        right[-1] = 1
+        
+        # The current value =  previous value of input array * the product of the array before current value
+        for index in range(1, len(nums)):
+            left[index] = left[index-1] * nums[index-1]
+            
+        for index in range(len(nums)-2, -1, -1):
+            right[index] = right[index+1]* nums[index+1]
+            
+        for index in range(len(nums)):
+            output.append(left[index] * right[index])
+            
+        return output

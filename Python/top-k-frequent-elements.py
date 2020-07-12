@@ -34,3 +34,45 @@ class Solution2:
         result= [x[0] for x in result]
         
         return result[:k]
+    
+ class Solution3:
+    def topKFrequent(self, nums: List[int], k: int) -> List[int]:
+        
+        counter = collections.Counter(nums)
+        key_list = list(counter.keys())
+        print(key_list)
+        
+        def partition(i, j):
+            pivot_value = counter[key_list[j]] 
+            left = i - 1
+            
+            for right in range(i, j):
+                if counter[key_list[right]] < pivot_value:
+                    left += 1
+                    key_list[left], key_list[right] = key_list[right], key_list[left]
+                    
+            key_list[left+1], key_list[j] = key_list[j], key_list[left+1]
+            
+            return left+1
+                
+        def quickselect(i, j, k):
+            if i >= j:
+                return
+            
+            pivot_index = partition(i, j)
+            
+            if (pivot_index-i + 1) == k:
+                return
+            
+            elif (pivot_index - i + 1) < k:
+                quickselect(pivot_index + 1, j, k-(pivot_index-i +1))
+                
+            else:
+                quickselect(i, pivot_index-1, k)
+            
+            return 0
+        
+        
+        quickselect(0, len(key_list)-1, len(key_list)-k)
+        return key_list[len(key_list)-k:]
+        

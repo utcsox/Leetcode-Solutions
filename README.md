@@ -139,6 +139,7 @@
 0347| [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) |[Python](./Python/top-k-frequent-elements.py) | _O(n)_ | _O(n)_        | Medium         | | Quick Select, Heap, Bucket Sort |
 0692| [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) |[Python](./Python/top-k-frequent-words.py) | _O(n + klogk)_ on average | _O(n)_        | Medium         | | Quick Select, Heap, Bucket Sort |
 0973| [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) | [Python](./Python/k-closest-points-to-origin.py) | _O(n)_ on average | _O(1)_        | Medium         | | Quick Select, Heap|
+0999| [Top K Frequently Mentioned Keywords](https://leetcode.com/discuss/interview-question/542597/) | [Python](./Python/Topk_Frequently_Mentioned_keywords.py) | _O(n)_ on average | _O(1)_        | Medium         | | Quick Select, Heap|
 
 ## Stack
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 

@@ -51,6 +51,7 @@
 0278| [First Bad Version](https://leetcode.com/problems/first-bad-version/) | [Python](./Python/first-bad-version.py)  | _O(logn)_ | _O(1)_ | Easy         | LintCode ||
 0367| [Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/)|  [Python](./Python/valid-perfect-square.py)   | _O(logn)_          | _O(1)_          | Easy  
 0374| [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/)|[Python](./Python/guess-number-higher-or-lower.py)   | _O(logn)_          | _O(1)_          | Easy         | |
+0658 | [Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/) | [Python](./Python/find-k-closest-elements.py) | _O(logn + k)_ | _O(1)_ | Medium | |
 0700| [Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)| [Python](./Python/search-in-a-binary-search-tree.py)  | _O(logn)_          | _O(logn)_        | Easy         | |
 
 ## Breadth-First Search

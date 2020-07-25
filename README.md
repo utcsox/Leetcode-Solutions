@@ -12,7 +12,6 @@
 0197| [Rising Temperature](https://leetcode.com/problems/rising-temperature/) | [MySQL](./SQL/rising-temperature.sql) | _O(n^2)_ | _O(n)_       | Easy           ||
 0584| [Find Customer Referee](https://leetcode.com/problems/find-customer-referee/) | [MySQL](./SQL/find-customer-referee.sql) | _O(n^2)_ | _O(n)_       | Easy           ||
 
-
 ## PYTHON
 ## Array
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
@@ -29,6 +28,7 @@
 0118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)|  [Python](./Python/pascals-triangle.py) | _O(n^2)_ | _O(1)_        | Easy           || 
 0121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|[Python](./Python/best-time-to-buy-and-sell-stock.py) | _O(n)_ | _O(1)_ | Easy ||
 0157 | [Read N Characters Given Read4](https://leetcode.com/problems/read-n-characters-given-read4/) |  [Python](./Python/read-n-characters-given-read4.py) | _O(n)_ | _O(1)_ | Easy           |🔒|
+0163 | [Missing Ranges](https://leetcode.com/problems/missing-ranges/)| [Python](./Python/missing-ranges.py) | _O(n)_      | _O(1)_          | Medium         | 🔒 |
 0215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [Python](./Python/kth-largest-element-in-an-array.py)| _O(n)_ ~ _O(n^2)_ | _O(1)_ |  Medium | EPI|
 0238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | [Python](./Python/product-of-array-except-self.py) | _O(n)_ | _O(1)_          | Medium           | LintCode |
 0240 | [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/) | [Python](./Python/search-a-2d-matrix-ii.py) | _O(m + n)_ | _O(1)_ | Medium   | EPI, LintCode |

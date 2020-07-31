@@ -48,12 +48,17 @@
 0034| [Search for a Range](https://leetcode.com/problems/search-for-a-range/) | [Python](./Python/search-for-a-range.py) | _O(logn)_ | _O(1)_   | Medium         ||
 0035| [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [Python](./Python/search-insert-position.py) | _O(logn)_ | _O(1)_   | Easy         ||
 0074| [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | [Python](./Python/search-a-2d-matrix.py) | _O(logm + logn)_ | _O(1)_ | Medium   ||
-0270| [Closest Binary Search Tree Value](https://leetcode.com/problems/closest-binary-search-tree-value/)| [Python](./Python/closest-binary-search-tree-value.py)   | _O(h)_          | _O(1)_          | Easy         | |
 0278| [First Bad Version](https://leetcode.com/problems/first-bad-version/) | [Python](./Python/first-bad-version.py)  | _O(logn)_ | _O(1)_ | Easy         | LintCode ||
 0367| [Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/)|  [Python](./Python/valid-perfect-square.py)   | _O(logn)_          | _O(1)_          | Easy  
 0374| [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/)|[Python](./Python/guess-number-higher-or-lower.py)   | _O(logn)_          | _O(1)_          | Easy         | |
 0658 | [Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/) | [Python](./Python/find-k-closest-elements.py) | _O(logn + k)_ | _O(1)_ | Medium | |
 0700| [Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)| [Python](./Python/search-in-a-binary-search-tree.py)  | _O(logn)_          | _O(logn)_        | Easy         | |
+
+## Binary Search Tree
+|  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
+|-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
+0230 | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | [Python](./Python/kth-smallest-element-in-a-bst.py) | _O(max(h, k))_ | _O(min(h, k))_ | Medium ||
+0270| [Closest Binary Search Tree Value](https://leetcode.com/problems/closest-binary-search-tree-value/)| [Python](./Python/closest-binary-search-tree-value.py)   | _O(h)_          | _O(1)_          | Easy         | |
 
 ## Breadth-First Search
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 

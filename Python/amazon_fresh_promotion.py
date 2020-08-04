@@ -1,11 +1,10 @@
-class Solution:
+class Solution1:
     def isCustomerWinner(self, codeList: List[List[str]], shoppingCart: List[str]) -> int:
         
         lookup = [y for x in codeList for y in x]
         
         if len(shoppingCart) <  len(lookup):
             return 0
-        
         
         for i in range(len(shoppingCart)-len(lookup) + 1):
             first_item = shoppingCart[i]
@@ -22,7 +21,6 @@ class Solution:
                     output.append(shoppingCart[j])
                     continue
                 else:
-                    print(i, j, shoppingCart[i+j], lookup[j])
                     if shoppingCart[i+j] != lookup[j]:
                         break
                     else:
@@ -32,4 +30,42 @@ class Solution:
             if len(output) == len(lookup):
                 return 1
         
+        return 0
+    
+class Solution2:
+    def isCustomerWinner(self, codeList: List[List[str]], shoppingCart: List[str]) -> int:
+        
+        lookup = [y for x in codeList for y in x]
+        
+        if len(shoppingCart) <  len(lookup):
+            return 0
+        
+        # two pointer solution
+        
+        fast, right = 0, len(shoppingCart)-len(lookup)
+          
+        while fast <= right:
+            
+            if shoppingCart[fast] != lookup[0]:
+                fast += 1
+                continue
+            output = []
+            output.append(shoppingCart[fast])
+                
+            for index in range(1, len(lookup)):
+                if lookup[index] == 'anything':
+                    output.append(shoppingCart[index + fast])
+                    continue
+                elif lookup[index] == shoppingCart[fast+index]:
+                    output.append(shoppingCart[fast+index])
+
+                else:
+                    fast = fast + index
+                    break
+            
+            if len(output) == len(lookup):
+                return 1
+
+            fast += 1
+           
         return 0

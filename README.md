@@ -32,7 +32,7 @@
 0215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [Python](./Python/kth-largest-element-in-an-array.py)| _O(n)_ ~ _O(n^2)_ | _O(1)_ |  Medium | EPI|
 0238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | [Python](./Python/product-of-array-except-self.py) | _O(n)_ | _O(1)_          | Medium           | LintCode |
 0240 | [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/) | [Python](./Python/search-a-2d-matrix-ii.py) | _O(m + n)_ | _O(1)_ | Medium   | EPI, LintCode |
-9998| [Amazon Fresh Promotion](https://leetcode.com/discuss/interview-question/762546/) | [Python](./Python/Topk_Frequently_Mentioned_keywords.py) | _O(n^2)_ on average | _O(n)_        | Medium         | 
+9998| [Amazon Fresh Promotion](https://leetcode.com/discuss/interview-question/762546/) | [Python](./Python/amazon_fresh_promotion.py) | _O(n^2)_ on average | _O(n)_        | Medium         | 
 
 ## Backtracking
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 

@@ -2,14 +2,10 @@ class Solution1:
     def isCustomerWinner(self, codeList: List[List[str]], shoppingCart: List[str]) -> int:
         
         lookup = [y for x in codeList for y in x]
-        
-        if len(shoppingCart) <  len(lookup):
-            return 0
-        
+                
         for i in range(len(shoppingCart)-len(lookup) + 1):
             first_item = shoppingCart[i]
             output = []
-            
             if first_item != lookup[0]:
                 continue
             
@@ -18,15 +14,13 @@ class Solution1:
             for j in range(1, len(lookup)):
                 
                 if lookup[j] == 'anything':
-                    output.append(shoppingCart[j])
+                    output.append(shoppingCart[j+i])
                     continue
+                elif shoppingCart[i+j] == lookup[j]:
+                    output.append(shoppingCart[j+i])
                 else:
-                    if shoppingCart[i+j] != lookup[j]:
-                        break
-                    else:
-                        output.append(shoppingCart[j])
+                    break
             
-            print(i, j, output)
             if len(output) == len(lookup):
                 return 1
         

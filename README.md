@@ -66,6 +66,7 @@
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
 0102| [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)|  [Python](./Python/binary-tree-level-order-traversal.py)| _O(n)_| _O(n)_| Medium || 
 0103| [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)| [Python](./Python/binary-tree-zigzag-level-order-traversal.py) | _O(n)_| _O(n)_| Medium  ||  
+0286| [Walls and Gates](https://leetcode.com/problems/walls-and-gates/)| [Python](./Python/walls-and-gates.py)   | _O(m * n)_          | _O(g)_          | Medium         | 🔒 |
 
 ## Bit Manipulation
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 

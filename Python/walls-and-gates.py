@@ -1,4 +1,4 @@
-class Solution:
+class Solution1:
     def wallsAndGates(self, rooms: List[List[int]]) -> None:
         """
         Do not return anything, modify rooms in-place instead.
@@ -45,4 +45,32 @@ class Solution:
                         rooms[nextposition[0]][nextposition[1]] = distance
                         
                         queue.append((nextposition))
+                        
+class Solution2:
+    def wallsAndGates(self, rooms: List[List[int]]) -> None:
+        """
+        Do not return anything, modify rooms in-place instead.
+        """
+        
+        if not rooms:
+            return
+        
+        rows, columns = len(rooms), len(rooms[0])
+        
+        for row in range(rows):
+            for column in range(columns):
+                if rooms[row][column] == 0:
+                    self.helper(rooms, row, column, 0)
+                    
+    def helper(self, rooms, x, y, dist):
+        rows, columns = len(rooms), len(rooms[0])
+        directions = [(-1, 0), (1, 0), (0, 1), (0, -1)]
+
+        if x < 0 or x >= rows or y < 0 or y >= columns or rooms[x][y] < dist:
+            return
+
+        rooms[x][y] = dist
+
+        for dir in directions:
+            self.helper(rooms, x + dir[0], y +dir[1], dist+1)
                 

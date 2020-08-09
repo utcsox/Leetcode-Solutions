@@ -148,7 +148,7 @@
 0100| [Same Tree](https://leetcode.com/problems/same-tree/)      |[Python](./Python/same-tree.py)  | _O(n)_          | _O(h)_        | Easy          ||
 0104| [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)| [Python](./Python/maximum-depth-of-binary-tree.py)| _O(n)_ | _O(h)_ | Easy ||
 0404| [Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/) | [Python](./Python/sum-of-left-leaves.py) | _O(n)_          | _O(h)_          | Easy           ||
-
+0437| [Path Sum III](https://leetcode.com/problems/path-sum-iii/) | Python](./Python/path-sum-iii.py) | _O(n)_          | _O(h)_          | Easy           ||
 ## Sort
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|

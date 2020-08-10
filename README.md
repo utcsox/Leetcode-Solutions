@@ -68,6 +68,7 @@
 0103| [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)| [Python](./Python/binary-tree-zigzag-level-order-traversal.py) | _O(n)_| _O(n)_| Medium  ||  
 0286| [Walls and Gates](https://leetcode.com/problems/walls-and-gates/)| [Python](./Python/walls-and-gates.py)   | _O(m * n)_          | _O(g)_          | Medium         | 🔒 |
 0994|[Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)|  [Python](./Python/rotting-oranges.py)| _O(m * n)_ | _O(m * n)_ | Medium | | |
+9997|[Zombie in Matrix](https://leetcode.com/discuss/interview-question/411357/)| [Python](./Python/zombie-in-matrix.py)| _O(m * n)_ | _O(m * n)_ | Medium | | |
 
 ## Bit Manipulation
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 

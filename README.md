@@ -159,6 +159,7 @@
 0088| [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)| [Python](./Python/merge-sorted-array.py) | _O(n)_ | _O(1)_       | Easy           ||
 0252| [Meeting Rooms](https://leetcode.com/problems/meeting-rooms/) |[Python](./Python/meeting-rooms.py) | _O(nlogn)_   | _O(n)_        | Easy         |🔒| |
 0253| [Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/) | [Python](./Python/meeting-rooms-ii.py) | _O(nlogn)_   | _O(n)_        | Medium         |🔒| |
+0274| [H-Index](https://leetcode.com/problems/h-index/) |  [Python](./Python/h-index.py)  | _O(n)_ | _O(n)_ | Medium         || Counting Sort |
 0347| [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) |[Python](./Python/top-k-frequent-elements.py) | _O(n)_ | _O(n)_        | Medium         | | Quick Select, Heap, Bucket Sort |
 0692| [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) |[Python](./Python/top-k-frequent-words.py) | _O(n + klogk)_ on average | _O(n)_        | Medium         | | Quick Select, Heap, Bucket Sort |
 0973| [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) | [Python](./Python/k-closest-points-to-origin.py) | _O(n)_ on average | _O(1)_        | Medium         | | Quick Select, Heap|

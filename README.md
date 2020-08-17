@@ -77,7 +77,6 @@
 0342 | [Power of Four](https://leetcode.com/problems/power-of-four/) | [Python](./Python/power-of-four.py) | _O(1)_ | _O(1)_ | Easy | |
 0389 | [Find the Difference](https://leetcode.com/problems/find-the-difference/) | [Python](./Python/find-the-difference.py) | _O(n)_ | _O(1)_ | Easy | |
 
-
 ## Depth-First Search
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
@@ -88,6 +87,11 @@
 0236 | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [Python](./Python/lowest-common-ancestor-of-a-binary-tree.py) | _O(n)_ | _O(h)_ | Medium | EPI |
 0250| [Count Univalue Subtrees](https://leetcode.com/problems/count-univalue-subtrees) | [Python](./Python/count-univalue-subtrees.py)  | _O(n)_ | _O(h)_ | Medium         |🔒||
 0257| [Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/) |  [Python](./Python/binary-tree-paths.py)  | _O(n * h)_ | _O(h)_ | Easy         |||
+
+## Design
+|  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
+|-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
+0146| [LRU Cache](https://leetcode.com/problems/lru-cache/)     | [Python](./Python/lru-cache.py)  | _O(1)_ | _O(k)_ | Hard ||
 
 ## Dynamic Programming
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 

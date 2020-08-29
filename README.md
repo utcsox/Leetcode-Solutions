@@ -157,6 +157,7 @@
 0104| [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)| [Python](./Python/maximum-depth-of-binary-tree.py)| _O(n)_ | _O(h)_ | Easy ||
 0404| [Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/) | [Python](./Python/sum-of-left-leaves.py) | _O(n)_          | _O(h)_          | Easy           ||
 0437| [Path Sum III](https://leetcode.com/problems/path-sum-iii/) | Python](./Python/path-sum-iii.py) | _O(n)_          | _O(h)_          | Easy           ||
+
 ## Sort
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
@@ -168,6 +169,7 @@
 0274| [H-Index](https://leetcode.com/problems/h-index/) |  [Python](./Python/h-index.py)  | _O(n)_ | _O(n)_ | Medium         || Counting Sort |
 0347| [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) |[Python](./Python/top-k-frequent-elements.py) | _O(n)_ | _O(n)_        | Medium         | | Quick Select, Heap, Bucket Sort |
 0692| [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) |[Python](./Python/top-k-frequent-words.py) | _O(n + klogk)_ on average | _O(n)_        | Medium         | | Quick Select, Heap, Bucket Sort |
+0969| [Pancake Sorting](https://leetcode.com/problems/pancake-sorting/) | [Python](./Python/pancake-sorting.py) | _O(n^2)_ | _O(l)_        | Medium         | | |
 0973| [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) | [Python](./Python/k-closest-points-to-origin.py) | _O(n)_ on average | _O(1)_        | Medium         | | Quick Select, Heap|
 9999| [Top K Frequently Mentioned Keywords](https://leetcode.com/discuss/interview-question/542597/) | [Python](./Python/Topk_Frequently_Mentioned_keywords.py) | _O(n)_ on average | _O(1)_        | Medium         | | Quick Select, Heap|
 

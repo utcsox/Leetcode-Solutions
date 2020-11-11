@@ -12,6 +12,7 @@
 0197| [Rising Temperature](https://leetcode.com/problems/rising-temperature/) | [MySQL](./SQL/rising-temperature.sql) | _O(n^2)_ | _O(n)_       | Easy           ||
 0584| [Find Customer Referee](https://leetcode.com/problems/find-customer-referee/) | [MySQL](./SQL/find-customer-referee.sql) | _O(n^2)_ | _O(n)_       | Easy           ||
 1350| [Students With Invalid Departments](https://leetcode.com/problems/students-with-invalid-departments/) | [MySQL](./SQL/students-with-invalid-departments.sql) | _O(n^2)_ | _O(n)_       | Easy           ||
+1581| [Customer Who Visited but Did Not Make Any Transactions](https://leetcode.com/problems/customer-who-visited-but-did-not-make-any-transactions/) | [MySQL](./SQL/customer-who-visited-but-did-not-make-any-transactions.sql) | _O(n^2)_ | _O(n)_       | Easy           ||
 
 ## PYTHON
 ## Array

@@ -14,6 +14,7 @@
 1303| [Find the Team Size](https://leetcode.com/problems/find-the-team-size/) | [MySQL](./SQL/find-the-team-size.sql) | _O(n^2)_ | _O(n)_       | Easy           ||
 1350| [Students With Invalid Departments](https://leetcode.com/problems/students-with-invalid-departments/) | [MySQL](./SQL/students-with-invalid-departments.sql) | _O(n^2)_ | _O(n)_       | Easy           ||
 1378| [Replace Employee ID With The Unique Identifier](https://leetcode.com/problems/replace-employee-id-with-the-unique-identifier/) | [MySQL](./SQL/replace-employee-id-with-the-unique-identifier.sql) | _O(n^2)_ | _O(n)_       | Easy           ||
+1484| [Group Sold Products By The Date](https://leetcode.com/problems/group-sold-products-by-the-date/) | [MySQL](./SQL/group-sold-products-by-the-date.sql) | _O(n^2)_ | _O(n)_       | Easy           ||
 1571| [Warehouse Manager](https://leetcode.com/problems/warehouse-manager/) | [MySQL](./SQL/warehouse-manager.sql) | _O(n^2)_ | _O(n)_       | Easy           ||
 1581| [Customer Who Visited but Did Not Make Any Transactions](https://leetcode.com/problems/customer-who-visited-but-did-not-make-any-transactions/) | [MySQL](./SQL/customer-who-visited-but-did-not-make-any-transactions.sql) | _O(n^2)_ | _O(n)_       | Easy           ||
 1587| [Bank Account Summary II](https://leetcode.com/problems/bank-account-summary-ii/) | [MySQL](./SQL/bank-account-summary-ii.sql) | _O(n^2)_ | _O(n)_       | Easy           ||

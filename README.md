@@ -15,7 +15,8 @@
 1068| [Product Sales Analysis I](https://leetcode.com/problems/product-sales-analysis-i/) | [MySQL](./SQL/product-sales-analysis-i.sql) | _O(n^2)_ | _O(n)_   | Easy   ||
 1173| [Immediate Food Delivery I](https://leetcode.com/problems/immediate-food-delivery-i/) | [MySQL](./SQL/immediate-food-delivery-i.sql) | _O(n^2)_ | _O(n)_   | Easy   ||
 1251| [Average Selling Price](https://leetcode.com/problems/average-selling-price/) | [MySQL](./SQL/average-selling-price.sql) | _O(n^2)_ | _O(n)_       | Easy           ||
-1303| [Find the Team Size](https://leetcode.com/problems/find-the-team-size/) | [MySQL](./SQL/find-the-team-size.sql) | _O(n^2)_ | _O(n)_       | Easy           ||
+1303| [Find the Team Size](https://leetcode.com/problems/find-the-team-size/) | [MySQL](./SQL/find-the-team-size.sql) | _O(n^2)_ | _O(n)_ | Easy   ||
+1327| [List the Products Ordered in a Period](https://leetcode.com/problems/list-the-products-ordered-in-a-period/) | [MySQL](./SQL/flist-the-products-ordered-in-a-period.sql) | _O(n^2)_ | _O(n)_       | Easy           ||
 1350| [Students With Invalid Departments](https://leetcode.com/problems/students-with-invalid-departments/) | [MySQL](./SQL/students-with-invalid-departments.sql) | _O(n^2)_ | _O(n)_       | Easy           ||
 1378| [Replace Employee ID With The Unique Identifier](https://leetcode.com/problems/replace-employee-id-with-the-unique-identifier/) | [MySQL](./SQL/replace-employee-id-with-the-unique-identifier.sql) | _O(n^2)_ | _O(n)_       | Easy           ||
 1407| [Top Travellers](https://leetcode.com/problems/top-travellers/) | [MySQL](./SQL/top-travellers.sql) | _O(n^2)_ | _O(n)_       | Easy           ||

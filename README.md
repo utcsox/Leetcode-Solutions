@@ -10,6 +10,7 @@
 0183| [Customers Who Never Order](https://leetcode.com/problems/customers-who-never-order/) | [MySQL](./SQL/customers-who-never-order.sql) | _O(n^2)_ | _O(1)_       | Easy           ||
 0196| [Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails/) | [MySQL](./SQL/delete-duplicate-emails.sql) | _O(n^2)_ | _O(n)_       | Easy           ||
 0197| [Rising Temperature](https://leetcode.com/problems/rising-temperature/) | [MySQL](./SQL/rising-temperature.sql) | _O(n^2)_ | _O(n)_       | Easy           ||
+0511| [Game Play Analysis I](https://leetcode.com/problems/game-play-analysis-i/) | [MySQL](./SQL/game-play-analysis-i) | _O(n^2)_ | _O(n)_       | Easy       ||
 0584| [Find Customer Referee](https://leetcode.com/problems/find-customer-referee/) | [MySQL](./SQL/find-customer-referee.sql) | _O(n^2)_ | _O(n)_   | Easy   ||
 1068| [Product Sales Analysis I](https://leetcode.com/problems/product-sales-analysis-i/) | [MySQL](./SQL/product-sales-analysis-i.sql) | _O(n^2)_ | _O(n)_   | Easy   ||
 1173| [Immediate Food Delivery I](https://leetcode.com/problems/immediate-food-delivery-i/) | [MySQL](./SQL/immediate-food-delivery-i.sql) | _O(n^2)_ | _O(n)_   | Easy   ||
@@ -21,7 +22,7 @@
 1484| [Group Sold Products By The Date](https://leetcode.com/problems/group-sold-products-by-the-date/) | [MySQL](./SQL/group-sold-products-by-the-date.sql) | _O(n^2)_ | _O(n)_       | Easy           ||
 1571| [Warehouse Manager](https://leetcode.com/problems/warehouse-manager/) | [MySQL](./SQL/warehouse-manager.sql) | _O(n^2)_ | _O(n)_       | Easy           ||
 1581| [Customer Who Visited but Did Not Make Any Transactions](https://leetcode.com/problems/customer-who-visited-but-did-not-make-any-transactions/) | [MySQL](./SQL/customer-who-visited-but-did-not-make-any-transactions.sql) | _O(n^2)_ | _O(n)_       | Easy           ||
-1587| [Bank Account Summary II](https://leetcode.com/problems/bank-account-summary-ii/) | [MySQL](./SQL/bank-account-summary-ii.sql) | _O(n^2)_ | _O(n)_       | Easy           ||
+1587| [Bank Account Summary II](https://leetcode.com/problems/bank-account-summary-ii/) | [MySQL](./SQL/bank-account-summary-ii.sql) | _O(n^2)_ | _O(n)_   | Easy           ||
 1623| [All Valid Triplets That Can Represent a Country](https://leetcode.com/problems/all-valid-triplets-that-can-represent-a-country/) | [MySQL](./SQL/all-valid-triplets-that-can-represent-a-country.sql) | _O(n^2)_ | _O(n)_       | Easy           ||
 
 ## PYTHON

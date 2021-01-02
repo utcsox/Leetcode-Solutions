@@ -13,6 +13,7 @@
 0511| [Game Play Analysis I](https://leetcode.com/problems/game-play-analysis-i/) | [MySQL](./SQL/game-play-analysis-i) | _O(n^2)_ | _O(n)_       | Easy       ||
 0584| [Find Customer Referee](https://leetcode.com/problems/find-customer-referee/) | [MySQL](./SQL/find-customer-referee.sql) | _O(n^2)_ | _O(n)_   | Easy   ||
 1068| [Product Sales Analysis I](https://leetcode.com/problems/product-sales-analysis-i/) | [MySQL](./SQL/product-sales-analysis-i.sql) | _O(n^2)_ | _O(n)_   | Easy   ||
+1148| [Article Views I](https://leetcode.com/problems/article-views-i/) | [MySQL](./SQL/article-views-i.sql) | _O(n^2)_ | _O(n)_   | Easy   ||
 1173| [Immediate Food Delivery I](https://leetcode.com/problems/immediate-food-delivery-i/) | [MySQL](./SQL/immediate-food-delivery-i.sql) | _O(n^2)_ | _O(n)_   | Easy   ||
 1251| [Average Selling Price](https://leetcode.com/problems/average-selling-price/) | [MySQL](./SQL/average-selling-price.sql) | _O(n^2)_ | _O(n)_       | Easy           ||
 1303| [Find the Team Size](https://leetcode.com/problems/find-the-team-size/) | [MySQL](./SQL/find-the-team-size.sql) | _O(n^2)_ | _O(n)_ | Easy   ||

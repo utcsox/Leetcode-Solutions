@@ -15,6 +15,7 @@
 0586| [Customer Placing the Largest Number of Orders](https://leetcode.com/problems/customer-placing-the-largest-number-of-orders/) | [MySQL](./SQL/customer-placing-the-largest-number-of-orders.sql) | _O(n^2)_ | _O(n)_   | Easy   ||
 0613| [Shortest Distance in a Line](https://leetcode.com/problems/shortest-distance-in-a-line/) | [MySQL](./SQL/shortest-distance-in-a-line.sql) | _O(n^2)_ | _O(n)_   | Easy   ||
 1068| [Product Sales Analysis I](https://leetcode.com/problems/product-sales-analysis-i/) | [MySQL](./SQL/product-sales-analysis-i.sql) | _O(n^2)_ | _O(n)_   | Easy   ||
+1082| [ Sales Analysis I](https://leetcode.com/problems/sales-analysis-i/) | [MySQL](./SQL/sales-analysis-.sql) | _O(n^2)_ | _O(n)_   | Easy   ||
 1148| [Article Views I](https://leetcode.com/problems/article-views-i/) | [MySQL](./SQL/article-views-i.sql) | _O(n^2)_ | _O(n)_   | Easy   ||
 1173| [Immediate Food Delivery I](https://leetcode.com/problems/immediate-food-delivery-i/) | [MySQL](./SQL/immediate-food-delivery-i.sql) | _O(n^2)_ | _O(n)_   | Easy   ||
 1251| [Average Selling Price](https://leetcode.com/problems/average-selling-price/) | [MySQL](./SQL/average-selling-price.sql) | _O(n^2)_ | _O(n)_       | Easy           ||

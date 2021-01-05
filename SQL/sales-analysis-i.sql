@@ -7,3 +7,12 @@ HAVING SUM(s.price) = (SELECT SUM(price) AS max_price
                        ORDER BY max_price DESC
                        LIMIT 1)
 
+WITH CTE AS (SELECT seller_id, SUM(price) AS price
+             FROM Sales
+             GROUP BY seller_id)
+             
+
+SELECT seller_id
+FROM CTE
+WHERE price = (SELECT MAX(price)
+               FROM CTE)

@@ -16,3 +16,13 @@ SELECT seller_id
 FROM CTE
 WHERE price = (SELECT MAX(price)
                FROM CTE)
+
+
+
+WITH CTE AS (SELECT seller_id, RANK() OVER (ORDER BY SUM(price) DESC) ranking
+             FROM Sales
+             GROUP BY seller_id)
+
+SELECT seller_id
+FROM CTE
+WHERE ranking = 1

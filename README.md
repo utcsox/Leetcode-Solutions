@@ -27,6 +27,7 @@
 1407| [Top Travellers](https://leetcode.com/problems/top-travellers/) | [MySQL](./SQL/top-travellers.sql) | _O(n^2)_ | _O(n)_       | Easy           ||
 1484| [Group Sold Products By The Date](https://leetcode.com/problems/group-sold-products-by-the-date/) | [MySQL](./SQL/group-sold-products-by-the-date.sql) | _O(n^2)_ | _O(n)_       | Easy           ||
 1511| [Customer Order Frequency](https://leetcode.com/problems/customer-order-frequency/) | [MySQL](./SQL/customer-order-frequency.sql) | _O(n^2)_ | _O(n)_       | Easy           ||
+1517| [Find Users With Valid E-Mails](https://leetcode.com/problems/find-users-with-valid-e-mails/) | [MySQL](./SQL/find-users-with-valid-e-mails.sql) | _O(n^2)_ | _O(n)_       | Easy           ||
 1571| [Warehouse Manager](https://leetcode.com/problems/warehouse-manager/) | [MySQL](./SQL/warehouse-manager.sql) | _O(n^2)_ | _O(n)_       | Easy           ||
 1581| [Customer Who Visited but Did Not Make Any Transactions](https://leetcode.com/problems/customer-who-visited-but-did-not-make-any-transactions/) | [MySQL](./SQL/customer-who-visited-but-did-not-make-any-transactions.sql) | _O(n^2)_ | _O(n)_       | Easy           ||
 1587| [Bank Account Summary II](https://leetcode.com/problems/bank-account-summary-ii/) | [MySQL](./SQL/bank-account-summary-ii.sql) | _O(n^2)_ | _O(n)_   | Easy           ||

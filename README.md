@@ -13,6 +13,7 @@
 0511| [Game Play Analysis I](https://leetcode.com/problems/game-play-analysis-i/) | [MySQL](./SQL/game-play-analysis-i) | _O(n^2)_ | _O(n)_       | Easy       ||
 0584| [Find Customer Referee](https://leetcode.com/problems/find-customer-referee/) | [MySQL](./SQL/find-customer-referee.sql) | _O(n^2)_ | _O(n)_   | Easy   ||
 0586| [Customer Placing the Largest Number of Orders](https://leetcode.com/problems/customer-placing-the-largest-number-of-orders/) | [MySQL](./SQL/customer-placing-the-largest-number-of-orders.sql) | _O(n^2)_ | _O(n)_   | Easy   ||
+0610| [Triangle Judgement](https://leetcode.com/problems/triangle-judgement/) | [MySQL](./SQL/triangle-judgement.sql) | _O(n^2)_ | _O(n)_   | Easy   ||
 0613| [Shortest Distance in a Line](https://leetcode.com/problems/shortest-distance-in-a-line/) | [MySQL](./SQL/shortest-distance-in-a-line.sql) | _O(n^2)_ | _O(n)_   | Easy   ||
 1050| [Actors and Directors Who Cooperated At Least Three Times](https://leetcode.com/problems/actors-and-directors-who-cooperated-at-least-three-times/) | [MySQL](./SQL/actors-and-directors-who-cooperated-at-least-three-times.sql) | _O(n^2)_ | _O(n)_   | Easy   ||
 1068| [Product Sales Analysis I](https://leetcode.com/problems/product-sales-analysis-i/) | [MySQL](./SQL/product-sales-analysis-i.sql) | _O(n^2)_ | _O(n)_   | Easy   ||

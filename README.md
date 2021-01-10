@@ -14,6 +14,7 @@
 0584| [Find Customer Referee](https://leetcode.com/problems/find-customer-referee/) | [MySQL](./SQL/find-customer-referee.sql) | _O(n^2)_ | _O(n)_   | Easy   ||
 0586| [Customer Placing the Largest Number of Orders](https://leetcode.com/problems/customer-placing-the-largest-number-of-orders/) | [MySQL](./SQL/customer-placing-the-largest-number-of-orders.sql) | _O(n^2)_ | _O(n)_   | Easy   ||
 0603| [ Consecutive Available Seats](https://leetcode.com/problems/consecutive-available-seats/) | [MySQL](./SQL/consecutive-available-seats.sql) | _O(n^2)_ | _O(n)_   | Easy   ||
+0607| [Sales Person](https://leetcode.com/problems/sales-person/) | [MySQL](./SQL/sales-person.sql) | _O(n^2)_ | _O(n)_   | Easy   ||
 0610| [Triangle Judgement](https://leetcode.com/problems/triangle-judgement/) | [MySQL](./SQL/triangle-judgement.sql) | _O(n^2)_ | _O(n)_   | Easy   ||
 0613| [Shortest Distance in a Line](https://leetcode.com/problems/shortest-distance-in-a-line/) | [MySQL](./SQL/shortest-distance-in-a-line.sql) | _O(n^2)_ | _O(n)_   | Easy   ||
 1050| [Actors and Directors Who Cooperated At Least Three Times](https://leetcode.com/problems/actors-and-directors-who-cooperated-at-least-three-times/) | [MySQL](./SQL/actors-and-directors-who-cooperated-at-least-three-times.sql) | _O(n^2)_ | _O(n)_   | Easy   ||

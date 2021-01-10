@@ -19,6 +19,7 @@
 1050| [Actors and Directors Who Cooperated At Least Three Times](https://leetcode.com/problems/actors-and-directors-who-cooperated-at-least-three-times/) | [MySQL](./SQL/actors-and-directors-who-cooperated-at-least-three-times.sql) | _O(n^2)_ | _O(n)_   | Easy   ||
 1068| [Product Sales Analysis I](https://leetcode.com/problems/product-sales-analysis-i/) | [MySQL](./SQL/product-sales-analysis-i.sql) | _O(n^2)_ | _O(n)_   | Easy   ||
 1082| [ Sales Analysis I](https://leetcode.com/problems/sales-analysis-i/) | [MySQL](./SQL/sales-analysis-i.sql) | _O(n^2)_ | _O(n)_   | Easy   ||
+1113| [ Sales Analysis I](https://leetcode.com/problems/reported-posts/) | [MySQL](./SQL/reported-posts.sql) | _O(n^2)_ | _O(n)_   | Easy   ||
 1148| [Article Views I](https://leetcode.com/problems/article-views-i/) | [MySQL](./SQL/article-views-i.sql) | _O(n^2)_ | _O(n)_   | Easy   ||
 1173| [Immediate Food Delivery I](https://leetcode.com/problems/immediate-food-delivery-i/) | [MySQL](./SQL/immediate-food-delivery-i.sql) | _O(n^2)_ | _O(n)_   | Easy   ||
 1251| [Average Selling Price](https://leetcode.com/problems/average-selling-price/) | [MySQL](./SQL/average-selling-price.sql) | _O(n^2)_ | _O(n)_  | Easy   ||

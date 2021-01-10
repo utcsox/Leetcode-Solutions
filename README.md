@@ -26,6 +26,7 @@
 1251| [Average Selling Price](https://leetcode.com/problems/average-selling-price/) | [MySQL](./SQL/average-selling-price.sql) | _O(n^2)_ | _O(n)_  | Easy   ||
 1294| [ Weather Type in Each Country](https://leetcode.com/problems/weather-type-in-each-country/) | [MySQL](./SQL/weather-type-in-each-country.sql) | _O(n^2)_ | _O(n)_  | Easy   ||
 1303| [Find the Team Size](https://leetcode.com/problems/find-the-team-size/) | [MySQL](./SQL/find-the-team-size.sql) | _O(n^2)_ | _O(n)_ | Easy   ||
+1322| [Ads Performance](https://leetcode.com/problems/ads-performance/) | [MySQL](./SQL/ads-performance.sql) | _O(n^2)_ | _O(n)_ | Easy   ||
 1327| [List the Products Ordered in a Period](https://leetcode.com/problems/list-the-products-ordered-in-a-period/) | [MySQL](./SQL/flist-the-products-ordered-in-a-period.sql) | _O(n^2)_ | _O(n)_       | Easy           ||
 1350| [Students With Invalid Departments](https://leetcode.com/problems/students-with-invalid-departments/) | [MySQL](./SQL/students-with-invalid-departments.sql) | _O(n^2)_ | _O(n)_       | Easy           ||
 1378| [Replace Employee ID With The Unique Identifier](https://leetcode.com/problems/replace-employee-id-with-the-unique-identifier/) | [MySQL](./SQL/replace-employee-id-with-the-unique-identifier.sql) | _O(n^2)_ | _O(n)_       | Easy           ||

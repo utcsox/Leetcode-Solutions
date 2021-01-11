@@ -11,6 +11,7 @@
 0196| [Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails/) | [MySQL](./SQL/delete-duplicate-emails.sql) | _O(n^2)_ | _O(n)_ | Easy ||
 0197| [Rising Temperature](https://leetcode.com/problems/rising-temperature/) | [MySQL](./SQL/rising-temperature.sql) | _O(n^2)_ | _O(n)_       | Easy    ||
 0511| [Game Play Analysis I](https://leetcode.com/problems/game-play-analysis-i/) | [MySQL](./SQL/game-play-analysis-i) | _O(n^2)_ | _O(n)_       | Easy    ||
+0512| [Game Play Analysis II](https://leetcode.com/problems/game-play-analysis-ii/) | [MySQL](./SQL/game-play-analysis-ii) | _O(n^2)_ | _O(n)_       | Easy    ||
 0584| [Find Customer Referee](https://leetcode.com/problems/find-customer-referee/) | [MySQL](./SQL/find-customer-referee.sql) | _O(n^2)_ | _O(n)_   | Easy   ||
 0586| [Customer Placing the Largest Number of Orders](https://leetcode.com/problems/customer-placing-the-largest-number-of-orders/) | [MySQL](./SQL/customer-placing-the-largest-number-of-orders.sql) | _O(n^2)_ | _O(n)_   | Easy   ||
 0603| [ Consecutive Available Seats](https://leetcode.com/problems/consecutive-available-seats/) | [MySQL](./SQL/consecutive-available-seats.sql) | _O(n^2)_ | _O(n)_   | Easy   ||

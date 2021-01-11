@@ -1,0 +1,6 @@
+WITH CTE AS (SELECT a.player_id, device_id, RANK() OVER(Partition BY a.player_id ORDER BY a.event_date) AS dateRank
+             FROM Activity a)
+
+SELECT c.player_id, c.device_id
+FROM CTE c
+WHERE c.dateRAnk = 1

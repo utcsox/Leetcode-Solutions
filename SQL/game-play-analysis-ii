@@ -4,3 +4,14 @@ WITH CTE AS (SELECT a.player_id, device_id, RANK() OVER(Partition BY a.player_id
 SELECT c.player_id, c.device_id
 FROM CTE c
 WHERE c.dateRAnk = 1
+
+
+WITH CTE AS (SELECT a.player_id, device_id, MIN(a.event_date) AS min_date
+             FROM Activity a
+             GROUP BY a.player_id)
+
+SELECT a.player_id, a.device_id
+FROM Activity a
+JOIN CTE c
+ON a.player_id = c.player_id
+WHERE a.event_date = c.min_date

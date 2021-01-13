@@ -36,6 +36,7 @@
 1378| [Replace Employee ID With The Unique Identifier](https://leetcode.com/problems/replace-employee-id-with-the-unique-identifier/) | [MySQL](./SQL/replace-employee-id-with-the-unique-identifier.sql) | _O(n^2)_ | _O(n)_       | Easy           ||
 1407| [Top Travellers](https://leetcode.com/problems/top-travellers/) | [MySQL](./SQL/top-travellers.sql) | _O(n^2)_ | _O(n)_       | Easy           ||
 1484| [Group Sold Products By The Date](https://leetcode.com/problems/group-sold-products-by-the-date/) | [MySQL](./SQL/group-sold-products-by-the-date.sql) | _O(n^2)_ | _O(n)_       | Easy           ||
+1495| [Friendly Movies Streamed Last Month](https://leetcode.com/problems/friendly-movies-streamed-last-month/) | [MySQL](./SQL/friendly-movies-streamed-last-month.sql) | _O(n^2)_ | _O(n)_       | Easy           ||
 1511| [Customer Order Frequency](https://leetcode.com/problems/customer-order-frequency/) | [MySQL](./SQL/customer-order-frequency.sql) | _O(n^2)_ | _O(n)_       | Easy           ||
 1517| [Find Users With Valid E-Mails](https://leetcode.com/problems/find-users-with-valid-e-mails/) | [MySQL](./SQL/find-users-with-valid-e-mails.sql) | _O(n^2)_ | _O(n)_       | Easy           ||
 1571| [Warehouse Manager](https://leetcode.com/problems/warehouse-manager/) | [MySQL](./SQL/warehouse-manager.sql) | _O(n^2)_ | _O(n)_       | Easy           ||

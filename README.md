@@ -20,6 +20,7 @@
 0613| [Shortest Distance in a Line](https://leetcode.com/problems/shortest-distance-in-a-line/) | [MySQL](./SQL/shortest-distance-in-a-line.sql) | _O(n^2)_ | _O(n)_   | Easy   ||
 1050| [Actors and Directors Who Cooperated At Least Three Times](https://leetcode.com/problems/actors-and-directors-who-cooperated-at-least-three-times/) | [MySQL](./SQL/actors-and-directors-who-cooperated-at-least-three-times.sql) | _O(n^2)_ | _O(n)_   | Easy   ||
 1068| [Product Sales Analysis I](https://leetcode.com/problems/product-sales-analysis-i/) | [MySQL](./SQL/product-sales-analysis-i.sql) | _O(n^2)_ | _O(n)_   | Easy   ||
+1076| [Project Employees II](https://leetcode.com/problems/project-employees-ii/) | [MySQL](./SQL/project-employees-ii.sql) | _O(n^2)_ | _O(n)_   | Easy   ||
 1082| [ Sales Analysis I](https://leetcode.com/problems/sales-analysis-i/) | [MySQL](./SQL/sales-analysis-i.sql) | _O(n^2)_ | _O(n)_   | Easy   ||
 1084| [ Sales Analysis III](https://leetcode.com/problems/sales-analysis-iii/) | [MySQL](./SQL/sales-analysis-iii.sql) | _O(n^2)_ | _O(n)_   | Easy   ||
 1113| [ Reported Posts](https://leetcode.com/problems/reported-posts/) | [MySQL](./SQL/reported-posts.sql) | _O(n^2)_ | _O(n)_   | Easy   ||

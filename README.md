@@ -58,7 +58,8 @@
 0054 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | [Python](./Python/spiral-matrix.py) | _O(m * n)_    | _O(1)_         | Medium         ||
 0059 | [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/) | [Python](./Python/spiral-matrix-ii.py) | _O(n^2)_ | _O(1)_      | Medium         ||
 0066 | [Plus One](https://leetcode.com/problems/plus-one/)      | [Python](./Python/plus-one.py)   | _O(n)_           | _O(1)_         | Easy           || 
-0118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)|  [Python](./Python/pascals-triangle.py) | _O(n^2)_ | _O(1)_        | Easy           || 
+0118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)|  [Python](./Python/pascals-triangle.py) | _O(n^2)_ | _O(1)_        | Easy      || 
+0110 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle-ii/)| [C++](./C++/pascals-triangle.cpp) [Python](./Python/pascals-triangle-ii.py) | _O(n^2)_ | _O(1)_        | Easy           || 
 0121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|[Python](./Python/best-time-to-buy-and-sell-stock.py) | _O(n)_ | _O(1)_ | Easy ||
 0157 | [Read N Characters Given Read4](https://leetcode.com/problems/read-n-characters-given-read4/) |  [Python](./Python/read-n-characters-given-read4.py) | _O(n)_ | _O(1)_ | Easy           |🔒|
 0163 | [Missing Ranges](https://leetcode.com/problems/missing-ranges/)| [Python](./Python/missing-ranges.py) | _O(n)_      | _O(1)_          | Medium    | 🔒 |

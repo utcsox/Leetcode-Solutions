@@ -219,6 +219,7 @@
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
 0020| [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)| [Python](./Python/valid-parentheses.py) | _O(n)_        | _O(n)_          | Easy           ||
 0101| [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)| [Python](./Python/symmetric-tree.py) | _O(n)_      | _O(h)_          | Easy           ||
+0682| [Baseball Game](https://leetcode.com/problems/baseball-game/) | [Python](./Python/baseball-game.py) | _O(n)_  | _O(n)_         | Easy           ||
 
 ## String
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 

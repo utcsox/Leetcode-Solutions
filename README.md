@@ -68,6 +68,7 @@
 0238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | [Python](./Python/product-of-array-except-self.py) | _O(n)_ | _O(1)_          | Medium           | LintCode |
 0240 | [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/) | [Python](./Python/search-a-2d-matrix-ii.py) | _O(m + n)_ | _O(1)_ | Medium   | EPI, LintCode |
 0498 | [Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/) | [Python](./Python/diagonal-traverse.py) | _O(n)_ | _O(n)_   | Medium ||
+1629 | [Slowest Key](https://leetcode.com/problems/slowest-key/) | [Python](./Python/slowest-key.py) | _O(n)_ | _O(1)_      | Easy         ||
 9994 | [N largest elements from a list](https://www.geeksforgeeks.org/python-program-to-find-n-largest-elements-from-a-list/) | [Python](./Python/n-largest-elements-from-a-list.py) | _O(n)_ | _O(n)_   | Easy || MLE
 9995 | [Sparse Matrix Multiplication](https://leetcode.com/discuss/interview-question/286446/Representation-and-dot-product-of-two-vectors/271143) | [Python](./Python/sparse-matrix-multiplication.py) | _O(n)_ | _O(n)_   | Easy    | FB ||
 9996| [Check Given Array Contains Duplicate Elements within K Distance](https://www.geeksforgeeks.org/check-given-array-contains-duplicate-elements-within-k-distance/) | [Python](./Python/check-given-array-contains-duplicate-elements-within-k-distance.py) | _O(n^2)_ on average | _O(n)_     | Easy     | FB

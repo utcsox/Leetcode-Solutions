@@ -167,7 +167,8 @@
 0001| [Two Sum](https://leetcode.com/problems/two-sum/)      | [Python](./Python/two-sum.py)      | _O(n)_         | _O(n)_          | Easy         ||
 0003| [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Python](./Python/longest-substring-without-repeating-characters.py) | _O(n)_ | _O(1)_ | Medium ||
 0036| [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | [Python](./Python/valid-sudoku.py) | _O(9^2)_         | _O(9)_          | Easy           ||
-217| [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)  | [Python](./Python/contains-duplicate.py) | _O(n)_        | _O(n)_          | Easy           ||
+0205| [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/) | [Python](./Python/isomorphic-strings.py) | _O(n)_ | _O(1)_    | Easy      || 
+0217| [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)  | [Python](./Python/contains-duplicate.py) | _O(n)_        | _O(n)_          | Easy           ||
 0049| [Group Anagrams](https://leetcode.com/problems/group-anagrams/)     | [Python](./Python/group-anagrams.py)   | _O(n * glogg)_          | _O(n)_          | Medium         ||
 0387| [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) | [Python](./Python/first-unique-character-in-a-string.py) | _O(n)_| _O(n)_| Easy |||
 0438| [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) |  [Python](./Python/find-all-anagrams-in-a-string.py) | _O(n)_          | _O(1)_          | Easy           ||

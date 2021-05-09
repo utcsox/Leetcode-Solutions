@@ -47,7 +47,7 @@ class LRUCache:
 # obj.put(key,value)
 *************************************************************************
 
-class LRUCache:
+class LRUCache2:
 
     def __init__(self, capacity: int):
         self.capacity = capacity
@@ -75,3 +75,34 @@ class LRUCache:
     
     
     
+class LRUCache3:
+    
+    def __init__(self, cache: Dict[int, int], capacity: int):
+        self.cache = cache
+        self.capacity = capacity
+        
+    
+    #1. if no key, return -1 
+    #2. delete the key and add it back
+    def get(self, key) -> int:
+        
+        if key not in self.cache:
+            return -1
+        else:
+            tmp = self.cache[key]
+            self.cache.pop(key)
+            self.cache[key] = tmp
+            
+    def put(self, key:int , value:int) -> None:
+        
+        if key in self.cache:
+            tmp = self.cache[key]
+            self.cache.pop(key)
+            self.cache[key] = tmp
+            
+        elif len(self.cache) == self.capacity:
+            self.cache.popitem()
+            self.cache[key] = value
+        
+        else:
+            self.cache[key] = value

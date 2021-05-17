@@ -259,8 +259,9 @@
 ## Two Pointers
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
-0019| [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)| [Python](./Python/remove-nth-node-from-end-of-list.py) | _O(n)_       | _O(1)_         | Medium         || 
+0019| [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)| [Python](./Python/remove-nth-node-from-end-of-list.py) | _O(n)_       | _O(1)_         | Easy       || 
 0143| [Reorder List](https://leetcode.com/problems/reorder-list/)|[Python](./Python/reorder-list.py) | _O(n)_          |  _O(1)_         | Medium         || 
+0167| [Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [Python](./Python/two-sum-ii-input-array-is-sorted.py) | _O(n)_   | _O(1)_         | Medium         | |
 0209 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) | [Python](./Python/minimum-size-subarray-sum.py) | _O(n)_ | _O(1)_ |  Medium | | Binary Search, Sliding Window
 0283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [Python](./Python/move-zeroes.py) | _O(n)_ | _O(1)_          | Easy         | | 
 0287| [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)|[Python](./Python/find-the-duplicate-number.py)   | _O(n)_          | _O(1)_          | Medium       | | Binary Search, Two Pointers |

@@ -235,6 +235,7 @@
 0008| [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | [Python](./Python/string-to-integer-atoi.py) | _O(n)_ | _O(1)_ | Medium      ||
 0014| [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)|[Python](./Python/longest-common-prefix.py) | _O(n * k)_| _O(1)_ | Easy           ||
 0028| [Implement strStr()](https://leetcode.com/problems/implement-strstr/) | [Python](./Python/implement-strstr.py) | _O(n + k)_   | _O(k)_  | Easy           || `KMP Algorithm`
+0038 | [Count and Say](https://leetcode.com/problems/count-and-say/) | [Python](./Python/count-and-say.py)| _O(n * 2^n)_  | _O(2^n)_        | Easy           ||
 0043| [Multiply Strings](https://leetcode.com/problems/multiply-strings/) | [Python](./Python/multiply-strings.py) | _O(m * n)_ | _O(m + n)_  | Medium         ||
 0067| [Add Binary](https://leetcode.com/problems/add-binary/)    | [Python](./Python/add-binary.py) | _O(n)_          | _O(1)_          | Easy           ||
 0076| [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | [Python](./Python/minimum-window-substring.py) | _O(n)_ | _O(k)_ | Hard          ||

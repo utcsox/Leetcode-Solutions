@@ -77,6 +77,7 @@
 0240 | [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/) | [Python](./Python/search-a-2d-matrix-ii.py) | _O(m + n)_ | _O(1)_ | Medium   | EPI, LintCode |
 0243 | [Shortest Word Distance](https://leetcode.com/problems/shortest-word-distance/)| [Python](./Python/shortest-word-distance.py)  | _O(n)_ |  _O(1)_ | Easy         |🔒||
 0498 | [Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/) | [Python](./Python/diagonal-traverse.py) | _O(n)_ | _O(n)_   | Medium ||
+0605 | [Can Place Flowers](https://leetcode.com/problems/can-place-flowers/) | [ [Python](./Python/can-place-flowers.py) | _O(n)_ | _O(1)_ | Easy         |||
 1629 | [Slowest Key](https://leetcode.com/problems/slowest-key/) | [Python](./Python/slowest-key.py) | _O(n)_ | _O(1)_      | Easy         ||
 9994 | [N largest elements from a list](https://www.geeksforgeeks.org/python-program-to-find-n-largest-elements-from-a-list/) | [Python](./Python/n-largest-elements-from-a-list.py) | _O(n)_ | _O(n)_   | Easy || MLE
 9995 | [Sparse Matrix Multiplication](https://leetcode.com/discuss/interview-question/286446/Representation-and-dot-product-of-two-vectors/271143) | [Python](./Python/sparse-matrix-multiplication.py) | _O(n)_ | _O(n)_   | Easy    | FB ||

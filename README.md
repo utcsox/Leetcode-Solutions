@@ -120,6 +120,7 @@
 0102| [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)|  [Python](./Python/binary-tree-level-order-traversal.py)| _O(n)_| _O(n)_| Medium || 
 0103| [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)| [Python](./Python/binary-tree-zigzag-level-order-traversal.py) | _O(n)_| _O(n)_| Medium  ||  
 0286| [Walls and Gates](https://leetcode.com/problems/walls-and-gates/)| [Python](./Python/walls-and-gates.py)   | _O(m * n)_          | _O(g)_          | Medium         | 🔒 |
+0339| [Nested List Weight Sum](https://leetcode.com/problems/nested-list-weight-sum/)| [Python](./Python/nested-list-weight-sum.py) | _O(N)_  | _O(N)_  | Medium ||
 0490| [The Maze](https://leetcode.com/problems/the-maze/)| [Python](./Python/the-maze.py) | _O(max(r, c) * w)_ | _O(w)_ | Medium | | |
 0994|[Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)|  [Python](./Python/rotting-oranges.py)| _O(m * n)_ | _O(m * n)_ | Medium | | |
 9997|[Zombie in Matrix](https://leetcode.com/discuss/interview-question/411357/)| [Python](./Python/zombie-in-matrix.py)| _O(m * n)_ | _O(m * n)_ | Medium | | |

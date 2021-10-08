@@ -44,24 +44,23 @@
 class Solution:
     def depthSumInverse(self, nestedList: List[NestedInteger]) -> int:
         
-        q = collections.deque([nestedList])
+        q = collections.deque(nestedList)
         level_dic = {}
         depth, result = 0, 0
         
         
-        while q:
+        while len(q) > 0:
             depth += 1
             size = len(q)
             level_sum = 0
             
             for _ in range(size):
-                level = q.popleft()
-                for unit in level:
-                    if unit.isInteger():
-                        level_sum += unit.getInteger()
-                        
-                    else:
-                        q.append(unit.getList())
+                level = q.pop()
+                if level.isInteger():
+                    level_sum += level.getInteger()
+
+                else:
+                    q.extendleft(level.getList())
                         
             level_dic[depth] = level_sum
             

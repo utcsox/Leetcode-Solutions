@@ -149,6 +149,7 @@
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
 0146| [LRU Cache](https://leetcode.com/problems/lru-cache/)     | [Python](./Python/lru-cache.py)  | _O(1)_ | _O(k)_ | Hard ||
 0346| [Moving Average from Data Stream](https://leetcode.com/problems/moving-average-from-data-stream/) | [Python](./Python/moving-average-from-data-stream.py)| _O(N)_ | _O(M)_ | Easy ||
+1570 | [Dot Product of Two Sparse Vectors](https://leetcode.com/problems/dot-product-of-two-sparse-vectors/) | [Python](./Python/dot-product-of-two-sparse-vectors.py) | ctor: _O(n)_<br>dot_product: _O(min(n, m))_ | _O(n)_ | Medium | 🔒 | |
 
 ## Dynamic Programming
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 

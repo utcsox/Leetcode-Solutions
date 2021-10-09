@@ -227,6 +227,7 @@
 0692| [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) |[Python](./Python/top-k-frequent-words.py) | _O(n + klogk)_ on average | _O(n)_        | Medium         | | Quick Select, Heap, Bucket Sort |
 0969| [Pancake Sorting](https://leetcode.com/problems/pancake-sorting/) | [Python](./Python/pancake-sorting.py) | _O(n^2)_ | _O(l)_        | Medium         | | |
 0973| [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) | [Python](./Python/k-closest-points-to-origin.py) | _O(n)_ on average | _O(1)_        | Medium         | | Quick Select, Heap|
+1094 | [Car Pooling](https://leetcode.com/problems/car-pooling/) |[Python](./Python/car-pooling.py) | _O(nlogn)_   | _O(n)_        | Medium         | variant of [Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/) |
 9999| [Top K Frequently Mentioned Keywords](https://leetcode.com/discuss/interview-question/542597/) | [Python](./Python/Topk_Frequently_Mentioned_keywords.py) | _O(n)_ on average | _O(1)_        | Medium         | | Quick Select, Heap|
 
 ## Stack

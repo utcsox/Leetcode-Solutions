@@ -169,6 +169,7 @@
 0621 | [Task Scheduler](https://leetcode.com/problems/task-scheduler/) | [Python](./Python/task-scheduler.py) | _O(n)_ | _O(1)_ | Medium | |
 0763 | [Partition Labels](https://leetcode.com/problems/partition-labels/) | [Python](./Python/partition-labels.py) | _O(n)_ | _O(n)_ | Medium | |
 1249 | [Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/) | [Python](./Python/minimum-remove-to-make-valid-parentheses.py) | _O(n)_ | _O(1)_ | Medium | | Stack
+1710 | [Maximum Units on a Truck](https://leetcode.com/problems/maximum-units-on-a-truck/)|[Python](./Python/maximum-units-on-a-truck.py)| _O(nlogn)_ | _O(1)_ | Easy | | |
 
 ## Hash Table
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 

@@ -187,6 +187,7 @@
 0560| [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | [Python](./Python/subarray-sum-equals-k.py) | _O(n)_ | _O(n)_ | Medium         | |
 0599| [Minimum Index Sum of Two Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists/) |[Python](./Python/minimum-index-sum-of-two-lists.py) | _O((m + n) * l)_ | _O(m * l)_ | Easy         | |
 1152 | [Analyze User Website Visit Pattern](https://leetcode.com/problems/analyze-user-website-visit-pattern/) | [Python](./Python/analyze-user-website-visit-pattern.py) | _O(n^3)_| _O(n^3)_| Medium |🔒| Hash |
+1817 | [Finding the Users Active Minutes](https://leetcode.com/problems/finding-the-users-active-minutes/)      | [Python](./Python/finding-the-users-active-minutes.py)      | _O(n)_         | _O(n)_          | Medium         ||
 
 ## Linked List
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 

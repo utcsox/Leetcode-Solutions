@@ -79,6 +79,7 @@
 0453 | [Minimum Moves to Equal Array Elements](https://leetcode.com/problems/minimum-moves-to-equal-array-elements/)| [Python](./Python/minimum-moves-to-equal-array-elements.py)  | _O(n)_ |  _O(1)_ | Medium         |🔒||
 0462 | [Minimum Moves to Equal Array Elements II](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/)| [Python](./Python/minimum-moves-to-equal-array-elements-ii.py)  | _O(n)_ |  _O(1)_ | Medium         |🔒||
 0498 | [Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/) | [Python](./Python/diagonal-traverse.py) | _O(n)_ | _O(n)_   | Medium ||
+0532| [K-dff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array/) | [Python](./Python/k-diff-pairs-in-an-array.py) |  _O(logn)_ | _O(N)_ | Medium   
 0566 | [Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/) | [Python](./Python/reshape-the-matrix.py) | _O(n)_ | _O(n)_   | Easy ||
 0605 | [Can Place Flowers](https://leetcode.com/problems/can-place-flowers/) | [Python](./Python/can-place-flowers.py) | _O(n)_ | _O(1)_ | Easy         |||
 1629 | [Slowest Key](https://leetcode.com/problems/slowest-key/) | [Python](./Python/slowest-key.py) | _O(n)_ | _O(1)_      | Easy         ||
@@ -286,7 +287,7 @@
 0344| [Reverse String](https://leetcode.com/problems/reverse-string/) | [Python](./Python/reverse-string.py) | _O(n)_ | _O(1)_ | Easy         | |
 0345| [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/) | [Python](./Python/reverse-vowels-of-a-string.py) | _O(n)_ | _O(1)_ | Easy  
 0349| [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) |  [Python](./Python/intersection-of-two-arrays.py) | _O(m + n)_ | _O(min(m, n))_ | Easy         | EPI | Hash, Binary Search
-0350| [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) |  [Python](./Python/intersection-of-two-arrays-ii.py) | _O(m + n)_ | _O(1)_ | Easy   
+0350| [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) |  [Python](./Python/intersection-of-two-arrays-ii.py) | _O(m + n)_ | _O(1)_ | Easy         ||
 0567| [Permutation in String](https://leetcode.com/problems/permutation-in-string/) | [Python](./Python/permutation-in-string.py) | _O(n)_ | _O(1)_ | Medium         ||
 1248 | [Count Number of Nice Subarrays](https://leetcode.com/problems/count-number-of-nice-subarrays/) | [Python](./Python/count-number-of-nice-subarrays.py) | _O(n)_ | _O(k)_ | Medium         | variant of [Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/) | Two Pointers, Sliding Window
  

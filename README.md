@@ -266,6 +266,7 @@
 0680| [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/) | [Python](./Python/valid-palindrome-ii.py) | _O(n)_  | _O(1)_  | Easy    ||
 0819| [Most Common Word](https://leetcode.com/problems/most-common-word/) |[Python](./Python/most-common-word.py) | _O(m + n)_ | _O(m + n)_ | Easy         |||
 0953 | [Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary/) | [Python](./Python/verifying-an-alien-dictionary.py) | _O(n * l)_ | _O(1)_      | Easy         ||
+1347 | [Minimum Number of Steps to Make Two Strings Anagram](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/) |  [Python](./Python/minimum-number-of-steps-to-make-two-strings-anagram.py) | _O(n)_ | _O(1)_ | Medium | |
 
 ## Tree
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 

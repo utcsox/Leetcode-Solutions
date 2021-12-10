@@ -69,6 +69,20 @@ class Solution3:
                 tempstr = tempstr[tempstr.index(char) + 1 : ] + char
             
         return maxLen
-                
+    
+class Solution4:
+    def lengthOfLongestSubstring(self, s: str) -> int:
+        
+        left, output, charSet = 0, 0, set()
+        
+        for right in range(0, len(s)):
+            while s[right] in charSet:
+                charSet.remove(s[left])
+                left += 1
+            charSet.add(s[right])
+            
+            output = max(output, len(charSet))
+            
+        return output
                 
         

@@ -209,7 +209,7 @@
 ## String
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
-0005 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | [Python](./Python/longest-palindromic-substring.py) | _O(n)_ | _O(n)_ |  Medium || `Blind75`
+0005 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | [Python](./Python/longest-palindromic-substring.py) | _O(n)_ | _O(n)_ |  Medium | Blind75 ||
 0008| [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | [Python](./Python/string-to-integer-atoi.py) | _O(n)_ | _O(1)_ | Medium      ||
 0014| [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)|[Python](./Python/longest-common-prefix.py) | _O(n * k)_| _O(1)_ | Easy           ||
 0028| [Implement strStr()](https://leetcode.com/problems/implement-strstr/) | [Python](./Python/implement-strstr.py) | _O(n + k)_   | _O(k)_  | Easy           || `KMP Algorithm`
@@ -217,7 +217,7 @@
 0043| [Multiply Strings](https://leetcode.com/problems/multiply-strings/) | [Python](./Python/multiply-strings.py) | _O(m * n)_ | _O(m + n)_  | Medium         ||
 0067| [Add Binary](https://leetcode.com/problems/add-binary/)    | [Python](./Python/add-binary.py) | _O(n)_          | _O(1)_          | Easy           ||
 0076| [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | [Python](./Python/minimum-window-substring.py) | _O(n)_ | _O(k)_ | Hard          ||
-0125| [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) |  [Python](./Python/valid-palindrome.py) | _O(n)_  | _O(1)_         | Easy  ||
+0125| [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) |  [Python](./Python/valid-palindrome.py) | _O(n)_  | _O(1)_    | Easy  | Blind 75 ||
 0151| [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) |[Python](./Python/reverse-words-in-a-string.py) | _O(n)_ | _O(1)_ | Medium   ||
 0383| [Ransom Note](https://leetcode.com/problems/ransom-note/) | [Python](./Python/ransome-note.py) | _O(n)_ | _O(1)_ | Easy         | |
 0415| [Add Strings](https://leetcode.com/problems/add-strings/) | [Python](./Python/add-strings.py) | _O(n)_ | _O(1)_ | Easy         | |

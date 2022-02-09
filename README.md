@@ -74,6 +74,7 @@
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
 0190 | [Reverse Bits](https://leetcode.com/problems/reverse-bits/)  | [Python](./Python/reverse-bits.py) | _O(1)_        | _O(1)_          | Easy           |||
+0191 |[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | [Python](./Python/number-of-1-bits.py) | _O(1)_ | _O(1)_          | Easy           |||
 0268 | [Missing Number](https://leetcode.com/problems/missing-number/) | [Python](./Python/missing-number.py)  | _O(n)_ |  _O(1)_ | Medium         |  ||
 0342 | [Power of Four](https://leetcode.com/problems/power-of-four/) | [Python](./Python/power-of-four.py) | _O(1)_ | _O(1)_ | Easy | |
 0389 | [Find the Difference](https://leetcode.com/problems/find-the-difference/) | [Python](./Python/find-the-difference.py) | _O(n)_ | _O(1)_ | Easy | |

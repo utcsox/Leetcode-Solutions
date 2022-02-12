@@ -21,6 +21,7 @@
 0619 | [Biggest Single Number](https://leetcode.com/problems/biggest-single-number/) | [MySQL](./SQL/biggest-single-number.sql) | _O(n)_ | _O(n)_       | Easy           |🔒||
 1050| [Actors and Directors Who Cooperated At Least Three Times](https://leetcode.com/problems/actors-and-directors-who-cooperated-at-least-three-times/) | [MySQL](./SQL/actors-and-directors-who-cooperated-at-least-three-times.sql) | _O(n^2)_ | _O(n)_   | Easy   ||
 1068| [Product Sales Analysis I](https://leetcode.com/problems/product-sales-analysis-i/) | [MySQL](./SQL/product-sales-analysis-i.sql) | _O(n^2)_ | _O(n)_   | Easy   ||
+1069 | [Product Sales Analysis II](https://leetcode.com/problems/product-sales-analysis-ii/) | [MySQL](./SQL/product-sales-analysis-ii.sql) | _O(n)_ | _O(n)_       | Easy           |🔒| |
 1076| [Project Employees II](https://leetcode.com/problems/project-employees-ii/) | [MySQL](./SQL/project-employees-ii.sql) | _O(n^2)_ | _O(n)_   | Easy   ||
 1082| [ Sales Analysis I](https://leetcode.com/problems/sales-analysis-i/) | [MySQL](./SQL/sales-analysis-i.sql) | _O(n^2)_ | _O(n)_   | Easy   ||
 1083| [ Sales Analysis II](https://leetcode.com/problems/sales-analysis-ii/) | [MySQL](./SQL/sales-analysis-ii.sql) | _O(n^2)_ | _O(n)_   | Easy   ||

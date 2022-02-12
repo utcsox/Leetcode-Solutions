@@ -18,7 +18,7 @@
 0607| [Sales Person](https://leetcode.com/problems/sales-person/) | [MySQL](./SQL/sales-person.sql) | _O(n^2)_ | _O(n)_   | Easy   ||
 0610| [Triangle Judgement](https://leetcode.com/problems/triangle-judgement/) | [MySQL](./SQL/triangle-judgement.sql) | _O(n^2)_ | _O(n)_   | Easy   ||
 0613| [Shortest Distance in a Line](https://leetcode.com/problems/shortest-distance-in-a-line/) | [MySQL](./SQL/shortest-distance-in-a-line.sql) | _O(n^2)_ | _O(n)_   | Easy   ||
-0619 | [Biggest Single Number](https://leetcode.com/problems/biggest-single-number/) | [MySQL](./MySQL/biggest-single-number.sql) | _O(n)_ | _O(n)_       | Easy           |🔒||
+0619 | [Biggest Single Number](https://leetcode.com/problems/biggest-single-number/) | [MySQL](./SQL/biggest-single-number.sql) | _O(n)_ | _O(n)_       | Easy           |🔒||
 1050| [Actors and Directors Who Cooperated At Least Three Times](https://leetcode.com/problems/actors-and-directors-who-cooperated-at-least-three-times/) | [MySQL](./SQL/actors-and-directors-who-cooperated-at-least-three-times.sql) | _O(n^2)_ | _O(n)_   | Easy   ||
 1068| [Product Sales Analysis I](https://leetcode.com/problems/product-sales-analysis-i/) | [MySQL](./SQL/product-sales-analysis-i.sql) | _O(n^2)_ | _O(n)_   | Easy   ||
 1076| [Project Employees II](https://leetcode.com/problems/project-employees-ii/) | [MySQL](./SQL/project-employees-ii.sql) | _O(n^2)_ | _O(n)_   | Easy   ||

@@ -263,3 +263,4 @@
 0424 | [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) |[Python](./Python/longest-repeating-character-replacement.py) | _O(n)_| _O(1)_| Medium || Sliding Window |
 0350| [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) |  [Python](./Python/intersection-of-two-arrays-ii.py) | _O(m + n)_ | _O(1)_ | Easy         ||
 0567| [Permutation in String](https://leetcode.com/problems/permutation-in-string/) | [Python](./Python/permutation-in-string.py) | _O(n)_ | _O(1)_ | Medium         ||
+1248 | [Count Number of Nice Subarrays](https://leetcode.com/problems/count-number-of-nice-subarrays/) | [Python](./Python/count-number-of-nice-subarrays.py) | _O(n)_ | _O(k)_ | Medium         | variant of [Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/) | Two Pointers, Sliding Window

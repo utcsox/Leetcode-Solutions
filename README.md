@@ -134,6 +134,7 @@
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
 0122| [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)| [Python](./Python/best-time-to-buy-and-sell-stock-ii.py) | _O(n)_ | _O(1)_ | Easy ||
+0435 | [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/) | [Python](./Python/non-overlapping-intervals.py) | _O(nlogn)_ | _O(1)_ | Medium | | Line Sweep
 0621 | [Task Scheduler](https://leetcode.com/problems/task-scheduler/) | [Python](./Python/task-scheduler.py) | _O(n)_ | _O(1)_ | Medium | |
 0763 | [Partition Labels](https://leetcode.com/problems/partition-labels/) | [Python](./Python/partition-labels.py) | _O(n)_ | _O(n)_ | Medium | |
 1249 | [Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/) | [Python](./Python/minimum-remove-to-make-valid-parentheses.py) | _O(n)_ | _O(1)_ | Medium | | Stack

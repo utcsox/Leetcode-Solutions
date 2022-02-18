@@ -32,6 +32,7 @@
 1148| [Article Views I](https://leetcode.com/problems/article-views-i/) | [MySQL](./SQL/article-views-i.sql) | _O(n^2)_ | _O(n)_   | Easy   ||
 1173| [Immediate Food Delivery I](https://leetcode.com/problems/immediate-food-delivery-i/) | [MySQL](./SQL/immediate-food-delivery-i.sql) | _O(n^2)_ | _O(n)_   | Easy   ||
 1179 | [Reformat Department Table](https://leetcode.com/problems/reformat-department-table/) | [MySQL](./SQL/reformat-department-table.sql) | _O(n)_ | _O(n)_       | Easy           |🔒| |
+1211 | [Queries Quality and Percentage](https://leetcode.com/problems/queries-quality-and-percentage/) | [MySQL](./SQL/queries-quality-and-percentage.sql) | _O(n)_ | _O(n)_       | Easy           || |
 1251| [Average Selling Price](https://leetcode.com/problems/average-selling-price/) | [MySQL](./SQL/average-selling-price.sql) | _O(n^2)_ | _O(n)_  | Easy   ||
 1294| [ Weather Type in Each Country](https://leetcode.com/problems/weather-type-in-each-country/) | [MySQL](./SQL/weather-type-in-each-country.sql) | _O(n^2)_ | _O(n)_  | Easy   ||
 1303| [Find the Team Size](https://leetcode.com/problems/find-the-team-size/) | [MySQL](./SQL/find-the-team-size.sql) | _O(n^2)_ | _O(n)_ | Easy   ||

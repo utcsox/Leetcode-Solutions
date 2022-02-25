@@ -135,6 +135,7 @@
 ## Greedy
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
+0055 | [Jump Game](https://leetcode.com/problems/jump-game/)     |[Python](./Python/jump-game.py)  | _O(n)_          | _O(1)_          | Medium         ||
 0122| [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)| [Python](./Python/best-time-to-buy-and-sell-stock-ii.py) | _O(n)_ | _O(1)_ | Easy ||
 0435 | [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/) | [Python](./Python/non-overlapping-intervals.py) | _O(nlogn)_ | _O(1)_ | Medium | | Line Sweep
 0621 | [Task Scheduler](https://leetcode.com/problems/task-scheduler/) | [Python](./Python/task-scheduler.py) | _O(n)_ | _O(1)_ | Medium | |

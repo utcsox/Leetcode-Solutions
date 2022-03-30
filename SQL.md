@@ -42,6 +42,7 @@
 1350| [Students With Invalid Departments](https://leetcode.com/problems/students-with-invalid-departments/) | [MySQL](./SQL/students-with-invalid-departments.sql) | _O(n^2)_ | _O(n)_       | Easy           ||
 1378| [Replace Employee ID With The Unique Identifier](https://leetcode.com/problems/replace-employee-id-with-the-unique-identifier/) | [MySQL](./SQL/replace-employee-id-with-the-unique-identifier.sql) | _O(n^2)_ | _O(n)_       | Easy           ||
 1407| [Top Travellers](https://leetcode.com/problems/top-travellers/) | [MySQL](./SQL/top-travellers.sql) | _O(n^2)_ | _O(n)_       | Easy           ||
+1421 | [NPV Queries](https://leetcode.com/problems/npv-queries/) | [MySQL](./SQL/npv-queries.sql) | _O(n)_ | _O(n)_       | Easy           |🔒| |
 1484| [Group Sold Products By The Date](https://leetcode.com/problems/group-sold-products-by-the-date/) | [MySQL](./SQL/group-sold-products-by-the-date.sql) | _O(n^2)_ | _O(n)_       | Easy           ||
 1495| [Friendly Movies Streamed Last Month](https://leetcode.com/problems/friendly-movies-streamed-last-month/) | [MySQL](./SQL/friendly-movies-streamed-last-month.sql) | _O(n^2)_ | _O(n)_       | Easy           ||
 1511| [Customer Order Frequency](https://leetcode.com/problems/customer-order-frequency/) | [MySQL](./SQL/customer-order-frequency.sql) | _O(n^2)_ | _O(n)_       | Easy           ||

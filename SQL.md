@@ -52,6 +52,7 @@
 1571| [Warehouse Manager](https://leetcode.com/problems/warehouse-manager/) | [MySQL](./SQL/warehouse-manager.sql) | _O(n^2)_ | _O(n)_       | Easy           ||
 1581| [Customer Who Visited but Did Not Make Any Transactions](https://leetcode.com/problems/customer-who-visited-but-did-not-make-any-transactions/) | [MySQL](./SQL/customer-who-visited-but-did-not-make-any-transactions.sql) | _O(n^2)_ | _O(n)_       | Easy           ||
 1587| [Bank Account Summary II](https://leetcode.com/problems/bank-account-summary-ii/) | [MySQL](./SQL/bank-account-summary-ii.sql) | _O(n^2)_ | _O(n)_   | Easy           ||
+1607 | [Sellers With No Sales](https://leetcode.com/problems/sellers-with-no-sales/) | [MySQL](./SQL/sellers-with-no-sales.sql) | _O(nlogm)_ | _O(n + m)_       | Medium           |🔒||
 1623| [All Valid Triplets That Can Represent a Country](https://leetcode.com/problems/all-valid-triplets-that-can-represent-a-country/) | [MySQL](./SQL/all-valid-triplets-that-can-represent-a-country.sql) | _O(n^2)_ | _O(n)_       | Easy           ||
 
 

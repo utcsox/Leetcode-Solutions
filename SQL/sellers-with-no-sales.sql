@@ -5,3 +5,4 @@ WHERE seller_id NOT IN (
            FROM Orders 
            WHERE LEFT(sale_date, 4) = '2020'
 )
+ORDER BY seller_name

@@ -250,6 +250,7 @@
 0145 | [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/) |  [Python](./Python/binary-tree-postorder-traversal.py) | _O(n)_| _O(1)_| Hard  || `Morris Traversal` 
 0226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | [Python](./Python/invert-binary-tree.py) | _O(n)_ | _O(h)_, _O(w)_ | Easy ||
 0543 | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) |  [Python](./Python/diameter-of-binary-tree.py) | _O(n)_ | _O(h)_ | Easy    || 
+0572 | [Subtree of Another Tree](https://leetcode.com/problems/construct-string-from-binary-tree/)| [Python](./Python/subtree-of-another-tree.py)| _O(m * n)_ | _O(h)_ | Easy | | |
 0938| [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/) | [Python](./Python/range-sum-of-bst.py) | _O(n)_          | _O(h)_          | Easy           || DFS |
 0987| [Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/) | [Python](./Python/vertical-order-traversal-of-a-binary-tree.py) | _O(nlogn)_          | _O(n)_          | Medium           || DFS |
 

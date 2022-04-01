@@ -55,6 +55,7 @@
 1607 | [Sellers With No Sales](https://leetcode.com/problems/sellers-with-no-sales/) | [MySQL](./SQL/sellers-with-no-sales.sql) | _O(nlogm)_ | _O(n + m)_       | Medium           |🔒||
 1623| [All Valid Triplets That Can Represent a Country](https://leetcode.com/problems/all-valid-triplets-that-can-represent-a-country/) | [MySQL](./SQL/all-valid-triplets-that-can-represent-a-country.sql) | _O(n^2)_ | _O(n)_       | Easy           ||
 1633 | [Percentage of Users Attended a Contest](https://leetcode.com/problems/percentage-of-users-attended-a-contest/) | [MySQL](./SQL/percentage-of-users-attended-a-contest.sql) | _O(m + nlogn)_ | _O(n)_       | Easy           |🔒||
+1661 | [Average Time of Process per Machine](https://leetcode.com/problems/average-time-of-process-per-machine/) | [MySQL](./SQL/average-time-of-process-per-machine.sql) | _O(n)_ | _O(n)_       | Easy           |🔒||
 
 <br/>
 <div align="right">

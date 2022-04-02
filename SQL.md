@@ -58,6 +58,7 @@
 1633 | [Percentage of Users Attended a Contest](https://leetcode.com/problems/percentage-of-users-attended-a-contest/) | [MySQL](./SQL/percentage-of-users-attended-a-contest.sql) | _O(m + nlogn)_ | _O(n)_       | Easy           |🔒||
 1661 | [Average Time of Process per Machine](https://leetcode.com/problems/average-time-of-process-per-machine/) | [MySQL](./SQL/average-time-of-process-per-machine.sql) | _O(n)_ | _O(n)_       | Easy           |🔒||
 1677 | [Product's Worth Over Invoices](https://leetcode.com/problems/products-worth-over-invoices/) | [MySQL](./SQL/products-worth-over-invoices.sql) | _O(nlogn)_ | _O(n)_       | Easy           |🔒||
+1729 | [Find Followers Count](https://leetcode.com/problems/find-followers-count/) | [MySQL](./SQL/find-followers-count.sql) | _O(nlogn)_ | _O(n)_       | Easy           |🔒||
 <br/>
 <div align="right">
     <b><a href="#SQL">⬆️ Back to Top</a></b>

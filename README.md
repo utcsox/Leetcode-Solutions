@@ -104,6 +104,7 @@
 0113| [Path Sum II](https://leetcode.com/problems/path-sum-ii/)   | [Python](./Python/path-sum-ii.py) | _O(n)_         | _O(h)_          | Medium         ||
 0199| [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) | [Python](./Python/binary-tree-right-side-view.py) | _O(n)_     | _O(h)_ | Medium  ||
 0200| [Number of Islands](https://leetcode.com/problems/number-of-islands/) | [Python](./Python/number-of-islands.py) | _O(m * n)_ | _O(m * n)_| Medium         ||
+0207 | [Course Schedule](https://leetcode.com/problems/course-schedule/)|[Python](./Python/course-schedule.py)   | _O(\|V\| + \|E\|)_          | _O(\|E\|)_          | Medium         || Topological Sort |
 0236 | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [Python](./Python/lowest-common-ancestor-of-a-binary-tree.py) | _O(n)_ | _O(h)_ | Medium | EPI |
 0250| [Count Univalue Subtrees](https://leetcode.com/problems/count-univalue-subtrees) | [Python](./Python/count-univalue-subtrees.py)  | _O(n)_ | _O(h)_ | Medium         |🔒||
 0257| [Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/) |  [Python](./Python/binary-tree-paths.py)  | _O(n * h)_ | _O(h)_ | Easy         |||

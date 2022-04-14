@@ -131,6 +131,7 @@
 0213 | [House Robber II](https://leetcode.com/problems/house-robber-ii/)| [Python](./Python/house-robber-ii.py) | _O(n)_    | _O(1)_      | Medium           ||
 0303| [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)| [Python](./Python/range-sum-query-immutable.py) | ctor: _O(n)_, lookup: _O(1)_          | _O(n)_          | Easy           ||
 0322 | [Coin Change](https://leetcode.com/problems/coin-change/) | [Python](./Python/coin-change.py) | _O(n * k)_ | _O(k)_ | Medium ||
+0718 | [Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/) | [Python](./Python/maximum-length-of-repeated-subarray.py) | _O(m * n)_ | _O(min(m, n))_ | Medium || DP, Hash, Binary Search
 
 <br/>
 <div align="right">
@@ -164,7 +165,7 @@
 0523| [Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/) |  [Python](./Python/continuous-subarray-sum.py) | _O(n)_          | _O(k)_          | Medium           ||
 0560| [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | [Python](./Python/subarray-sum-equals-k.py) | _O(n)_ | _O(n)_ | Medium         | |
 0599| [Minimum Index Sum of Two Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists/) |[Python](./Python/minimum-index-sum-of-two-lists.py) | _O((m + n) * l)_ | _O(m * l)_ | Easy         | |
-0811 | [Subdomain Visit Count](https://leetcode.com/problems/subdomain-visit-count/) | [Python](./Python/subdomain-visit-count.py) | _O(n)_ | _O(n)_ | Easy ||
+0811 | [Subdomain Visit Count](https://leetcode.com/problems/subdomain-visit-count/) | [Python](./Python/subdomain-visit-count.py) | _O(n)_ | _O(n)_ | Medium ||
 1152 | [Analyze User Website Visit Pattern](https://leetcode.com/problems/analyze-user-website-visit-pattern/) | [Python](./Python/analyze-user-website-visit-pattern.py) | _O(n^3)_| _O(n^3)_| Medium |🔒| Hash |
 1817 | [Finding the Users Active Minutes](https://leetcode.com/problems/finding-the-users-active-minutes/)      | [Python](./Python/finding-the-users-active-minutes.py)      | _O(n)_         | _O(n)_          | Medium         ||
 

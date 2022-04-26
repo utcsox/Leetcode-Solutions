@@ -66,6 +66,7 @@
 0658 | [Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/) | [Python](./Python/find-k-closest-elements.py) | _O(logn + k)_ | _O(1)_ | Medium | |
 0700| [Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)| [Python](./Python/search-in-a-binary-search-tree.py)  | _O(logn)_          | _O(logn)_        | Easy         | |
 0702| [Search in a Sorted Array of Unknown Size](https://leetcode.com/problems/search-in-a-sorted-array-of-unknown-size/)| [Python](./Python/search-in-a-sorted-array-of-unknown-size.py)  | _O(logn)_          | _O(logn)_        | Easy         | |
+0875 | [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) | [Python](./Python/koko-eating-bananas.py) | _O(nlogr)_ | _O(1)_ | Medium | |
 
 ## Binary Search Tree
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 

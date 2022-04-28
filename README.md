@@ -51,6 +51,11 @@
 0079 | [Word Search](https://leetcode.com/problems/word-search/) | [Python](./Python/word-search.py) | _O(m * n * 3^l)_ | _O(l)_ | Medium         ||
 0090 | [Subsets II](https://leetcode.com/problems/subsets-ii/)    | [Python](./Python/subsets-ii.py) | _O(n * 2^n)_    | _O(1)_          | Medium         ||
 
+## Binary Heap
+|  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
+|-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
+1046 | [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/) | [Python](./Python/last-stone-weight.py) | _O(nlogn)_ | _O(n)_ | Easy |||
+
 ## Binary Search
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|

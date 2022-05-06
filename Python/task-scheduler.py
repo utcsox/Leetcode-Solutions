@@ -20,3 +20,28 @@ class Solution:
                 count += 1
            
         return max(((max_frequency - 1) * (n+1) + count), len(tasks))
+
+    
+class Solution2:
+    def leastInterval(self, tasks: List[str], n: int) -> int:
+        
+        counts = Counter(tasks)
+        hq  = [-count for count in counts.values()]
+        heapq.heapify(hq)
+        
+        q, time = deque(), 0
+        
+        while hq or q:  
+            
+            time += 1 
+            
+            if hq:
+                count = 1 + heapq.heappop(hq)
+                if count:
+                    q.append((count, time + n))
+                    
+            if q and q[0][1] == time:
+                heapq.heappush(hq, q.popleft()[0])
+            
+            
+        return time

@@ -61,6 +61,7 @@
 1729 | [Find Followers Count](https://leetcode.com/problems/find-followers-count/) | [MySQL](./SQL/find-followers-count.sql) | _O(nlogn)_ | _O(n)_       | Easy           |🔒||
 1777 | [Product's Price for Each Store](https://leetcode.com/problems/products-price-for-each-store/) | [MySQL](./SQL/products-price-for-each-store.sql) | _O(n)_ | _O(n)_       | Easy           |🔒||
 1789 | [Primary Department for Each Employee](https://leetcode.com/problems/primary-department-for-each-employee/) | [MySQL](./SQL/primary-department-for-each-employee.sql) | _O(n)_ | _O(n)_       | Easy           |🔒||
+1809 | [Ad-Free Sessions](https://leetcode.com/problems/ad-free-sessions/) | [MySQL](./SQL/ad-free-sessions.sql) | _O(n)_ | _O(n)_       | Easy           |🔒||
 <br/>
 <div align="right">
     <b><a href="#SQL">⬆️ Back to Top</a></b>

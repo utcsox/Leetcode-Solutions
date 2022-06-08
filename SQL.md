@@ -64,6 +64,7 @@
 1809 | [Ad-Free Sessions](https://leetcode.com/problems/ad-free-sessions/) | [MySQL](./SQL/ad-free-sessions.sql) | _O(n)_ | _O(n)_  | Easy     |🔒||
 1821 | [Find Customers With Positive Revenue this Year](https://leetcode.com/problems/find-customers-with-positive-revenue-this-year/) | [MySQL](./SQL/find-customers-with-positive-revenue-this-year.sql) | _O(n)_ | _O(n)_       | Easy           |🔒||
 2230 | [The Users That Are Eligible for Discount](https://leetcode.com/problems/the-users-that-are-eligible-for-discount/) | [MySQL](./SQL/the-users-that-are-eligible-for-discount.sql) | _O(nlogn)_ | _O(n)_       | Easy           |🔒||
+2205 | [The Number of Users That Are Eligible for Discount](https://leetcode.com/problems/the-number-of-users-that-are-eligible-for-discount/) | [MySQL](./SQL/the-number-of-users-that-are-eligible-for-discount.sql) | _O(n)_ | _O(n)_       | Easy           |🔒||
 <br/>
 <div align="right">
     <b><a href="#SQL">⬆️ Back to Top</a></b>

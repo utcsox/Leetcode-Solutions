@@ -3,10 +3,10 @@
 ## SQL
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
-0175| [Combine Two Tables](https://leetcode.com/problems/combine-two-tables/) | [MySQL](./SQL/combine-two-tables.sql) | _O(m + n)_   | _O(m + n)_ | Easy     ||
-0176| [Second Highest Salary](https://leetcode.com/problems/second-highest-salary/) | [MySQL](./SQL/second-highest-salary.sql) | _O(n)_ | _O(1)_ | Easy         ||
+0175| [Combine Two Tables](https://leetcode.com/problems/combine-two-tables/) | [MySQL](./SQL/combine-two-tables.sql) | _O(m + n)_ | _O(m + n)_ | Easy ||
+0176| [Second Highest Salary](https://leetcode.com/problems/second-highest-salary/)| [MySQL](./SQL/second-highest-salary.sql) | _O(n)_ | _O(1)_ | Easy  ||
 0181| [Employees Earning More Than Their Managers](https://leetcode.com/problems/employees-earning-more-than-their-managers/) | [MySQL](./SQL/employees-earning-more-than-their-managers.sql) | _O(n^2)_   | _O(1)_ | Easy     ||
-0182| [Duplicate Emails](https://leetcode.com/problems/duplicate-emails/) | [MySQL](./SQL/duplicate-emails.sql) | _O(n^2)_ | _O(n)_    | Easy           ||
+0182| [Duplicate Emails](https://leetcode.com/problems/duplicate-emails/) | [MySQL](./SQL/duplicate-emails.sql) | _O(n^2)_ | _O(n)_    | Easy      ||
 0183| [Customers Who Never Order](https://leetcode.com/problems/customers-who-never-order/) | [MySQL](./SQL/customers-who-never-order.sql) | _O(n^2)_ | _O(1)_       | Easy           ||
 0196| [Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails/) | [MySQL](./SQL/delete-duplicate-emails.sql) | _O(n^2)_ | _O(n)_ | Easy ||
 0197| [Rising Temperature](https://leetcode.com/problems/rising-temperature/) | [MySQL](./SQL/rising-temperature.sql) | _O(n^2)_ | _O(n)_     | Easy    ||
@@ -22,7 +22,7 @@
 1050| [Actors and Directors Who Cooperated At Least Three Times](https://leetcode.com/problems/actors-and-directors-who-cooperated-at-least-three-times/) | [MySQL](./SQL/actors-and-directors-who-cooperated-at-least-three-times.sql) | _O(n^2)_ | _O(n)_   | Easy   ||
 1068| [Product Sales Analysis I](https://leetcode.com/problems/product-sales-analysis-i/) | [MySQL](./SQL/product-sales-analysis-i.sql) | _O(n^2)_ | _O(n)_   | Easy   ||
 1069 | [Product Sales Analysis II](https://leetcode.com/problems/product-sales-analysis-ii/) | [MySQL](./SQL/product-sales-analysis-ii.sql) | _O(n)_ | _O(n)_       | Easy           |🔒| |
-1076| [Project Employees II](https://leetcode.com/problems/project-employees-ii/) | [MySQL](./SQL/project-employees-ii.sql) | _O(n^2)_ | _O(n)_  |Easy   ||
+1076| [Project Employees II](https://leetcode.com/problems/project-employees-ii/) | [MySQL](./SQL/project-employees-ii.sql) | _O(n^2)_ | _O(n)_  |Easy ||
 1082| [ Sales Analysis I](https://leetcode.com/problems/sales-analysis-i/) | [MySQL](./SQL/sales-analysis-i.sql) | _O(n^2)_ | _O(n)_   | Easy   ||
 1083| [ Sales Analysis II](https://leetcode.com/problems/sales-analysis-ii/) | [MySQL](./SQL/sales-analysis-ii.sql) | _O(n^2)_ | _O(n)_   | Easy   ||
 1084| [ Sales Analysis III](https://leetcode.com/problems/sales-analysis-iii/) | [MySQL](./SQL/sales-analysis-iii.sql) | _O(n^2)_ | _O(n)_   | Easy   ||
@@ -63,6 +63,7 @@
 1789 | [Primary Department for Each Employee](https://leetcode.com/problems/primary-department-for-each-employee/) | [MySQL](./SQL/primary-department-for-each-employee.sql) | _O(n)_ | _O(n)_       | Easy           |🔒||
 1809 | [Ad-Free Sessions](https://leetcode.com/problems/ad-free-sessions/) | [MySQL](./SQL/ad-free-sessions.sql) | _O(n)_ | _O(n)_  | Easy     |🔒||
 1821 | [Find Customers With Positive Revenue this Year](https://leetcode.com/problems/find-customers-with-positive-revenue-this-year/) | [MySQL](./SQL/find-customers-with-positive-revenue-this-year.sql) | _O(n)_ | _O(n)_       | Easy           |🔒||
+2230 | [The Users That Are Eligible for Discount](https://leetcode.com/problems/the-users-that-are-eligible-for-discount/) | [MySQL](./SQL/the-users-that-are-eligible-for-discount.sql) | _O(nlogn)_ | _O(n)_       | Easy           |🔒||
 <br/>
 <div align="right">
     <b><a href="#SQL">⬆️ Back to Top</a></b>

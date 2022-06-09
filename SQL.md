@@ -63,6 +63,7 @@
 1789 | [Primary Department for Each Employee](https://leetcode.com/problems/primary-department-for-each-employee/) | [MySQL](./SQL/primary-department-for-each-employee.sql) | _O(n)_ | _O(n)_       | Easy           |🔒||
 1809 | [Ad-Free Sessions](https://leetcode.com/problems/ad-free-sessions/) | [MySQL](./SQL/ad-free-sessions.sql) | _O(n)_ | _O(n)_  | Easy     |🔒||
 1821 | [Find Customers With Positive Revenue this Year](https://leetcode.com/problems/find-customers-with-positive-revenue-this-year/) | [MySQL](./SQL/find-customers-with-positive-revenue-this-year.sql) | _O(n)_ | _O(n)_       | Easy           |🔒||
+1978 | [Employees Whose Manager Left the Company](https://leetcode.com/problems/employees-whose-manager-left-the-company/) | [MySQL](./SQL/employees-whose-manager-left-the-company.sql) | _O(nlogn)_ | _O(n)_       | Easy           |🔒||
 2026 | [Low-Quality Problems](https://leetcode.com/problems/low-quality-problems/) | [MySQL](./SQL/low-quality-problems.sql) | _O(nlogn)_ | _O(n)_       | Easy           |🔒||
 2072 | [The Winner University](https://leetcode.com/problems/the-winner-university/) | [MySQL](./SQL/the-winner-university.sql) | _O(n)_ | _O(n)_       | Easy           |🔒||
 2082 | [The Number of Rich Customers](https://leetcode.com/problems/the-number-of-rich-customers/) | [MySQL](./SQL/the-number-of-rich-customers.sql) | _O(n)_ | _O(n)_       | Easy           |🔒||

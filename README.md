@@ -193,6 +193,8 @@
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
 0007| [Reverse Integer](https://leetcode.com/problems/reverse-integer/) |[Python](./Python/reverse-integer.py) | _O(1)_ | _O(1)_         | Easy           ||
 0013| [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | [Python](./Python/roman-to-integer.py) | _O(n)_ | _O(1)_          | Easy           ||
+0168 |[Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/) | [Python](./Python/excel-sheet-column-title.py) | _O(logn)_ | _O(1)_ | Easy ||
+
 0326 | [Power of Three](https://leetcode.com/problems/power-of-three/) | [Python](./Python/power-of-three.py) | _O(1)_ | _O(1)_ | Easy |||  
 0338 | [Counting Bits](https://leetcode.com/problems/counting-bits/) | [Python](./Python/counting-bits.py) | _O(n)_ | _O(n)_ | Medium |||
 1492 | [The kth Factor of n](https://leetcode.com/problems/the-kth-factor-of-n/) |[Python](./Python/the-kth-factor-of-n.py) | _O(sqrt(n))_ | _O(1)_ |  Medium | |

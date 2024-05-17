@@ -37,7 +37,7 @@
 1200 | [Minimum Absolute Difference](https://leetcode.com/problems/minimum-absolute-difference/) | [Python](./Python/minimum-absolute-difference.py) | _O(nlogn)_ | _O(n)_      | Easy         || 
 1475 | [Final Prices With a Special Discount in a Shop](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/) | [Python](./Python/final-prices-with-a-special-discount-in-a-shop.py) | _O(n)_ | _O(n)_      | Easy         || Mono Stack
 1629 | [Slowest Key](https://leetcode.com/problems/slowest-key/) | [Python](./Python/slowest-key.py) | _O(n)_ | _O(1)_      | Easy         ||
-9992 | [Maximum Length of duplicate contiguous characters in a string](https://leetcode.com/discuss/interview-question/4910005/Meta-or-Phonescreen)[Python](./Python/max-len-dup-cont-char-in-a-string.py) | _O(n)_ | _O(1)_   | Easy || META
+9992 | [Maximum Length of duplicate contiguous characters in a string](https://leetcode.com/discuss/interview-question/4910005/Meta-or-Phonescreen) | [Python](./Python/max-len-dup-cont-char-in-a-string.py) | _O(n)_ | _O(1)_   | Easy || META
 9993 | [Count Pairs Array Whose Sum Less X](https://www.geeksforgeeks.org/count-pairs-array-whose-sum-less-x/) | [Python](./Python/count-pairs-array-sum-less-x.py) | _O(n)_ | _O(n)_   | Easy || MLE
 9994 | [N largest elements from a list](https://www.geeksforgeeks.org/python-program-to-find-n-largest-elements-from-a-list/) | [Python](./Python/n-largest-elements-from-a-list.py) | _O(n)_ | _O(n)_   | Easy || MLE
 9995 | [Sparse Matrix Multiplication](https://leetcode.com/discuss/interview-question/286446/Representation-and-dot-product-of-two-vectors/271143) | [Python](./Python/sparse-matrix-multiplication.py) | _O(n)_ | _O(n)_   | Easy    | FB ||

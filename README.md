@@ -242,6 +242,7 @@
 0071 | [Simplify Path](https://leetcode.com/problems/simplify-path/)|  [Python](./Python/simplify-path.py) | _O(n)_        | _O(n)_     | Medium     ||
 0101| [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)| [Python](./Python/symmetric-tree.py) | _O(n)_      | _O(h)_        | Easy       ||
 0150 | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)| [Python](./Python/evaluate-reverse-polish-notation.py)| _O(n)_| _O(n)_| Medium    ||
+0227 | [Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/) | [C++](./C++/basic-calculator-ii.cpp) [Python](./Python/basic-calculator-ii.py) | _O(n)_| _O(n)_| Medium || 
 0682| [Baseball Game](https://leetcode.com/problems/baseball-game/) | [Python](./Python/baseball-game.py) | _O(n)_  | _O(n)_         | Easy           ||
 0739 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) |  [Python](./Python/daily-temperatures.py) | _O(n)_  | _O(n)_         | Medium           ||
 

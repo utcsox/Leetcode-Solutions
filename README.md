@@ -175,15 +175,15 @@
 0205| [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/) | [Python](./Python/isomorphic-strings.py) | _O(n)_ | _O(1)_    | Easy      || 
 0217| [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)  | [Python](./Python/contains-duplicate.py) | _O(n)_  | _O(n)_   | Easy           ||
 0249| [Group Shifted Strings](https://leetcode.com/problems/group-shifted-strings/) | [Python](./Python/group-shifted-strings.py)  | _O(nlogn)_ | _O(n)_ | Medium        |🔒||
-0314 |[Binary Tree Vertical Order Traversal](https://leetcode.com/problems/binary-tree-vertical-order-traversal/) | [Python](./Python/binary-tree-vertical-order-traversal.py) | _O(n)_ | _O(n)_| Medium         | 🔒 | BFS
+0314| [Binary Tree Vertical Order Traversal](https://leetcode.com/problems/binary-tree-vertical-order-traversal/) | [Python](./Python/binary-tree-vertical-order-traversal.py) | _O(n)_ | _O(n)_| Medium         | 🔒 | BFS
 0387| [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) | [Python](./Python/first-unique-character-in-a-string.py) | _O(n)_| _O(n)_| Easy |||
 0438| [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) |  [Python](./Python/find-all-anagrams-in-a-string.py) | _O(n)_          | _O(1)_          | Easy           ||
 0523| [Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/) |  [Python](./Python/continuous-subarray-sum.py) | _O(n)_          | _O(k)_          | Medium           ||
 0560| [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | [Python](./Python/subarray-sum-equals-k.py) | _O(n)_ | _O(n)_ | Medium         | |
 0599| [Minimum Index Sum of Two Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists/) |[Python](./Python/minimum-index-sum-of-two-lists.py) | _O((m + n) * l)_ | _O(m * l)_ | Easy         | |
-0811 | [Subdomain Visit Count](https://leetcode.com/problems/subdomain-visit-count/) | [Python](./Python/subdomain-visit-count.py) | _O(n)_ | _O(n)_ | Medium ||
-1152 | [Analyze User Website Visit Pattern](https://leetcode.com/problems/analyze-user-website-visit-pattern/) | [Python](./Python/analyze-user-website-visit-pattern.py) | _O(n^3)_| _O(n^3)_| Medium |🔒| Hash |
-1817 | [Finding the Users Active Minutes](https://leetcode.com/problems/finding-the-users-active-minutes/)      | [Python](./Python/finding-the-users-active-minutes.py)      | _O(n)_         | _O(n)_          | Medium         ||
+0811| [Subdomain Visit Count](https://leetcode.com/problems/subdomain-visit-count/) | [Python](./Python/subdomain-visit-count.py) | _O(n)_ | _O(n)_ | Medium ||
+1152| [Analyze User Website Visit Pattern](https://leetcode.com/problems/analyze-user-website-visit-pattern/) | [Python](./Python/analyze-user-website-visit-pattern.py) | _O(n^3)_| _O(n^3)_| Medium |🔒| Hash |
+1817| [Finding the Users Active Minutes](https://leetcode.com/problems/finding-the-users-active-minutes/)      | [Python](./Python/finding-the-users-active-minutes.py)      | _O(n)_         | _O(n)_     | Medium         ||
 
 ## Linked List
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
@@ -201,24 +201,25 @@
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
 0007| [Reverse Integer](https://leetcode.com/problems/reverse-integer/) |[Python](./Python/reverse-integer.py) | _O(1)_ | _O(1)_         | Easy           ||
 0013| [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | [Python](./Python/roman-to-integer.py) | _O(n)_ | _O(1)_          | Easy           ||
-0168 |[Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/) | [Python](./Python/excel-sheet-column-title.py) | _O(logn)_ | _O(1)_ | Easy ||
-0171 | [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/) | [Python](./Python/excel-sheet-column-number.py) | _O(n)_ | _O(1)_ | Easy  ||
-0326 | [Power of Three](https://leetcode.com/problems/power-of-three/) | [Python](./Python/power-of-three.py) | _O(1)_ | _O(1)_ | Easy |||  
-0338 | [Counting Bits](https://leetcode.com/problems/counting-bits/) | [Python](./Python/counting-bits.py) | _O(n)_ | _O(n)_ | Medium |||
-0528 | [Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/) |[Python](./Python/random-pick-with-weight.py) | ctor: _O(n)_ <br> pick: _O(logn)_ | _O(n)_ | Medium |||
-1492 | [The kth Factor of n](https://leetcode.com/problems/the-kth-factor-of-n/) |[Python](./Python/the-kth-factor-of-n.py) | _O(sqrt(n))_ | _O(1)_ |  Medium | |
-1904 | [The Number of Full Rounds You Have Played](https://leetcode.com/problems/the-number-of-full-rounds-you-have-played/) | [Python](./Python/the-number-of-full-rounds-you-have-played.py) | _O(1)_ | _O(1)_ |  Medium |  | |
+0168| [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/) | [Python](./Python/excel-sheet-column-title.py) | _O(logn)_ | _O(1)_ | Easy ||
+0171| [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/) | [Python](./Python/excel-sheet-column-number.py) | _O(n)_ | _O(1)_ | Easy  ||
+0326| [Power of Three](https://leetcode.com/problems/power-of-three/) | [Python](./Python/power-of-three.py) | _O(1)_ | _O(1)_ | Easy |||  
+0338| [Counting Bits](https://leetcode.com/problems/counting-bits/) | [Python](./Python/counting-bits.py) | _O(n)_ | _O(n)_ | Medium |||
+0528| [Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/) |[Python](./Python/random-pick-with-weight.py) | ctor: _O(n)_ <br> pick: _O(logn)_ | _O(n)_ | Medium |||
+1492| [The kth Factor of n](https://leetcode.com/problems/the-kth-factor-of-n/) |[Python](./Python/the-kth-factor-of-n.py) | _O(sqrt(n))_ | _O(1)_ |  Medium | |
+1904| [The Number of Full Rounds You Have Played](https://leetcode.com/problems/the-number-of-full-rounds-you-have-played/) | [Python](./Python/the-number-of-full-rounds-you-have-played.py) | _O(1)_ | _O(1)_ | Medium |  | |
 
 ## Recursion
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
 0046| [Permutations](https://leetcode.com/problems/permutations/)| [Python](./Python/permutations.py) | _O(n * n!)_         | _O(n)_          | Medium         ||
 0047| [Permutations II](https://leetcode.com/problems/permutations-ii/)| [Python](./Python/permutations-ii.py) | _O(n * n!)_   | _O(n)_          | Medium           ||
-0095| [Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/) | [Python](./Python/unique-binary-search-trees-ii.py) | _O(4^n / n^(3/2)_      | _O(4^n / n^(3/2)_         | Medium         ||
+0095| [Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/) | [Python](./Python/unique-binary-search-trees-ii.py) | _O(4^n / n^(3/2)_ | _O(4^n / n^(3/2)_   | Medium    ||
 0098| [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)|[Python](./Python/validate-binary-search-tree.py)| _O(n)_ | _O(1)_ | Medium ||
 0100| [Same Tree](https://leetcode.com/problems/same-tree/)      |[Python](./Python/same-tree.py)  | _O(n)_          | _O(h)_        | Easy          ||
 0104| [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)| [Python](./Python/maximum-depth-of-binary-tree.py)| _O(n)_ | _O(h)_ | Easy | Blind 75|
-0110 | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) | [Python](./Python/balanced-binary-tree.py) | _O(n)_| _O(h)_   | Easy           ||
+0110| [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) | [Python](./Python/balanced-binary-tree.py) | _O(n)_| _O(h)_   | Easy           ||
+0129| [Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/) | [Python](./Python/sum-root-to-leaf-numbers.py) | _O(n)_ | _O(h)_ | Medium ||
 0404| [Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/) | [Python](./Python/sum-of-left-leaves.py) | _O(n)_          | _O(h)_          | Easy           ||
 0437| [Path Sum III](https://leetcode.com/problems/path-sum-iii/) | Python](./Python/path-sum-iii.py) | _O(n)_          | _O(h)_          | Easy           ||
 
@@ -226,7 +227,7 @@
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
 0056| [Merge Intervals](https://leetcode.com/problems/merge-intervals/)|  [Python](./Python/merge-intervals.py) | _O(nlogn)_  | _O(1)_        | Medium    ||
-0057 | [Insert Interval](https://leetcode.com/problems/insert-interval/)|[Python](./Python/insert-interval.py) | _O(n)_    | _O(1)_          | Medium           ||
+0057| [Insert Interval](https://leetcode.com/problems/insert-interval/)|[Python](./Python/insert-interval.py) | _O(n)_    | _O(1)_          | Medium           ||
 0075| [Sort Colors](https://leetcode.com/problems/sort-colors/)   | [Python](./Python/sort-colors.py) | _O(n)_         | _O(1)_          | Medium         || Tri Partition
 0088| [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)| [Python](./Python/merge-sorted-array.py) | _O(n)_ | _O(1)_       | Easy           ||
 0252| [Meeting Rooms](https://leetcode.com/problems/meeting-rooms/) |[Python](./Python/meeting-rooms.py) | _O(nlogn)_   | _O(n)_        | Easy         |🔒| |

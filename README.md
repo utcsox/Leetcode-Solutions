@@ -4,7 +4,7 @@
 ## Array
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
-0011| [Container With Most Water](https://leetcode.com/problems/container-with-most-water/)| [Python](./Python/container-with-most-water.py) | _O(n)_ | _O(1)_ | Medium ||
+0011 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/)| [Python](./Python/container-with-most-water.py) | _O(n)_ | _O(1)_ | Medium ||
 0015 | [3 Sum](https://leetcode.com/problems/3sum/)         | [Python](./Python/3sum.py)       | _O(n^2)_        | _O(1)_          | Medium         || Two Pointers
 0026 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)| [Python](./Python/remove-duplicates-from-sorted-array.py) | _O(n)_       | _O(1)_         | Easy           || Two Pointers
 0027 | [Remove Element](https://leetcode.com/problems/remove-element/) | [Python](./Python/remove-element.py) | _O(n)_      | _O(1)_         | Easy           ||
@@ -26,23 +26,25 @@
 0240 | [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/) | [Python](./Python/search-a-2d-matrix-ii.py) | _O(m + n)_ | _O(1)_ | Medium   | EPI, LintCode |
 0243 | [Shortest Word Distance](https://leetcode.com/problems/shortest-word-distance/)| [Python](./Python/shortest-word-distance.py)  | _O(n)_ |  _O(1)_ | Easy         |🔒||
 0289 | [Game of Life](https://leetcode.com/problems/game-of-life/) | [Python](./Python/game-of-life.py)  | _O(m * n)_ |  _O(1)_ | Medium         |||
+0311 | [Sparse Matrix Multiplication](https://leetcode.com/problems/sparse-matrix-multiplication/) | [Python](./Python/sparse-matrix-multiplication.py)  | _O(m * n * l)_ |  _O(m * l)_ | Medium         |🔒||
 0442 | [Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/) | [Python](./Python/find-all-duplicates-in-an-array.py)  | _O(n)_ |  _O(1)_ | Medium         |||
 0448 | [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | [Python](./Python/find-all-numbers-disappeared-in-an-array.py)  | _O(n)_ |  _O(1)_ | Easy         |||
 0453 | [Minimum Moves to Equal Array Elements](https://leetcode.com/problems/minimum-moves-to-equal-array-elements/)| [Python](./Python/minimum-moves-to-equal-array-elements.py)  | _O(n)_ |  _O(1)_ | Medium         |🔒||
 0462 | [Minimum Moves to Equal Array Elements II](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/)| [Python](./Python/minimum-moves-to-equal-array-elements-ii.py)  | _O(n)_ |  _O(1)_ | Medium         |🔒||
 0498 | [Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/) | [Python](./Python/diagonal-traverse.py) | _O(n)_ | _O(n)_   | Medium ||
-0532| [K-dff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array/) | [Python](./Python/k-diff-pairs-in-an-array.py) |  _O(logn)_ | _O(N)_ | Medium   
+0532 | [K-dff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array/) | [Python](./Python/k-diff-pairs-in-an-array.py) |  _O(logn)_ | _O(N)_ | Medium   
 0566 | [Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/) | [Python](./Python/reshape-the-matrix.py) | _O(n)_ | _O(n)_   | Easy ||
 0605 | [Can Place Flowers](https://leetcode.com/problems/can-place-flowers/) | [Python](./Python/can-place-flowers.py) | _O(n)_ | _O(1)_ | Easy     |||
 1200 | [Minimum Absolute Difference](https://leetcode.com/problems/minimum-absolute-difference/) | [Python](./Python/minimum-absolute-difference.py) | _O(nlogn)_ | _O(n)_      | Easy         || 
 1475 | [Final Prices With a Special Discount in a Shop](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/) | [Python](./Python/final-prices-with-a-special-discount-in-a-shop.py) | _O(n)_ | _O(n)_      | Easy         || Mono Stack
 1629 | [Slowest Key](https://leetcode.com/problems/slowest-key/) | [Python](./Python/slowest-key.py) | _O(n)_ | _O(1)_      | Easy         ||
+1868 | [Product of Two Run-Length Encoded Arrays](https://leetcode.com/problems/product-of-two-run-length-encoded-arrays/) | [Python](https://leetcode.com/discuss/interview-question/286446/Representation-and-dot-product-of-two-vectors/271143) | _O(m + n)_ | _O(1)_ | Medium | 🔒 | Two Pointers |
 9992 | [Maximum Length of duplicate contiguous characters in a string](https://leetcode.com/discuss/interview-question/4910005/Meta-or-Phonescreen) | [Python](./Python/max-len-dup-cont-char-in-a-string.py) | _O(n)_ | _O(1)_   | Easy || META
 9993 | [Count Pairs Array Whose Sum Less X](https://www.geeksforgeeks.org/count-pairs-array-whose-sum-less-x/) | [Python](./Python/count-pairs-array-sum-less-x.py) | _O(n)_ | _O(n)_   | Easy || MLE
 9994 | [N largest elements from a list](https://www.geeksforgeeks.org/python-program-to-find-n-largest-elements-from-a-list/) | [Python](./Python/n-largest-elements-from-a-list.py) | _O(n)_ | _O(n)_   | Easy || MLE
 9995 | [Sparse Matrix Multiplication](https://leetcode.com/discuss/interview-question/286446/Representation-and-dot-product-of-two-vectors/271143) | [Python](./Python/sparse-matrix-multiplication.py) | _O(n)_ | _O(n)_   | Easy    | FB ||
-9996| [Check Given Array Contains Duplicate Elements within K Distance](https://www.geeksforgeeks.org/check-given-array-contains-duplicate-elements-within-k-distance/) | [Python](./Python/check-given-array-contains-duplicate-elements-within-k-distance.py) | _O(n^2)_ on average | _O(n)_  | Easy   | FB
-9998| [Amazon Fresh Promotion](https://leetcode.com/discuss/interview-question/762546/) | [Python](./Python/amazon_fresh_promotion.py) | _O(n^2)_ on average | _O(n)_        | Medium         | 
+9996 | [Check Given Array Contains Duplicate Elements within K Distance](https://www.geeksforgeeks.org/check-given-array-contains-duplicate-elements-within-k-distance/) | [Python](./Python/check-given-array-contains-duplicate-elements-within-k-distance.py) | _O(n^2)_ on average | _O(n)_  | Easy   | FB
+9998 | [Amazon Fresh Promotion](https://leetcode.com/discuss/interview-question/762546/) | [Python](./Python/amazon_fresh_promotion.py) | _O(n^2)_ on average | _O(n)_        | Medium         | 
 
 ## Backtracking
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 

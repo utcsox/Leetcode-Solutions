@@ -15,21 +15,21 @@
 0066 | [Plus One](https://leetcode.com/problems/plus-one/)      | [Python](./Python/plus-one.py)   | _O(n)_           | _O(1)_         | Easy          || 
 0073 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/) | [Python](./Python/set-matrix-zeroes.py) | _O(m * n)_ | _O(1)_ | Medium  ||
 0118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)|  [Python](./Python/pascals-triangle.py) | _O(n^2)_ | _O(1)_     | Easy    || 
-0110 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle-ii/)| [C++](./C++/pascals-triangle.cpp) [Python](./Python/pascals-triangle-ii.py) | _O(n^2)_ | _O(1)_        | Easy           || 
+0110 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle-ii/)| [C++](./C++/pascals-triangle.cpp) [Python](./Python/pascals-triangle-ii.py) | _O(n^2)_ | _O(1)_   | Easy    || 
 0121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|[Python](./Python/best-time-to-buy-and-sell-stock.py) | _O(n)_ | _O(1)_ | Easy ||
 0128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)| [Python](./Python/longest-consecutive-sequence.py) | _O(n)_ | _O(n)_ | Medium         || Tricky
 0157 | [Read N Characters Given Read4](https://leetcode.com/problems/read-n-characters-given-read4/) |  [Python](./Python/read-n-characters-given-read4.py) | _O(n)_ | _O(1)_ | Easy           |🔒|
 0163 | [Missing Ranges](https://leetcode.com/problems/missing-ranges/)| [Python](./Python/missing-ranges.py) | _O(n)_      | _O(1)_     | Medium    | 🔒 |
 0189 | [Rotate Array](https://leetcode.com/problems/rotate-array/)   |[Python](./Python/rotate-array.py) | _O(n)_ | _O(1)_         | Medium  ||
 0215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [Python](./Python/kth-largest-element-in-an-array.py)| _O(n)_ ~ _O(n^2)_ | _O(1)_ |  Medium | EPI|
-0238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | [Python](./Python/product-of-array-except-self.py) | _O(n)_ | _O(1)_          | Medium           | LintCode |
+0238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | [Python](./Python/product-of-array-except-self.py) | _O(n)_ | _O(1)_          | Medium    | LintCode |
 0240 | [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/) | [Python](./Python/search-a-2d-matrix-ii.py) | _O(m + n)_ | _O(1)_ | Medium   | EPI, LintCode |
 0243 | [Shortest Word Distance](https://leetcode.com/problems/shortest-word-distance/)| [Python](./Python/shortest-word-distance.py)  | _O(n)_ |  _O(1)_ | Easy         |🔒||
 0289 | [Game of Life](https://leetcode.com/problems/game-of-life/) | [Python](./Python/game-of-life.py)  | _O(m * n)_ |  _O(1)_ | Medium         |||
 0311 | [Sparse Matrix Multiplication](https://leetcode.com/problems/sparse-matrix-multiplication/) | [Python](./Python/sparse-matrix-multiplication.py)  | _O(m * n * l)_ |  _O(m * l)_ | Medium         |🔒||
 0442 | [Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/) | [Python](./Python/find-all-duplicates-in-an-array.py)  | _O(n)_ |  _O(1)_ | Medium         |||
 0448 | [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | [Python](./Python/find-all-numbers-disappeared-in-an-array.py)  | _O(n)_ |  _O(1)_ | Easy         |||
-0453 | [Minimum Moves to Equal Array Elements](https://leetcode.com/problems/minimum-moves-to-equal-array-elements/)| [Python](./Python/minimum-moves-to-equal-array-elements.py)  | _O(n)_ |  _O(1)_ | Medium         |🔒||
+0453 | [Minimum Moves to Equal Array Elements](https://leetcode.com/problems/minimum-moves-to-equal-array-elements/)| [Python](./Python/minimum-moves-to-equal-array-elements.py)  | _O(n)_ |  _O(1)_ | Medium     |🔒||
 0462 | [Minimum Moves to Equal Array Elements II](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/)| [Python](./Python/minimum-moves-to-equal-array-elements-ii.py)  | _O(n)_ |  _O(1)_ | Medium         |🔒||
 0498 | [Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/) | [Python](./Python/diagonal-traverse.py) | _O(n)_ | _O(n)_   | Medium ||
 0532 | [K-dff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array/) | [Python](./Python/k-diff-pairs-in-an-array.py) |  _O(logn)_ | _O(N)_ | Medium   
@@ -53,7 +53,7 @@
 0022| [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)| [Python](./Python/generate-parentheses.py)| _O(4^n / n^(3/2))_ | _O(n)_   | Medium         ||
 0078| [Subsets](https://leetcode.com/problems/subsets/)       | [Python](./Python/subsets.py)    | _O(n * 2^n)_    | _O(1)_          | Medium         ||
 0079 | [Word Search](https://leetcode.com/problems/word-search/) | [Python](./Python/word-search.py) | _O(m * n * 3^l)_ | _O(l)_ | Medium         ||
-0090 | [Subsets II](https://leetcode.com/problems/subsets-ii/)    | [Python](./Python/subsets-ii.py) | _O(n * 2^n)_    | _O(1)_          | Medium         ||
+0090 | [Subsets II](https://leetcode.com/problems/subsets-ii/)    | [Python](./Python/subsets-ii.py) | _O(n * 2^n)_    | _O(1)_     | Medium         ||
 
 ## Binary Heap
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
@@ -257,24 +257,25 @@
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
 0005 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | [Python](./Python/longest-palindromic-substring.py) | _O(n)_ | _O(n)_ |  Medium | Blind75 ||
-0008| [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | [Python](./Python/string-to-integer-atoi.py) | _O(n)_ | _O(1)_ | Medium      ||
-0014| [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)|[Python](./Python/longest-common-prefix.py) | _O(n * k)_| _O(1)_ | Easy           ||
-0028| [Implement strStr()](https://leetcode.com/problems/implement-strstr/) | [Python](./Python/implement-strstr.py) | _O(n + k)_   | _O(k)_  | Easy           || `KMP Algorithm`
+0008 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | [Python](./Python/string-to-integer-atoi.py) | _O(n)_ | _O(1)_ | Medium      ||
+0014 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)|[Python](./Python/longest-common-prefix.py) | _O(n * k)_| _O(1)_ | Easy           ||
+0028 | [Implement strStr()](https://leetcode.com/problems/implement-strstr/) | [Python](./Python/implement-strstr.py) | _O(n + k)_   | _O(k)_  | Easy           || `KMP Algorithm`
 0038 | [Count and Say](https://leetcode.com/problems/count-and-say/) | [Python](./Python/count-and-say.py)| _O(n * 2^n)_  | _O(2^n)_        | Easy           ||
-0043| [Multiply Strings](https://leetcode.com/problems/multiply-strings/) | [Python](./Python/multiply-strings.py) | _O(m * n)_ | _O(m + n)_  | Medium         ||
-0067| [Add Binary](https://leetcode.com/problems/add-binary/)    | [Python](./Python/add-binary.py) | _O(n)_          | _O(1)_          | Easy           ||
-0076| [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | [Python](./Python/minimum-window-substring.py) | _O(n)_ | _O(k)_ | Hard          ||
-0125| [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) |  [Python](./Python/valid-palindrome.py) | _O(n)_  | _O(1)_    | Easy  | Blind 75 ||
-0151| [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) |[Python](./Python/reverse-words-in-a-string.py) | _O(n)_ | _O(1)_ | Medium   ||
+0043 | [Multiply Strings](https://leetcode.com/problems/multiply-strings/) | [Python](./Python/multiply-strings.py) | _O(m * n)_ | _O(m + n)_  | Medium         ||
+0067 | [Add Binary](https://leetcode.com/problems/add-binary/)    | [Python](./Python/add-binary.py) | _O(n)_          | _O(1)_          | Easy           ||
+0076 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | [Python](./Python/minimum-window-substring.py) | _O(n)_ | _O(k)_ | Hard          ||
+0125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) |  [Python](./Python/valid-palindrome.py) | _O(n)_  | _O(1)_    | Easy  | Blind 75 ||
+0151 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) |[Python](./Python/reverse-words-in-a-string.py) | _O(n)_ | _O(1)_ | Medium   ||
 0271 | [Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/) | [Python](./Python/encode-and-decode-strings.py) | _O(n)_ | _O(1)_ | Medium         | 🔒 |
-0383| [Ransom Note](https://leetcode.com/problems/ransom-note/) | [Python](./Python/ransome-note.py) | _O(n)_ | _O(1)_ | Easy         | |
+0383 | [Ransom Note](https://leetcode.com/problems/ransom-note/) | [Python](./Python/ransome-note.py) | _O(n)_ | _O(1)_ | Easy         | |
 0408 | [Valid Word Abbreviation](https://leetcode.com/problems/valid-word-abbreviation/) | [Python](./Python/valid-word-abbreviation.py) | _O(n)_ | _O(1)_ | Easy         | 🔒 |
-0415| [Add Strings](https://leetcode.com/problems/add-strings/) | [Python](./Python/add-strings.py) | _O(n)_ | _O(1)_ | Easy         | |
-0468| [Validate IP Address](https://leetcode.com/problems/validate-ip-address/) | [Python](./Python/validate-ip-address.py) | _O(1)_ | _O(1)_ | Medium         | |
-0557| [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/) | [Python](./Python/reverse-words-in-a-string-iii.py) | _O(n)_ | _O(1)_ | Easy         | |
+0415 | [Add Strings](https://leetcode.com/problems/add-strings/) | [Python](./Python/add-strings.py) | _O(n)_ | _O(1)_ | Easy         | |
+0468 | [Validate IP Address](https://leetcode.com/problems/validate-ip-address/) | [Python](./Python/validate-ip-address.py) | _O(1)_ | _O(1)_ | Medium         | |
+0557 | [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/) | [Python](./Python/reverse-words-in-a-string-iii.py) | _O(n)_ | _O(1)_ | Easy         | |
 0647 | [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/) | [Python](./Python/palindromic-substrings.py) | _O(n)_ | _O(n)_ |  Medium||
-0680| [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/) | [Python](./Python/valid-palindrome-ii.py) | _O(n)_  | _O(1)_  | Easy    ||
-0819| [Most Common Word](https://leetcode.com/problems/most-common-word/) |[Python](./Python/most-common-word.py) | _O(m + n)_ | _O(m + n)_ | Easy         |||
+0680 | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/) | [Python](./Python/valid-palindrome-ii.py) | _O(n)_  | _O(1)_  | Easy    ||
+0791 | [Custom Sort String](https://leetcode.com/problems/custom-sort-string/) | [Python](./Python/custom-sort-string.py) | _O(n)_ | _O(1)_ | Medium         |||
+0819 | [Most Common Word](https://leetcode.com/problems/most-common-word/) |[Python](./Python/most-common-word.py) | _O(m + n)_ | _O(m + n)_ | Easy        |||
 0953 | [Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary/) | [Python](./Python/verifying-an-alien-dictionary.py) | _O(n * l)_ | _O(1)_      | Easy         ||
 1347 | [Minimum Number of Steps to Make Two Strings Anagram](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/) |  [Python](./Python/minimum-number-of-steps-to-make-two-strings-anagram.py) | _O(n)_ | _O(1)_ | Medium | |
 

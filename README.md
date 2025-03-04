@@ -171,22 +171,23 @@
 ## Hash Table
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
-0001| [Two Sum](https://leetcode.com/problems/two-sum/)      | [Python](./Python/two-sum.py)      | _O(n)_         | _O(n)_          | Easy         ||
-0003| [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Python](./Python/longest-substring-without-repeating-characters.py) | _O(n)_ | _O(1)_ | Medium ||
-0036| [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | [Python](./Python/valid-sudoku.py) | _O(9^2)_         | _O(9)_          | Easy           ||
-0049| [Group Anagrams](https://leetcode.com/problems/group-anagrams/)     | [Python](./Python/group-anagrams.py)   | _O(n * glogg)_          | _O(n)_          | Medium         ||
-0205| [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/) | [Python](./Python/isomorphic-strings.py) | _O(n)_ | _O(1)_    | Easy      || 
-0217| [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)  | [Python](./Python/contains-duplicate.py) | _O(n)_  | _O(n)_   | Easy           ||
-0249| [Group Shifted Strings](https://leetcode.com/problems/group-shifted-strings/) | [Python](./Python/group-shifted-strings.py)  | _O(nlogn)_ | _O(n)_ | Medium        |🔒||
-0314| [Binary Tree Vertical Order Traversal](https://leetcode.com/problems/binary-tree-vertical-order-traversal/) | [Python](./Python/binary-tree-vertical-order-traversal.py) | _O(n)_ | _O(n)_| Medium         | 🔒 | BFS
-0387| [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) | [Python](./Python/first-unique-character-in-a-string.py) | _O(n)_| _O(n)_| Easy |||
-0438| [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) |  [Python](./Python/find-all-anagrams-in-a-string.py) | _O(n)_          | _O(1)_          | Easy           ||
-0523| [Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/) |  [Python](./Python/continuous-subarray-sum.py) | _O(n)_          | _O(k)_          | Medium           ||
-0560| [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | [Python](./Python/subarray-sum-equals-k.py) | _O(n)_ | _O(n)_ | Medium         | |
-0599| [Minimum Index Sum of Two Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists/) |[Python](./Python/minimum-index-sum-of-two-lists.py) | _O((m + n) * l)_ | _O(m * l)_ | Easy         | |
-0811| [Subdomain Visit Count](https://leetcode.com/problems/subdomain-visit-count/) | [Python](./Python/subdomain-visit-count.py) | _O(n)_ | _O(n)_ | Medium ||
-1152| [Analyze User Website Visit Pattern](https://leetcode.com/problems/analyze-user-website-visit-pattern/) | [Python](./Python/analyze-user-website-visit-pattern.py) | _O(n^3)_| _O(n^3)_| Medium |🔒| Hash |
-1817| [Finding the Users Active Minutes](https://leetcode.com/problems/finding-the-users-active-minutes/)      | [Python](./Python/finding-the-users-active-minutes.py)      | _O(n)_         | _O(n)_     | Medium         ||
+0001 | [Two Sum](https://leetcode.com/problems/two-sum/)      | [Python](./Python/two-sum.py)      | _O(n)_         | _O(n)_          | Easy         ||
+0003 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Python](./Python/longest-substring-without-repeating-characters.py) | _O(n)_ | _O(1)_ | Medium ||
+0036 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | [Python](./Python/valid-sudoku.py) | _O(9^2)_         | _O(9)_          | Easy           ||
+0049 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/)     | [Python](./Python/group-anagrams.py)   | _O(n * glogg)_          | _O(n)_          | Medium         ||
+0205 | [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/) | [Python](./Python/isomorphic-strings.py) | _O(n)_ | _O(1)_    | Easy      || 
+0217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)  | [Python](./Python/contains-duplicate.py) | _O(n)_  | _O(n)_   | Easy           ||
+0249 |  [Group Shifted Strings](https://leetcode.com/problems/group-shifted-strings/) | [Python](./Python/group-shifted-strings.py)  | _O(nlogn)_ | _O(n)_ | Medium        |🔒||
+0314 | [Binary Tree Vertical Order Traversal](https://leetcode.com/problems/binary-tree-vertical-order-traversal/) | [Python](./Python/binary-tree-vertical-order-traversal.py) | _O(n)_ | _O(n)_| Medium         | 🔒 | BFS
+0387 | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) | [Python](./Python/first-unique-character-in-a-string.py) | _O(n)_| _O(n)_| Easy |||
+0438 | [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) |  [Python](./Python/find-all-anagrams-in-a-string.py) | _O(n)_          | _O(1)_          | Easy           ||
+0523 | [Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/) |  [Python](./Python/continuous-subarray-sum.py) | _O(n)_          | _O(k)_          | Medium           ||
+0560 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | [Python](./Python/subarray-sum-equals-k.py) | _O(n)_ | _O(n)_ | Medium         | |
+0599 | [Minimum Index Sum of Two Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists/) |[Python](./Python/minimum-index-sum-of-two-lists.py) | _O((m + n) * l)_ | _O(m * l)_ | Easy         | |
+0811 | [Subdomain Visit Count](https://leetcode.com/problems/subdomain-visit-count/) | [Python](./Python/subdomain-visit-count.py) | _O(n)_ | _O(n)_ | Medium ||
+1152 | [Analyze User Website Visit Pattern](https://leetcode.com/problems/analyze-user-website-visit-pattern/) | [Python](./Python/analyze-user-website-visit-pattern.py) | _O(n^3)_| _O(n^3)_| Medium |🔒| Hash |
+1817 | [Finding the Users Active Minutes](https://leetcode.com/problems/finding-the-users-active-minutes/)      | [Python](./Python/finding-the-users-active-minutes.py)      | _O(n)_         | _O(n)_     | Medium     ||
+3371 | [Identify the Largest Outlier in an Array](https://leetcode.com/problems/identify-the-largest-outlier-in-an-array/) | [Python](./Python/identify-the-largest-outlier-in-an-array.py) | _O(n)_ | _O(n)_ | Medium | | Freq Table
 
 ## Linked List
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 

@@ -3,9 +3,9 @@ class Solution:
       if not cd:
         return cwd
       if cd.startswith("/"):
-        cd = ""
+        cwd = ""
       cwd_tokens = cd.split("/")
-      tokens = [for token in cwd_tokens if token]
+      tokens = [token for token in cwd_tokens if token]
 
       for token in cd.split("/"):
         if not token:

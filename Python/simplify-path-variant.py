@@ -4,15 +4,13 @@ class Solution:
         return cwd
       if cd.startswith("/"):
         cwd = ""
-      cwd_tokens = cd.split("/")
+      cwd_tokens = cwd.split("/")
       tokens = [token for token in cwd_tokens if token]
 
       for token in cd.split("/"):
-        if not token:
+        if not token or token == '.':
             continue
-        if token == '.':
-            continue
-        if token == '..':
+        elif token == '..':
             if tokens:
                 tokens.pop()
         else:
@@ -28,6 +26,7 @@ class Solution:
 def test_simplifyPathVariant():
     cwd = "/a/b/c", 
     cd = "/d/./e"  
+    print(Solution().simplifyPathVariant(cwd, cd))
     assert Solution().simplifyPathVariant(cwd, cd) == "/d/e"
 
     cwd = ""
@@ -41,3 +40,5 @@ def test_simplifyPathVariant():
     cwd = "/a/b"
     cd = ".//c/../../d/f"
     assert Solution().simplifyPathVariant(cwd, cd) == "/a/d/f"
+
+test_simplifyPathVariant()

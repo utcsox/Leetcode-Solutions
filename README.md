@@ -285,7 +285,7 @@
 0680 | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/) | [Python](./Python/valid-palindrome-ii.py) | _O(n)_  | _O(1)_  | Easy    ||
 0791 | [Custom Sort String](https://leetcode.com/problems/custom-sort-string/) | [Python](./Python/custom-sort-string.py) | _O(n)_ | _O(1)_ | Medium         |||
 0819 | [Most Common Word](https://leetcode.com/problems/most-common-word/) |[Python](./Python/most-common-word.py) | _O(m + n)_ | _O(m + n)_ | Easy        |||
-0953 | [Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary/) | [Python](./Python/verifying-an-alien-dictionary.py) | _O(n * l)_ | _O(1)_      | Easy         ||
+0953 | [Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary/) | [Python](./Python/verifying-an-alien-dictionary.py) | _O(n * l)_ | _O(1)_      | Easy   ||
 1347 | [Minimum Number of Steps to Make Two Strings Anagram](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/) |  [Python](./Python/minimum-number-of-steps-to-make-two-strings-anagram.py) | _O(n)_ | _O(1)_ | Medium | |
 
 ## Tree
@@ -305,18 +305,19 @@
 ## Two Pointers
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
-0019| [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)| [Python](./Python/remove-nth-node-from-end-of-list.py) | _O(n)_       | _O(1)_         | Easy       || 
-0143| [Reorder List](https://leetcode.com/problems/reorder-list/)|[Python](./Python/reorder-list.py) | _O(n)_          |  _O(1)_         | Medium         || 
-0167| [Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [Python](./Python/two-sum-ii-input-array-is-sorted.py) | _O(n)_   | _O(1)_         | Medium         | |
+0019 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)| [Python](./Python/remove-nth-node-from-end-of-list.py) | _O(n)_       | _O(1)_         | Easy       || 
+0143 | [Reorder List](https://leetcode.com/problems/reorder-list/)|[Python](./Python/reorder-list.py) | _O(n)_          |  _O(1)_         | Medium         || 
+0167 | [Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [Python](./Python/two-sum-ii-input-array-is-sorted.py) | _O(n)_   | _O(1)_         | Medium         | |
 0209 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) | [Python](./Python/minimum-size-subarray-sum.py) | _O(n)_ | _O(1)_ |  Medium | | Binary Search, Sliding Window
 0283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [Python](./Python/move-zeroes.py) | _O(n)_ | _O(1)_          | Easy         | | 
-0287| [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)|[Python](./Python/find-the-duplicate-number.py)   | _O(n)_          | _O(1)_          | Medium       | | Binary Search, Two Pointers |
-0344| [Reverse String](https://leetcode.com/problems/reverse-string/) | [Python](./Python/reverse-string.py) | _O(n)_ | _O(1)_ | Easy         | |
-0345| [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/) | [Python](./Python/reverse-vowels-of-a-string.py) | _O(n)_ | _O(1)_ | Easy  
-0349| [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) |  [Python](./Python/intersection-of-two-arrays.py) | _O(m + n)_ | _O(min(m, n))_ | Easy         | EPI | Hash, Binary Search
+0283V| [Simplify_Path Variant](./Variants/move-zeroes.md)| [Python](./Python/move-zeroes-variant.py)   | _O(n)_        | _O(n)_     | Medium     ||
+0287 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)|[Python](./Python/find-the-duplicate-number.py)   | _O(n)_          | _O(1)_          | Medium       | | Binary Search, Two Pointers |
+0344 | [Reverse String](https://leetcode.com/problems/reverse-string/) | [Python](./Python/reverse-string.py) | _O(n)_ | _O(1)_ | Easy         | |
+0345 | [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/) | [Python](./Python/reverse-vowels-of-a-string.py) | _O(n)_ | _O(1)_ | Easy  
+0349 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) |  [Python](./Python/intersection-of-two-arrays.py) | _O(m + n)_ | _O(min(m, n))_ | Easy         | EPI | Hash, Binary Search
 0424 | [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) |[Python](./Python/longest-repeating-character-replacement.py) | _O(n)_| _O(1)_| Medium || Sliding Window |
-0350| [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) |  [Python](./Python/intersection-of-two-arrays-ii.py) | _O(m + n)_ | _O(1)_ | Easy         ||
-0567| [Permutation in String](https://leetcode.com/problems/permutation-in-string/) | [Python](./Python/permutation-in-string.py) | _O(n)_ | _O(1)_ | Medium         ||
+0350 | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | [Python](./Python/intersection-of-two-arrays-ii.py) | _O(m + n)_ | _O(1)_ | Easy     ||
+0567 | [Permutation in String](https://leetcode.com/problems/permutation-in-string/) | [Python](./Python/permutation-in-string.py) | _O(n)_ | _O(1)_ | Medium         ||
 1004 | [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/) | [Python](./Python/max-consecutive-ones-iii.py) | _O(n)_ | _O(1)_ | Medium || Sliding Window
 1248 | [Count Number of Nice Subarrays](https://leetcode.com/problems/count-number-of-nice-subarrays/) | [Python](./Python/count-number-of-nice-subarrays.py) | _O(n)_ | _O(k)_ | Medium         | variant of [Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/) | Two Pointers, Sliding Window
 1493 | [Longest Subarray of 1's After Deleting One Element](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/) | [Python](./Python/longest-subarray-of-1s-after-deleting-one-element.py) | _O(n)_ | _O(1)_ |  Medium | | Sliding Window

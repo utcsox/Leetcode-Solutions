@@ -299,6 +299,7 @@
 0572 | [Subtree of Another Tree](https://leetcode.com/problems/construct-string-from-binary-tree/)| [Python](./Python/subtree-of-another-tree.py)| _O(m * n)_ | _O(h)_ | Easy | | |
 0863 | [All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/) | [Python](./Python/all-nodes-distance-k-in-binary-tree.py) | _O(n)_ | _O(n)_ | Medium || DFS + BFS |
 0938 | [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/) | [Python](./Python/range-sum-of-bst.py) | _O(n)_          | _O(h)_          | Easy           || DFS |
+0938V| [Range Sum of BST Variant](./Variants/range-sum-of-bst.md) | [Python](./Python/range-sum-of-bst-variant.py) | _O(n)_          | _O(h)_          | Easy           || DFS |
 0987 | [Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/) | [Python](./Python/vertical-order-traversal-of-a-binary-tree.py) | _O(nlogn)_          | _O(n)_          | Medium           || DFS |
 
 ## Two Pointers

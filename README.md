@@ -310,7 +310,7 @@
 0167 | [Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [Python](./Python/two-sum-ii-input-array-is-sorted.py) | _O(n)_   | _O(1)_         | Medium         | |
 0209 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) | [Python](./Python/minimum-size-subarray-sum.py) | _O(n)_ | _O(1)_ |  Medium | | Binary Search, Sliding Window
 0283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [Python](./Python/move-zeroes.py) | _O(n)_ | _O(1)_          | Easy         | | 
-0283V| [Simplify_Path Variant](./Variants/move-zeroes.md)| [Python](./Python/move-zeroes-variant.py)   | _O(n)_        | _O(n)_     | Medium     ||
+0283V| [Move Zeroes Variant](./Variants/move-zeroes.md)| [Python](./Python/move-zeroes-variant.py)   | _O(n)_        | _O(n)_     | Medium     ||
 0287 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)|[Python](./Python/find-the-duplicate-number.py)   | _O(n)_          | _O(1)_          | Medium       | | Binary Search, Two Pointers |
 0344 | [Reverse String](https://leetcode.com/problems/reverse-string/) | [Python](./Python/reverse-string.py) | _O(n)_ | _O(1)_ | Easy         | |
 0345 | [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/) | [Python](./Python/reverse-vowels-of-a-string.py) | _O(n)_ | _O(1)_ | Easy  

@@ -207,17 +207,18 @@
 ## Math
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
-0007| [Reverse Integer](https://leetcode.com/problems/reverse-integer/) |[Python](./Python/reverse-integer.py) | _O(1)_ | _O(1)_         | Easy           ||
-0013| [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | [Python](./Python/roman-to-integer.py) | _O(n)_ | _O(1)_          | Easy           ||
+0007 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) |[Python](./Python/reverse-integer.py) | _O(1)_ | _O(1)_         | Easy           ||
+0013 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | [Python](./Python/roman-to-integer.py) | _O(n)_ | _O(1)_          | Easy           ||
 0050 | [Pow(x, n)](https://leetcode.com/problems/powx-n/)     | [Python](./Python/powx-n.py)     | _O(logn)_       | _O(1)_       | Medium         ||
-0168| [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/) | [Python](./Python/excel-sheet-column-title.py) | _O(logn)_ | _O(1)_ | Easy ||
-0171| [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/) | [Python](./Python/excel-sheet-column-number.py) | _O(n)_ | _O(1)_ | Easy  ||
-0326| [Power of Three](https://leetcode.com/problems/power-of-three/) | [Python](./Python/power-of-three.py) | _O(1)_ | _O(1)_ | Easy |||  
-0338| [Counting Bits](https://leetcode.com/problems/counting-bits/) | [Python](./Python/counting-bits.py) | _O(n)_ | _O(n)_ | Medium |||
+0168 | [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/) | [Python](./Python/excel-sheet-column-title.py) | _O(logn)_ | _O(1)_ | Easy ||
+0171 | [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/) | [Python](./Python/excel-sheet-column-number.py) | _O(n)_ | _O(1)_ | Easy  ||
+0326 | [Power of Three](https://leetcode.com/problems/power-of-three/) | [Python](./Python/power-of-three.py) | _O(1)_ | _O(1)_ | Easy |||  
+0338 | [Counting Bits](https://leetcode.com/problems/counting-bits/) | [Python](./Python/counting-bits.py) | _O(n)_ | _O(n)_ | Medium |||
 0398 | [Random Pick Index](https://leetcode.com/problems/random-pick-index/) |  [Python](./Python/random-pick-index.py) | ctor: _O(n)_<br>pick: _O(1)_ | _O(n)_ | Medium || `Reservoir Sampling`, Hash Table |
-0528| [Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/) |[Python](./Python/random-pick-with-weight.py) | ctor: _O(n)_ <br> pick: _O(logn)_ | _O(n)_ | Medium |||
-1492| [The kth Factor of n](https://leetcode.com/problems/the-kth-factor-of-n/) |[Python](./Python/the-kth-factor-of-n.py) | _O(sqrt(n))_ | _O(1)_ |  Medium | |
-1904| [The Number of Full Rounds You Have Played](https://leetcode.com/problems/the-number-of-full-rounds-you-have-played/) | [Python](./Python/the-number-of-full-rounds-you-have-played.py) | _O(1)_ | _O(1)_ | Medium |  | |
+0528 | [Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/) |[Python](./Python/random-pick-with-weight.py) | ctor: _O(n)_ <br> pick: _O(logn)_ | _O(n)_ | Medium |||
+0528V| [Simplify_Path Variant](./Variants/random-pick-with-weight.md)| [Python](./Python/random-pick-with-weight-variant.py)   | ctor: _O(n)_ <br> pick: _O(logn)_ | _O(n)_ | Medium |||
+1492 | [The kth Factor of n](https://leetcode.com/problems/the-kth-factor-of-n/) |[Python](./Python/the-kth-factor-of-n.py) | _O(sqrt(n))_ | _O(1)_ |  Medium | |
+1904 | [The Number of Full Rounds You Have Played](https://leetcode.com/problems/the-number-of-full-rounds-you-have-played/) | [Python](./Python/the-number-of-full-rounds-you-have-played.py) | _O(1)_ | _O(1)_ | Medium |  | |
 
 ## Recursion
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 

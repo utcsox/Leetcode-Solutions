@@ -60,6 +60,8 @@
 ## Binary Heap
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
+0378 | [Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) | [Python](./Python/kth-smallest-element-in-a-sorted-matrix.py) | _O(k * log(min(n, m, k)))_ | _O(min(n, m, k))_ | Medium | LintCode ||
+
 0703 | [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/) |[Python](./Python/kth-largest-element-in-a-stream.py) | _O(nlogk)_ | _O(k)_ | Easy |||
 1046 | [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/) | [Python](./Python/last-stone-weight.py) | _O(nlogn)_ | _O(n)_ | Easy |||
 

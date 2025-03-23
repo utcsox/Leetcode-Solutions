@@ -164,7 +164,7 @@
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
 0055 | [Jump Game](https://leetcode.com/problems/jump-game/)     |[Python](./Python/jump-game.py)  | _O(n)_          | _O(1)_          | Medium         ||
-0122|  [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)| [Python](./Python/best-time-to-buy-and-sell-stock-ii.py) | _O(n)_ | _O(1)_ | Easy ||
+0122 |  [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)| [Python](./Python/best-time-to-buy-and-sell-stock-ii.py) | _O(n)_ | _O(1)_ | Easy ||
 0392 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/)| [Python](./Python/is-subsequence.py)   | _O(n)_          | _O(1)_          | Medium         ||
 0435 | [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/) | [Python](./Python/non-overlapping-intervals.py) | _O(nlogn)_ | _O(1)_ | Medium | | Line Sweep
 0621 | [Task Scheduler](https://leetcode.com/problems/task-scheduler/) | [Python](./Python/task-scheduler.py) | _O(n)_ | _O(1)_ | Medium | |
@@ -190,6 +190,7 @@
 0560 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | [Python](./Python/subarray-sum-equals-k.py) | _O(n)_ | _O(n)_ | Medium         | |
 0599 | [Minimum Index Sum of Two Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists/) |[Python](./Python/minimum-index-sum-of-two-lists.py) | _O((m + n) * l)_ | _O(m * l)_ | Easy         | |
 0721 | [Accounts Merge](https://leetcode.com/problems/accounts-merge/) |[Python](./Python/accounts-merge.py) | _O(nlogn)_ | _O(n)_| Medium         || Union Find
+0721V| [Accounts Merge Variant](./Variants/accounts-merge.md) |[Python](./Python/accounts-merge-variant.py) | _O(nlogn)_ | _O(n)_| Medium         || Union Find
 0811 | [Subdomain Visit Count](https://leetcode.com/problems/subdomain-visit-count/) | [Python](./Python/subdomain-visit-count.py) | _O(n)_ | _O(n)_ | Medium ||
 1152 | [Analyze User Website Visit Pattern](https://leetcode.com/problems/analyze-user-website-visit-pattern/) | [Python](./Python/analyze-user-website-visit-pattern.py) | _O(n^3)_| _O(n^3)_| Medium |🔒| Hash |
 1817 | [Finding the Users Active Minutes](https://leetcode.com/problems/finding-the-users-active-minutes/)      | [Python](./Python/finding-the-users-active-minutes.py)      | _O(n)_         | _O(n)_     | Medium     ||

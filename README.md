@@ -23,6 +23,8 @@
 0163 | [Missing Ranges](https://leetcode.com/problems/missing-ranges/)| [Python](./Python/missing-ranges.py) | _O(n)_      | _O(1)_     | Medium    | 🔒 |
 0189 | [Rotate Array](https://leetcode.com/problems/rotate-array/)   |[Python](./Python/rotate-array.py) | _O(n)_ | _O(1)_         | Medium  ||
 0215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [Python](./Python/kth-largest-element-in-an-array.py)| _O(n)_ ~ _O(n^2)_ | _O(1)_ |  Medium | EPI|
+0215V1 | [Kth Largest Element in an Array Variant 1](./Variants/kth-largest-element-in-an-array.md) | [Python](./Python/kth-largest-element-in-an-array-variant1.py)| _O(n)_ ~ _O(n^2)_ | _O(1)_ |  Medium | EPI|
+0215V2 | [Kth Largest Element in an Array Variant 2]((./Variants/kth-largest-element-in-an-array.md)) | [Python](./Python/kth-largest-element-in-an-array-variant2.py)| _O(n)_ ~ _O(n^2)_ | _O(1)_ |  Medium | EPI|
 0238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | [Python](./Python/product-of-array-except-self.py) | _O(n)_ | _O(1)_          | Medium    | LintCode |
 0240 | [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/) | [Python](./Python/search-a-2d-matrix-ii.py) | _O(m + n)_ | _O(1)_ | Medium   | EPI, LintCode |
 0243 | [Shortest Word Distance](https://leetcode.com/problems/shortest-word-distance/)| [Python](./Python/shortest-word-distance.py)  | _O(n)_ |  _O(1)_ | Easy         |🔒||

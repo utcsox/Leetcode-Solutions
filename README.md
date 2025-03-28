@@ -75,8 +75,9 @@
 0035 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [Python](./Python/search-insert-position.py) | _O(logn)_ | _O(1)_   | Easy         ||
 0074 | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | [Python](./Python/search-a-2d-matrix.py) | _O(logm + logn)_ | _O(1)_ | Medium   ||
 0081 |[Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) |  [Python](./Python/search-in-rotated-sorted-array-ii.py) | _O(logn)_ ~ _O(n)_ | _O(1)_   | Medium     | CTCI |
-0153 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)         | [Python](./Python/find-minimum-in-rotated-sorted-array.py)      | _O(logn)_        | _O(1)_      | Medium     ||
+0153 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)  | [Python](./Python/find-minimum-in-rotated-sorted-array.py)    | _O(logn)_    | _O(1)_     | Medium     ||
 0162 | [Find Peak Element](https://leetcode.com/problems/find-peak-element/) | [Python](./Python/find-peak-element.py)        | _O(logn)_       | _O(1)_          | Medium         ||
+0162V| [Find Peak Element Variant](./Variants/find-peak-element.md) | [Python](./Python/find-peak-element.py)        | _O(logn)_       | _O(1)_          | Medium         ||
 0278 | [First Bad Version](https://leetcode.com/problems/first-bad-version/) | [Python](./Python/first-bad-version.py)  | _O(logn)_ | _O(1)_ | Easy         | LintCode ||
 0367 | [Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/)|  [Python](./Python/valid-perfect-square.py)   | _O(logn)_          | _O(1)_          | Easy  
 0374 | [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/)|[Python](./Python/guess-number-higher-or-lower.py)   | _O(logn)_          | _O(1)_          | Easy         | |
@@ -91,7 +92,7 @@
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
 0230 | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | [Python](./Python/kth-smallest-element-in-a-bst.py) | _O(max(h, k))_ | _O(min(h, k))_ | Medium ||
 0235 | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [Python](./Python/lowest-common-ancestor-of-a-binary-search-tree.py) | _O(h)_ | _O(1)_ | Easy | EPI |
-0270| [Closest Binary Search Tree Value](https://leetcode.com/problems/closest-binary-search-tree-value/)| [Python](./Python/closest-binary-search-tree-value.py)   | _O(h)_          | _O(1)_          | Easy         | |
+0270| [Closest Binary Search Tree Value](https://leetcode.com/problems/closest-binary-search-tree-value/)| [Python](./Python/closest-binary-search-tree-value.py)   | _O(h)_     | _O(1)_    | Easy     | |
 0450|[Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/)| [Python](./Python/delete-node-in-a-bst.py)| _O(h)_ | _O(h)_ | Medium | | |
 
 ## Bit Manipulation
@@ -143,16 +144,16 @@
 ## Dynamic Programming
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
-0053| [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[Python](./Python/maximum-subarray.py)| _O(n)_     | _O(1)_         | Medium         ||
-0062| [Unique Paths](https://leetcode.com/problems/unique-paths/)    | [Python](./Python/unique-paths.py)| _O(m * n)_      | _O(m + n)_   | Medium         ||
-0063| [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) | [Python](./Python/unique-paths-ii.py) |  _O(m * n)_ | _O(m + n)_   | Medium         ||
-0070| [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|  [Python](./Python/climbing-stairs.py) | _O(logn)_    | _O(1)_          | Easy           || Matrix Exponentiation
-0096| [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/) | [Python](./Python/unique-binary-search-trees.py) | _O(n)_      | _O(1)_         | Medium         || Math
+0053 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[Python](./Python/maximum-subarray.py)| _O(n)_     | _O(1)_         | Medium         ||
+0062 | [Unique Paths](https://leetcode.com/problems/unique-paths/)    | [Python](./Python/unique-paths.py)| _O(m * n)_      | _O(m + n)_   | Medium         ||
+0063 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) | [Python](./Python/unique-paths-ii.py) |  _O(m * n)_ | _O(m + n)_   | Medium         ||
+0070 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|  [Python](./Python/climbing-stairs.py) | _O(logn)_    | _O(1)_          | Easy           || Matrix Exponentiation
+0096 | [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/) | [Python](./Python/unique-binary-search-trees.py) | _O(n)_      | _O(1)_         | Medium         || Math
 0123 | [Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/) | [Python](./Python/best-time-to-buy-and-sell-stock-iii.py) | _O(n)_ | _O(1)_ | Hard ||
 0152 | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)|[Python](./Python/maximum-product-subarray.py)| _O(n)_ | _O(1)_ | Medium     ||
 0198 | [House Robber](https://leetcode.com/problems/house-robber/)| [Python](./Python/house-robber.py) | _O(n)_          | _O(1)_          | Medium       ||
 0213 | [House Robber II](https://leetcode.com/problems/house-robber-ii/)| [Python](./Python/house-robber-ii.py) | _O(n)_    | _O(1)_      | Medium           ||
-0303| [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)| [Python](./Python/range-sum-query-immutable.py) | ctor: _O(n)_, lookup: _O(1)_          | _O(n)_          | Easy           ||
+0303 | [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)| [Python](./Python/range-sum-query-immutable.py) | ctor: _O(n)_, lookup: _O(1)_      | _O(n)_      | Easy       ||
 0322 | [Coin Change](https://leetcode.com/problems/coin-change/) | [Python](./Python/coin-change.py) | _O(n * k)_ | _O(k)_ | Medium ||
 0718 | [Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/) | [Python](./Python/maximum-length-of-repeated-subarray.py) | _O(m * n)_ | _O(min(m, n))_ | Medium || DP, Hash, Binary Search
 

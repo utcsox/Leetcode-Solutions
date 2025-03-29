@@ -245,6 +245,7 @@
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
 0056 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/)|  [Python](./Python/merge-intervals.py) | _O(nlogn)_  | _O(1)_        | Medium    ||
+0056V| [Merge Intervals Variant](./Variants/merge-intervals.md)|  [Python](./Python/merge-intervals-variant.py) | _O(nlogn)_  | _O(1)_        | Medium    ||
 0057 | [Insert Interval](https://leetcode.com/problems/insert-interval/)|[Python](./Python/insert-interval.py) | _O(n)_    | _O(1)_          | Medium           ||
 0075 | [Sort Colors](https://leetcode.com/problems/sort-colors/)   | [Python](./Python/sort-colors.py) | _O(n)_         | _O(1)_          | Medium         || Tri Partition
 0088 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)| [Python](./Python/merge-sorted-array.py) | _O(n)_ | _O(1)_       | Easy           ||

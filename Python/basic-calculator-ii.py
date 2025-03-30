@@ -1,4 +1,4 @@
-class Solution:
+class Solution1:
     def calculate(self, s: str) -> int:
 
         if len(s) == 0:
@@ -30,3 +30,48 @@ class Solution:
                 op = st
 
         return sum(output)
+
+class Solution2:
+    def calculate(self, s: str) -> int:
+        if not s:
+            return 0
+
+        res, prev, curr, i = 0, 0, 0, 0
+        sign = "+"
+
+        while i < len(s):
+            symbol = s[i]
+            if symbol.isdigit():
+                while i < len(s) and s[i].isdigit():
+                    curr = curr * 10  + int(s[i])
+                    i += 1
+                i -= 1
+
+                if sign == "+":
+                    res += curr
+                    prev = curr
+
+                elif sign == "-":
+                    res -= curr
+                    prev = -curr
+
+                elif sign == "*":
+                    res -= prev
+                    res += prev * curr
+                    prev = prev * curr
+
+                else:
+                    print(f"sign: {sign} symbol: {symbol}")
+                    res -= prev
+                    res += int(prev / curr)
+                    prev = int(prev/ curr)
+
+                curr = 0
+
+            elif not symbol.isspace():
+                sign = symbol
+
+            i += 1
+
+        return res
+

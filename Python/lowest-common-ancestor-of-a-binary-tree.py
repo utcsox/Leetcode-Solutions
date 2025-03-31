@@ -5,7 +5,7 @@
 #         self.left = None
 #         self.right = None
 
-class Solution:
+class Solution1:
     def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
         def helper(node,  p, q):
 
@@ -28,3 +28,52 @@ class Solution:
                 return left
             
         return helper(root, p, q)
+        
+class Solution2:
+    def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
+
+        parents = {root: None}
+
+        stack = [root]
+
+        while stack:
+            node = stack.pop()
+            if node.left:
+                parents[node.left] = node
+                stack.append(node.left)
+
+
+            if node.right:
+                parents[node.right] = node
+                stack.append(node.right)
+
+        ancestors = set()
+
+        p_cp, q_cp = p, q
+
+        while p_cp != q_cp:
+            if p_cp:
+                p_cp = parents[p_cp]
+
+            else:
+                p_cp = q
+
+            if q_cp:
+                q_cp = parents[q_cp]
+
+            else:
+                q_cp = p
+
+        return p_cp
+
+
+        # while p:
+        #     ancestors.add(p)
+        #     p = parents[p]
+
+        # while q:
+        #     if q in ancestors:
+        #         return q
+
+        #     q = parents[q]
+            

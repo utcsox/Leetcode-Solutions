@@ -3,24 +3,25 @@ class Solution:
         """
         Do not return anything, modify nums in-place instead.
         """  
-        k = - 1
-        
-        # 1.  Find the element stop increasing as k
-        for index in range(len(nums)-1):
-            if nums[index] < nums[index+1]:
-                k = index
-                
-        # if k is sill - 1, it means we need to reverse the number
-        if k == - 1:
+
+        pivot, swap = -1, -1
+
+        # 1.  Find the element stop increasing as the pivot
+        for index in range(len(nums) - 1):
+            if nums[index + 1] > nums[index]:
+                pivot = index
+
+        # 2.  If the list is strictly decreasing, return the reverse
+        if pivot == -1:
             return nums.reverse()
+
+        # 3.  Identify the swap index to swap with the pivot index
+        for index in range(pivot + 1, len(nums)):
+            if nums[index] > nums[pivot]:
+                swap = index
+
+        # 4.  Swap the index between pivot and swap
+        # 5.  reverse the remaining elements from k+1: to end
         
-        # 2. Identity the element from k+1 to the end that is bigger than k
-        sindex = 0
-        for index in range(k+1, len(nums)):
-            if nums[index] > nums[k]:
-                sindex = index
-                 
-        # 3.  Swap the element from #2 with the element from k
-        # 4.  reverse the remaining elements from k+1:
-        nums[k], nums[sindex] = nums[sindex], nums[k] 
-        nums[k+1: ] = nums[:k:-1]
+        nums[pivot], nums[swap] = nums[swap], nums[pivot]
+        nums[pivot + 1:] = reversed(nums[pivot + 1:])

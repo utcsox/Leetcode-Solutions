@@ -6,24 +6,24 @@ def prevPermutation_31(nums):
         nums: A list of integers.
     """
 
-    k = -1
+    pivot = -1
 
     for index in range((len(nums) - 1)):
       if nums[index] > nums[index + 1]:
-        k = index
+        pivot = index
 
-    if k == -1:
+    if pivot == -1:
       nums.reverse()
       return
 
-    sindex = 0
+    swap = 0
 
-    for index in range(k + 1, len(nums)):
-      if nums[index] < nums[k]:
-        sindex = index
+    for index in range(pivot + 1, len(nums)):
+      if nums[index] < nums[pivot]:
+        swap = index
 
-    nums[k], nums[sindex] = nums[sindex], nums[k]
-    nums[k+1: ] = reversed(nums[k+1: ])
+    nums[pivot], nums[swap] = nums[swap], nums[pivot]
+    nums[pivot + 1: ] = reversed(nums[pivot + 1: ])
 
 
 def test_prevPermutation_31():

@@ -18,6 +18,7 @@
 0118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)|  [Python](./Python/pascals-triangle.py) | _O(n^2)_ | _O(1)_     | Easy    || 
 0110 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle-ii/)| [C++](./C++/pascals-triangle.cpp) [Python](./Python/pascals-triangle-ii.py) | _O(n^2)_ | _O(1)_   | Easy    || 
 0121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|[Python](./Python/best-time-to-buy-and-sell-stock.py) | _O(n)_ | _O(1)_ | Easy ||
+0121V| [Best Time to Buy and Sell Stock Variant](./Variants/best-time-to-buy-and-sell-stock.md)|[Python](./Python/best-time-to-buy-and-sell-stock-variant.py) | _O(n)_ | _O(1)_ | Easy ||
 0128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)| [Python](./Python/longest-consecutive-sequence.py) | _O(n)_ | _O(n)_ | Medium         || Tricky
 0157 | [Read N Characters Given Read4](https://leetcode.com/problems/read-n-characters-given-read4/) |  [Python](./Python/read-n-characters-given-read4.py) | _O(n)_ | _O(1)_ | Easy           |🔒|
 0163 | [Missing Ranges](https://leetcode.com/problems/missing-ranges/)| [Python](./Python/missing-ranges.py) | _O(n)_      | _O(1)_     | Medium    | 🔒 |

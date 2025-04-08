@@ -1,4 +1,4 @@
-class Solution:
+class Solution1:
     def searchRange(self, nums: List[int], target: int) -> List[int]:
 
         def binary_search(nums, target, lflag):
@@ -21,3 +21,20 @@ class Solution:
         l = binary_search(nums, target, 1)
         r = binary_search(nums, target, 0)
         return [l, r]
+
+class Solution2:
+    def searchRange(self, nums: List[int], target: int) -> List[int]:
+        if not nums:
+            return [-1, -1]
+
+        start, end = -1, -1
+        l = bisect.bisect_left(nums, target)
+        r = bisect.bisect_right(nums, target)
+
+        if l < len(nums) and nums[l] == target:
+            start = l
+
+        if nums[r - 1] == target:
+            end = r - 1
+
+        return[start, end]

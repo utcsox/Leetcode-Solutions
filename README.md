@@ -272,9 +272,11 @@
 0101 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)| [Python](./Python/symmetric-tree.py) | _O(n)_      | _O(h)_        | Easy       ||
 0150 | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)| [Python](./Python/evaluate-reverse-polish-notation.py)| _O(n)_| _O(n)_| Medium    ||
 0227 | [Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/) | [Python](./Python/basic-calculator-ii.py) | _O(n)_| _O(n)_| Medium || 
-0636 | [Exclusive Time of Functions](https://leetcode.com/problems/exclusive-time-of-functions/) | [Python](./Python/exclusive-time-of-functions.py) | _O(n)_  | _O(n)_         | Medium           ||
+0636 | [Exclusive Time of Functions](https://leetcode.com/problems/exclusive-time-of-functions/) | [Python](./Python/exclusive-time-of-functions.py) | _O(n)_  | _O(n)_       | Medium        ||
 0682 | [Baseball Game](https://leetcode.com/problems/baseball-game/) | [Python](./Python/baseball-game.py) | _O(n)_  | _O(n)_         | Easy           ||
 0739 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) |  [Python](./Python/daily-temperatures.py) | _O(n)_  | _O(n)_         | Medium           ||
+0921 | [Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/) | [Python](./Python/minimum-add-to-make-parentheses-valid.py) | _O(n)_ | _O(1)_   | Medium      ||
+0921V| [Minimum Add to Make Parentheses Valid Variant](./Variants/minimum-add-to-make-parentheses-valid.md) | [Python](./Python/minimum-add-to-make-parentheses-valid-variant.py) | _O(n)_ | _O(1)_   | Medium      ||
 
 ## String
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 

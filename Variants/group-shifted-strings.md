@@ -9,7 +9,7 @@ Return the result after rotating the input string a number of times equal to rot
 
 Example 1:
   Input: string = "minMerz-894", rotationalFactor = 5
-  Output: "rnRjwe-349"
+  Output: "rnsRjwe-349"
 
 Example 2:
   Input: strings = "XYZ_abo_112288", rotationalFactor = 39
@@ -18,4 +18,3 @@ Example 2:
 Constraints:
 * 1 <= string.length <= 1,000,000
 * 0 <= rotationalFactor <= 1,000,000
-  

@@ -279,6 +279,7 @@
 0739 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) |  [Python](./Python/daily-temperatures.py) | _O(n)_  | _O(n)_         | Medium           ||
 0921 | [Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/) | [Python](./Python/minimum-add-to-make-parentheses-valid.py) | _O(n)_ | _O(1)_   | Medium      ||
 0921V| [Minimum Add to Make Parentheses Valid Variant](./Variants/minimum-add-to-make-parentheses-valid.md) | [Python](./Python/minimum-add-to-make-parentheses-valid-variant.py) | _O(n)_ | _O(1)_   | Medium      ||
+1047 | [Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/) |[Python](./Python/remove-all-adjacent-duplicates-in-string.py) | _O(n)_ | _O(n)_      | Easy         ||
 
 ## String
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 

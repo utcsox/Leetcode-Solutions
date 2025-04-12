@@ -294,7 +294,7 @@
 0067 | [Add Binary](https://leetcode.com/problems/add-binary/)    | [Python](./Python/add-binary.py) | _O(n)_          | _O(1)_          | Easy           ||
 0076 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | [Python](./Python/minimum-window-substring.py) | _O(n)_ | _O(k)_ | Hard          ||
 0125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) |  [Python](./Python/valid-palindrome.py) | _O(n)_  | _O(1)_    | Easy  | Blind 75 ||
-0125V| [Valid Palindrome Variant](./Variantsvalid-palindrome.md) |  [Python](./Python/valid-palindrome-variant.py) | _O(n)_  | _O(1)_    | Easy  | Blind 75 ||
+0125V| [Valid Palindrome Variant](./Variants/valid-palindrome.md) |  [Python](./Python/valid-palindrome-variant.py) | _O(n)_  | _O(1)_    | Easy  | Blind 75 ||
 0151 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) |[Python](./Python/reverse-words-in-a-string.py) | _O(n)_ | _O(1)_ | Medium   ||
 0271 | [Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/) | [Python](./Python/encode-and-decode-strings.py) | _O(n)_ | _O(1)_ | Medium         | 🔒 |
 0383 | [Ransom Note](https://leetcode.com/problems/ransom-note/) | [Python](./Python/ransome-note.py) | _O(n)_ | _O(1)_ | Easy         | |

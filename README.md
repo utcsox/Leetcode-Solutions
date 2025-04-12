@@ -55,9 +55,9 @@
 ## Backtracking
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
-0017| [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)| [Python](./Python/letter-combinations-of-a-phone-number.py) | _O(n * 4^n)_ | _O(n)_ | Medium ||
-0022| [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)| [Python](./Python/generate-parentheses.py)| _O(4^n / n^(3/2))_ | _O(n)_   | Medium         ||
-0078| [Subsets](https://leetcode.com/problems/subsets/)       | [Python](./Python/subsets.py)    | _O(n * 2^n)_    | _O(1)_          | Medium         ||
+0017 | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)| [Python](./Python/letter-combinations-of-a-phone-number.py) | _O(n * 4^n)_ | _O(n)_ | Medium ||
+0022 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)| [Python](./Python/generate-parentheses.py)| _O(4^n / n^(3/2))_ | _O(n)_   | Medium         ||
+0078 | [Subsets](https://leetcode.com/problems/subsets/)       | [Python](./Python/subsets.py)    | _O(n * 2^n)_    | _O(1)_          | Medium         ||
 0079 | [Word Search](https://leetcode.com/problems/word-search/) | [Python](./Python/word-search.py) | _O(m * n * 3^l)_ | _O(l)_ | Medium         ||
 0090 | [Subsets II](https://leetcode.com/problems/subsets-ii/)    | [Python](./Python/subsets-ii.py) | _O(n * 2^n)_    | _O(1)_     | Medium         ||
 
@@ -65,7 +65,6 @@
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
 0378 | [Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) | [Python](./Python/kth-smallest-element-in-a-sorted-matrix.py) | _O(k * log(min(n, m, k)))_ | _O(min(n, m, k))_ | Medium | LintCode ||
-
 0703 | [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/) |[Python](./Python/kth-largest-element-in-a-stream.py) | _O(nlogk)_ | _O(k)_ | Easy |||
 1046 | [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/) | [Python](./Python/last-stone-weight.py) | _O(nlogn)_ | _O(n)_ | Easy |||
 
@@ -77,7 +76,7 @@
 0034V| [Find First and Last Position of Element in Sorted Array Variant](./Variants/find-first-and-last-position-of-element-in-sorted-array.md) | [Python](./Python/find-first-and-last-position-of-element-in-sorted-array-variant.py) | _O(logn)_ | _O(1)_   | Medium         ||
 0035 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [Python](./Python/search-insert-position.py) | _O(logn)_ | _O(1)_   | Easy         ||
 0074 | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | [Python](./Python/search-a-2d-matrix.py) | _O(logm + logn)_ | _O(1)_ | Medium   ||
-0081 |[Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) |  [Python](./Python/search-in-rotated-sorted-array-ii.py) | _O(logn)_ ~ _O(n)_ | _O(1)_   | Medium     | CTCI |
+0081 | [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) |  [Python](./Python/search-in-rotated-sorted-array-ii.py) | _O(logn)_ ~ _O(n)_ | _O(1)_   | Medium     | CTCI |
 0153 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)  | [Python](./Python/find-minimum-in-rotated-sorted-array.py)    | _O(logn)_    | _O(1)_     | Medium     ||
 0162 | [Find Peak Element](https://leetcode.com/problems/find-peak-element/) | [Python](./Python/find-peak-element.py)        | _O(logn)_       | _O(1)_          | Medium         ||
 0162V| [Find Peak Element Variant](./Variants/find-peak-element.md) | [Python](./Python/find-peak-element-variant.py)        | _O(logn)_       | _O(1)_          | Medium         ||
@@ -95,14 +94,14 @@
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
 0230 | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | [Python](./Python/kth-smallest-element-in-a-bst.py) | _O(max(h, k))_ | _O(min(h, k))_ | Medium ||
 0235 | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [Python](./Python/lowest-common-ancestor-of-a-binary-search-tree.py) | _O(h)_ | _O(1)_ | Easy | EPI |
-0270| [Closest Binary Search Tree Value](https://leetcode.com/problems/closest-binary-search-tree-value/)| [Python](./Python/closest-binary-search-tree-value.py)   | _O(h)_     | _O(1)_    | Easy     | |
-0450|[Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/)| [Python](./Python/delete-node-in-a-bst.py)| _O(h)_ | _O(h)_ | Medium | | |
+0270 | [Closest Binary Search Tree Value](https://leetcode.com/problems/closest-binary-search-tree-value/)| [Python](./Python/closest-binary-search-tree-value.py)   | _O(h)_     | _O(1)_    | Easy     | |
+0450 | [Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/)| [Python](./Python/delete-node-in-a-bst.py)| _O(h)_ | _O(h)_ | Medium | | |
 
 ## Bit Manipulation
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
 0190 | [Reverse Bits](https://leetcode.com/problems/reverse-bits/)  | [Python](./Python/reverse-bits.py) | _O(1)_        | _O(1)_          | Easy           |||
-0191 |[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | [Python](./Python/number-of-1-bits.py) | _O(1)_ | _O(1)_          | Easy           |||
+0191 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | [Python](./Python/number-of-1-bits.py) | _O(1)_ | _O(1)_          | Easy           |||
 0268 | [Missing Number](https://leetcode.com/problems/missing-number/) | [Python](./Python/missing-number.py)  | _O(n)_ |  _O(1)_ | Medium         |  ||
 0342 | [Power of Four](https://leetcode.com/problems/power-of-four/) | [Python](./Python/power-of-four.py) | _O(1)_ | _O(1)_ | Easy | |
 0389 | [Find the Difference](https://leetcode.com/problems/find-the-difference/) | [Python](./Python/find-the-difference.py) | _O(n)_ | _O(1)_ | Easy | |
@@ -117,9 +116,9 @@
 0339 | [Nested List Weight Sum](https://leetcode.com/problems/nested-list-weight-sum/)| [Python](./Python/nested-list-weight-sum.py) | _O(N)_  | _O(N)_  | Medium ||
 0364 | [Nested List Weight Sum II](https://leetcode.com/problems/nested-list-weight-sum-ii/)| [Python](./Python/nested-list-weight-sum-ii.py) | _O(N)_  | _O(N)_  | Medium ||
 0490 | [The Maze](https://leetcode.com/problems/the-maze/)| [Python](./Python/the-maze.py) | _O(max(r, c) * w)_ | _O(w)_ | Medium | | |
-0994 |[Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)|  [Python](./Python/rotting-oranges.py)| _O(m * n)_ | _O(m * n)_ | Medium | | |
+0994 | [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)|  [Python](./Python/rotting-oranges.py)| _O(m * n)_ | _O(m * n)_ | Medium | | |
 1091 | [Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/)| [Python](./Python/shortest-path-in-binary-matrix.py)| _O(n^2)_ | _O(n)_ | Medium | | |
-9997 |[Zombie in Matrix](https://leetcode.com/discuss/interview-question/411357/)| [Python](./Python/zombie-in-matrix.py)| _O(m * n)_ | _O(m * n)_ | Medium | | |
+9997 | [Zombie in Matrix](https://leetcode.com/discuss/interview-question/411357/)| [Python](./Python/zombie-in-matrix.py)| _O(m * n)_ | _O(m * n)_ | Medium | | |
 
 ## Depth-First Search
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
@@ -127,12 +126,13 @@
 0112 | [Path Sum](https://leetcode.com/problems/path-sum/)      | [Python](./Python/path-sum.py)   | _O(n)_          | _O(h)_          | Easy           ||
 0113 | [Path Sum II](https://leetcode.com/problems/path-sum-ii/)   | [Python](./Python/path-sum-ii.py) | _O(n)_         | _O(h)_          | Medium         ||
 0199 | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) | [Python](./Python/binary-tree-right-side-view.py) | _O(n)_     | _O(h)_ | Medium  ||
+0199V| [Binary Tree Right Side View Variant](./Variants/binary-tree-right-side-view.md) | [Python](./Python/binary-tree-right-side-view-variant.py) | _O(n)_     | _O(h)_ | Medium  ||
 0200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | [Python](./Python/number-of-islands.py) | _O(m * n)_ | _O(m * n)_| Medium         ||
 0207 | [Course Schedule](https://leetcode.com/problems/course-schedule/)|[Python](./Python/course-schedule.py)   | _O(\|V\| + \|E\|)_          | _O(\|E\|)_          | Medium         || Topological Sort |
 0210 | [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)| [Python](./Python/course-schedule-ii.py)   | _O(\|V\| + \|E\|)_          | _O(\|E\|)_          | Medium         || Topological Sort |
 0236 | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [Python](./Python/lowest-common-ancestor-of-a-binary-tree.py) | _O(n)_ | _O(h)_ | Medium | EPI |
-0250| [Count Univalue Subtrees](https://leetcode.com/problems/count-univalue-subtrees) | [Python](./Python/count-univalue-subtrees.py)  | _O(n)_ | _O(h)_ | Medium         |🔒||
-0257| [Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/) |  [Python](./Python/binary-tree-paths.py)  | _O(n * h)_ | _O(h)_ | Easy         |||
+0250 | [Count Univalue Subtrees](https://leetcode.com/problems/count-univalue-subtrees) | [Python](./Python/count-univalue-subtrees.py)  | _O(n)_ | _O(h)_ | Medium         |🔒||
+0257 | [Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/) |  [Python](./Python/binary-tree-paths.py)  | _O(n * h)_ | _O(h)_ | Easy         |||
 
 ## Design
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
@@ -170,7 +170,7 @@
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
 0055 | [Jump Game](https://leetcode.com/problems/jump-game/)     |[Python](./Python/jump-game.py)  | _O(n)_          | _O(1)_          | Medium         ||
-0122 |  [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)| [Python](./Python/best-time-to-buy-and-sell-stock-ii.py) | _O(n)_ | _O(1)_ | Easy ||
+0122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)| [Python](./Python/best-time-to-buy-and-sell-stock-ii.py) | _O(n)_ | _O(1)_ | Easy ||
 0392 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/)| [Python](./Python/is-subsequence.py)   | _O(n)_          | _O(1)_          | Medium         ||
 0435 | [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/) | [Python](./Python/non-overlapping-intervals.py) | _O(nlogn)_ | _O(1)_ | Medium | | Line Sweep
 0621 | [Task Scheduler](https://leetcode.com/problems/task-scheduler/) | [Python](./Python/task-scheduler.py) | _O(n)_ | _O(1)_ | Medium | |

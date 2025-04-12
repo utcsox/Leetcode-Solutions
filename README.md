@@ -196,7 +196,7 @@
 0438 | [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) |  [Python](./Python/find-all-anagrams-in-a-string.py) | _O(n)_          | _O(1)_          | Easy           ||
 0523 | [Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/) |  [Python](./Python/continuous-subarray-sum.py) | _O(n)_          | _O(k)_       | Medium           ||
 0560 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | [Python](./Python/subarray-sum-equals-k.py) | _O(n)_ | _O(n)_ | Medium         | |
-0560V| [Subarray Sum Equals K Variant](./Variantssubarray-sum-equals-k.md) | [Python](./Python/subarray-sum-equals-k-variant.py) | _O(n)_ | _O(n)_ | Medium         | |
+0560V| [Subarray Sum Equals K Variant](./Variants/subarray-sum-equals-k.md) | [Python](./Python/subarray-sum-equals-k-variant.py) | _O(n)_ | _O(n)_ | Medium         | |
 0599 | [Minimum Index Sum of Two Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists/) |[Python](./Python/minimum-index-sum-of-two-lists.py) | _O((m + n) * l)_ | _O(m * l)_ | Easy         | |
 0721 | [Accounts Merge](https://leetcode.com/problems/accounts-merge/) |[Python](./Python/accounts-merge.py) | _O(nlogn)_ | _O(n)_| Medium         || Union Find
 0721V| [Accounts Merge Variant](./Variants/accounts-merge.md) |[Python](./Python/accounts-merge-variant.py) | _O(nlogn)_ | _O(n)_| Medium         || Union Find

@@ -76,18 +76,19 @@
 0034V| [Find First and Last Position of Element in Sorted Array Variant](./Variants/find-first-and-last-position-of-element-in-sorted-array.md) | [Python](./Python/find-first-and-last-position-of-element-in-sorted-array-variant.py) | _O(logn)_ | _O(1)_   | Medium         ||
 0035 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [Python](./Python/search-insert-position.py) | _O(logn)_ | _O(1)_   | Easy         ||
 0074 | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | [Python](./Python/search-a-2d-matrix.py) | _O(logm + logn)_ | _O(1)_ | Medium   ||
-0081 | [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) |  [Python](./Python/search-in-rotated-sorted-array-ii.py) | _O(logn)_ ~ _O(n)_ | _O(1)_   | Medium     | CTCI |
-0153 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)  | [Python](./Python/find-minimum-in-rotated-sorted-array.py)    | _O(logn)_    | _O(1)_     | Medium     ||
+0081 | [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) |  [Python](./Python/search-in-rotated-sorted-array-ii.py) | _O(logn)_ ~ _O(n)_ | _O(1)_  | Medium | CTCI |
+0153 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)  | [Python](./Python/find-minimum-in-rotated-sorted-array.py) | _O(logn)_    | _O(1)_  | Medium   ||
 0162 | [Find Peak Element](https://leetcode.com/problems/find-peak-element/) | [Python](./Python/find-peak-element.py)        | _O(logn)_       | _O(1)_          | Medium         ||
 0162V| [Find Peak Element Variant](./Variants/find-peak-element.md) | [Python](./Python/find-peak-element-variant.py)        | _O(logn)_       | _O(1)_          | Medium         ||
 0278 | [First Bad Version](https://leetcode.com/problems/first-bad-version/) | [Python](./Python/first-bad-version.py)  | _O(logn)_ | _O(1)_ | Easy         | LintCode ||
 0367 | [Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/)|  [Python](./Python/valid-perfect-square.py)   | _O(logn)_          | _O(1)_          | Easy  
-0374 | [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/)|[Python](./Python/guess-number-higher-or-lower.py)   | _O(logn)_          | _O(1)_          | Easy         | |
+0374 | [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/)|[Python](./Python/guess-number-higher-or-lower.py)   | _O(logn)_          | _O(1)_          | Easy         ||
 0658 | [Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/) | [Python](./Python/find-k-closest-elements.py) | _O(logn + k)_ | _O(1)_ | Medium | |
-0700 | [Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)| [Python](./Python/search-in-a-binary-search-tree.py)  | _O(logn)_      | _O(logn)_        | Easy         | |
+0700 | [Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)| [Python](./Python/search-in-a-binary-search-tree.py)  | _O(logn)_      | _O(logn)_        | Easy         ||
 0702 | [Search in a Sorted Array of Unknown Size](https://leetcode.com/problems/search-in-a-sorted-array-of-unknown-size/)| [Python](./Python/search-in-a-sorted-array-of-unknown-size.py)  | _O(logn)_      | _O(logn)_     | Easy      ||
 0875 | [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) | [Python](./Python/koko-eating-bananas.py) | _O(nlogr)_ | _O(1)_ | Medium | |
-1539 | [Kth Missing Positive Number](https://leetcode.com/problems/kth-missing-positive-number/) |  [Python](./Python/kth-missing-positive-number.py) | _O(logn)_ | _O(1)_ | Easy | |
+1539 | [Kth Missing Positive Number](https://leetcode.com/problems/kth-missing-positive-number/) |  [Python](./Python/kth-missing-positive-number.py) | _O(logn)_ | _O(1)_ | Easy ||
+1539V| [Kth Missing Positive Number Variant](./Variants/kth-missing-positive-number.md) |  [Python](./Python/kth-missing-positive-number-variant.py) | _O(logn)_ | _O(1)_ | Easy ||
 
 ## Binary Search Tree
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 

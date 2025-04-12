@@ -277,10 +277,10 @@
 0636 | [Exclusive Time of Functions](https://leetcode.com/problems/exclusive-time-of-functions/) | [Python](./Python/exclusive-time-of-functions.py) | _O(n)_  | _O(n)_       | Medium        ||
 0682 | [Baseball Game](https://leetcode.com/problems/baseball-game/) | [Python](./Python/baseball-game.py) | _O(n)_  | _O(n)_         | Easy           ||
 0739 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) |  [Python](./Python/daily-temperatures.py) | _O(n)_  | _O(n)_         | Medium           ||
-0921 | [Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/) | [Python](./Python/minimum-add-to-make-parentheses-valid.py) | _O(n)_ | _O(1)_   | Medium      ||
+0921 | [Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/) | [Python](./Python/minimum-add-to-make-parentheses-valid.py) | _O(n)_ | _O(1)_   | Medium     ||
 0921V| [Minimum Add to Make Parentheses Valid Variant](./Variants/minimum-add-to-make-parentheses-valid.md) | [Python](./Python/minimum-add-to-make-parentheses-valid-variant.py) | _O(n)_ | _O(1)_   | Medium      ||
-1047 | [Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/) |[Python](./Python/remove-all-adjacent-duplicates-in-string.py) | _O(n)_ | _O(n)_      | Easy         ||
-1047V| [Remove All Adjacent Duplicates In String Variant](./Variants/remove-all-adjacent-duplicates-in-string.md) |[Python](./Python/remove-all-adjacent-duplicates-in-string-variant.py) | _O(n)_ | _O(n)_      | Easy         ||
+1047 | [Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/) |[Python](./Python/remove-all-adjacent-duplicates-in-string.py) | _O(n)_ | _O(n)_      | Easy      ||
+1047V| [Remove All Adjacent Duplicates In String Variant](./Variants/remove-all-adjacent-duplicates-in-string.md) |[Python](./Python/remove-all-adjacent-duplicates-in-string-variant.py) | _O(n)_ | _O(n)_      | Easy       ||
 
 ## String
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
@@ -292,7 +292,7 @@
 0038 | [Count and Say](https://leetcode.com/problems/count-and-say/) | [Python](./Python/count-and-say.py)| _O(n * 2^n)_  | _O(2^n)_        | Easy           ||
 0043 | [Multiply Strings](https://leetcode.com/problems/multiply-strings/) | [Python](./Python/multiply-strings.py) | _O(m * n)_ | _O(m + n)_  | Medium         ||
 0067 | [Add Binary](https://leetcode.com/problems/add-binary/)    | [Python](./Python/add-binary.py) | _O(n)_          | _O(1)_          | Easy           ||
-0076 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | [Python](./Python/minimum-window-substring.py) | _O(n)_ | _O(k)_ | Hard          ||
+0076 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | [Python](./Python/minimum-window-substring.py) | _O(n)_ | _O(k)_ | Hard       ||
 0125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) |  [Python](./Python/valid-palindrome.py) | _O(n)_  | _O(1)_    | Easy  | Blind 75 ||
 0125V| [Valid Palindrome Variant](./Variants/valid-palindrome.md) |  [Python](./Python/valid-palindrome-variant.py) | _O(n)_  | _O(1)_    | Easy  | Blind 75 ||
 0151 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) |[Python](./Python/reverse-words-in-a-string.py) | _O(n)_ | _O(1)_ | Medium   ||
@@ -301,11 +301,11 @@
 0408 | [Valid Word Abbreviation](https://leetcode.com/problems/valid-word-abbreviation/) | [Python](./Python/valid-word-abbreviation.py) | _O(n)_ | _O(1)_ | Easy         | 🔒 |
 0415 | [Add Strings](https://leetcode.com/problems/add-strings/) | [Python](./Python/add-strings.py) | _O(n)_ | _O(1)_ | Easy         | |
 0468 | [Validate IP Address](https://leetcode.com/problems/validate-ip-address/) | [Python](./Python/validate-ip-address.py) | _O(1)_ | _O(1)_ | Medium         | |
-0557 | [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/) | [Python](./Python/reverse-words-in-a-string-iii.py) | _O(n)_ | _O(1)_ | Easy         | |
+0557 | [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/) | [Python](./Python/reverse-words-in-a-string-iii.py) | _O(n)_ | _O(1)_ | Easy      ||
 0647 | [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/) | [Python](./Python/palindromic-substrings.py) | _O(n)_ | _O(n)_ |  Medium||
 0680 | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/) | [Python](./Python/valid-palindrome-ii.py) | _O(n)_  | _O(1)_  | Easy    ||
-0791 | [Custom Sort String](https://leetcode.com/problems/custom-sort-string/) | [Python](./Python/custom-sort-string.py) | _O(n)_ | _O(1)_ | Medium         |||
-0819 | [Most Common Word](https://leetcode.com/problems/most-common-word/) |[Python](./Python/most-common-word.py) | _O(m + n)_ | _O(m + n)_ | Easy        |||
+0791 | [Custom Sort String](https://leetcode.com/problems/custom-sort-string/) | [Python](./Python/custom-sort-string.py) | _O(n)_ | _O(1)_ | Medium       ||
+0819 | [Most Common Word](https://leetcode.com/problems/most-common-word/) |[Python](./Python/most-common-word.py) | _O(m + n)_ | _O(m + n)_ | Easy        ||
 0824 | [Goat Latin](https://leetcode.com/problems/goat-latin/) | [Python](./Python/goat-latin.py) | _O(n + w^2)_ | _O(l)_ | Easy         |||
 0953 | [Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary/) | [Python](./Python/verifying-an-alien-dictionary.py) | _O(n * l)_ | _O(1)_      | Easy   ||
 1347 | [Minimum Number of Steps to Make Two Strings Anagram](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/) |  [Python](./Python/minimum-number-of-steps-to-make-two-strings-anagram.py) | _O(n)_ | _O(1)_ | Medium | |
@@ -319,10 +319,10 @@
 0145 | [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/) |  [Python](./Python/binary-tree-postorder-traversal.py) | _O(n)_| _O(1)_| Hard  || `Morris Traversal` 
 0226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | [Python](./Python/invert-binary-tree.py) | _O(n)_ | _O(h)_, _O(w)_ | Easy ||
 0543 | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) |  [Python](./Python/diameter-of-binary-tree.py) | _O(n)_ | _O(h)_ | Easy    || 
-0572 | [Subtree of Another Tree](https://leetcode.com/problems/construct-string-from-binary-tree/)| [Python](./Python/subtree-of-another-tree.py)| _O(m * n)_ | _O(h)_ | Easy | | |
+0572 | [Subtree of Another Tree](https://leetcode.com/problems/construct-string-from-binary-tree/)| [Python](./Python/subtree-of-another-tree.py)| _O(m * n)_ | _O(h)_ | Easy |  ||
 0863 | [All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/) | [Python](./Python/all-nodes-distance-k-in-binary-tree.py) | _O(n)_ | _O(n)_ | Medium || DFS + BFS |
-0938 | [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/) | [Python](./Python/range-sum-of-bst.py) | _O(n)_          | _O(h)_          | Easy           || DFS |
-0938V| [Range Sum of BST Variant](./Variants/range-sum-of-bst.md) | [Python](./Python/range-sum-of-bst-variant.py) | _O(n)_          | _O(h)_          | Easy           || DFS |
+0938 | [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/) | [Python](./Python/range-sum-of-bst.py) | _O(n)_         | _O(h)_          | Easy           || DFS |
+0938V| [Range Sum of BST Variant](./Variants/range-sum-of-bst.md) | [Python](./Python/range-sum-of-bst-variant.py)  | _O(n)_         | _O(h)_          | Easy           || DFS |
 0987 | [Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/) | [Python](./Python/vertical-order-traversal-of-a-binary-tree.py) | _O(nlogn)_          | _O(n)_          | Medium           || DFS |
 
 ## Two Pointers

@@ -36,12 +36,6 @@ class Solution:
       else:
         result[-1][1] = max(interval[1], result[-1][1]) 
 
-    
-    def try_merge(self, result, curr_interval):
-      if not result or curr_interval[0] > result[-1][1]:
-        result.append(curr_interval)
-      else:
-        result[-1][1] = max(curr_interval[1], result[-1][1])
 
 def test_merge_variant():
   

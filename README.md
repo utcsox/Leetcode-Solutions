@@ -119,6 +119,7 @@
 0490 | [The Maze](https://leetcode.com/problems/the-maze/)| [Python](./Python/the-maze.py) | _O(max(r, c) * w)_ | _O(w)_ | Medium | | |
 0994 | [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)|  [Python](./Python/rotting-oranges.py)| _O(m * n)_ | _O(m * n)_ | Medium | | |
 1091 | [Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/)| [Python](./Python/shortest-path-in-binary-matrix.py)| _O(n^2)_ | _O(n)_ | Medium | | |
+1091V| [Shortest Path in Binary Matrix Variant](./Variants/shortest-path-in-binary-matrix.md)| [Python](./Python/shortest-path-in-binary-matrix-variant.py)| _O(n^2)_ | _O(n)_ | Medium | | |
 9997 | [Zombie in Matrix](https://leetcode.com/discuss/interview-question/411357/)| [Python](./Python/zombie-in-matrix.py)| _O(m * n)_ | _O(m * n)_ | Medium | | |
 
 ## Depth-First Search

@@ -245,7 +245,7 @@
 0104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)| [Python](./Python/maximum-depth-of-binary-tree.py)| _O(n)_ | _O(h)_ | Easy | Blind 75|
 0110 | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) | [Python](./Python/balanced-binary-tree.py) | _O(n)_| _O(h)_   | Easy           ||
 0129 | [Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/) | [Python](./Python/sum-root-to-leaf-numbers.py) | _O(n)_ | _O(h)_ | Medium ||
-0129V| [Sum Root to Leaf Numbers Variant](./Variant/sum-root-to-leaf-numbers.md) | [Python](./Python/sum-root-to-leaf-numbers-variant.py) | _O(n)_ | _O(h)_ | Medium ||
+0129V| [Sum Root to Leaf Numbers Variant](./Variants/sum-root-to-leaf-numbers.md) | [Python](./Python/sum-root-to-leaf-numbers-variant.py) | _O(n)_ | _O(h)_ | Medium ||
 0404 | [Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/) | [Python](./Python/sum-of-left-leaves.py) | _O(n)_          | _O(h)_          | Easy           ||
 0437 | [Path Sum III](https://leetcode.com/problems/path-sum-iii/) | Python](./Python/path-sum-iii.py) | _O(n)_          | _O(h)_          | Easy           ||
 
@@ -262,7 +262,7 @@
 0253 | [Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/) | [Python](./Python/meeting-rooms-ii.py) | _O(nlogn)_   | _O(n)_        | Medium         |🔒| |
 0274 | [H-Index](https://leetcode.com/problems/h-index/) |  [Python](./Python/h-index.py)  | _O(n)_ | _O(n)_ | Medium         || Counting Sort |
 0347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) |[Python](./Python/top-k-frequent-elements.py) | _O(n)_ | _O(n)_        | Medium         | | Quick Select, Heap, Bucket Sort |
-0692 | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) |[Python](./Python/top-k-frequent-words.py) | _O(n + klogk)_ on average | _O(n)_        | Medium         | | Quick Select, Heap, Bucket Sort |
+0692 | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) |[Python](./Python/top-k-frequent-words.py) | _O(n + klogk)_ on average | _O(n)_        | Medium      | | Quick Select, Heap, Bucket Sort |
 0969 | [Pancake Sorting](https://leetcode.com/problems/pancake-sorting/) | [Python](./Python/pancake-sorting.py) | _O(n^2)_ | _O(l)_        | Medium         | | |
 0973 | [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) | [Python](./Python/k-closest-points-to-origin.py) | _O(n)_ on average | _O(1)_        | Medium         | | Quick Select, Heap|
 1094 | [Car Pooling](https://leetcode.com/problems/car-pooling/) |[Python](./Python/car-pooling.py) | _O(nlogn)_   | _O(n)_        | Medium         | variant of [Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/) |

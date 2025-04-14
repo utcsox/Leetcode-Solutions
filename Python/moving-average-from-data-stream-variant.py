@@ -12,14 +12,15 @@ class Solution:
       """
       res = [] 
       window_sum = 0
+      left = 0 
 
       for right in range(len(nums)):
-        window_sum += nums[right]
-        left = right - size
-        if left >= 0:
-          window_sum -= nums[left]
-        if right >= size - 1:
-          res.append(window_sum // size)
+        if right - left + 1 <= size:
+          window_sum += nums[right]
+          if right - left + 1 == size:
+            res.append(window_sum // size)
+            window_sum -= nums[left]
+            left += 1
 
       return res
 

@@ -5,24 +5,34 @@
 #         self.left = left
 #         self.right = right
 class Solution:
-    def closestValue(self, root: TreeNode, target: float) -> int:
-        
-        def helper(node, target):
-            
-            if not node:
-                return
-            
-            if abs(node.val - target) < abs(self.closest - target):
-                self.closest = node.val
-                
-            if target < node.val:
-                helper(node.left, target)
-                
-            else:
-                helper(node.right, target)
-            
+    def closestValue(self, root: Optional[TreeNode], target: float) -> int:
 
-        self.closest = root.val
-        helper(root, target)
+        if not root:
+            return -1
+
+        res = float("inf")
+
+        def helper(node):
         
-        return self.closest
+            nonlocal res
+            if not node:
+                return 
+
+            diff = abs(node.val - target)
+
+            if abs(res - target) == diff:
+                res = min(res, node.val)
+
+            if abs(res - target) > diff:
+                res = node.val
+
+            if node.val < target:
+                helper(node.right)
+
+            if node.val > target:
+                helper(node.left)
+
+            return res
+
+        return helper(root)
+        

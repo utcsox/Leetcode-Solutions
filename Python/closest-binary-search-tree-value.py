@@ -4,7 +4,7 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
-class Solution:
+class Solution1:
     def closestValue(self, root: Optional[TreeNode], target: float) -> int:
 
         if not root:
@@ -36,3 +36,28 @@ class Solution:
 
         return helper(root)
         
+class Solution2:
+    def closestValue(self, root: Optional[TreeNode], target: float) -> int:
+
+        if not root:
+            return -1
+
+        res = float("inf")
+
+        while root:
+            diff = abs(root.val - target)
+            
+            if abs(res - target) == diff:
+                res = min(res, root.val)
+
+            if abs(res - target) > diff:
+                res = root.val
+
+            if root.val > target:
+                root = root.left
+
+            else:
+                root = root.right
+
+
+        return res

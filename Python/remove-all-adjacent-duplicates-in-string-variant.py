@@ -1,26 +1,20 @@
 class Solution:
   def remove_all_adjacent_duplicates_variant_1047_python(self, s):
-      res = []
-
-      for char in s:
-        if not res:
-          res.append({"k": char, "v": 1})
-        elif res[-1]["k"] == char:
-          res[-1]["v"] += 1
+      stack = []
+      for i in range(len(s)):
+        if stack and stack[-1][0] == s[i]:
+            stack[-1][1] += 1
         else:
-          if res[-1]["k"] != char and res[-1]["v"] > 1:
-            res.pop()
-  
-          if res and res[-1]["k"] == char:
-            res[-1]["v"] += 1
+            stack.append([s[i],1])
+        if i == len(s)-1 or s[i] != s[i+1]:
+            if stack[-1][1] >= 2:
+              stack.pop()
 
-          else:
-            res.append({"k": char, "v": 1})
+      res = ''
+      for elem in stack:
+          res += elem[0] * elem[1]
+      return res
 
-      if res and res[-1]["v"] > 1:
-        res.pop()
-
-      return "".join([item["k"] for item in res])
 
 def test_remove_all_adjacent_duplicates_variant(): 
   solution = Solution()

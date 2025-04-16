@@ -1,21 +1,24 @@
 class Solution:
     def minimumAddToMakeValid(self, s: str) -> str:
-        res = []
-        balance = 0
+        res, extra_open = [], 0
         for c in s:
-            if c == '(':
-                balance += 1
-
-            if c == ")":
-              balance -= 1
-
-            if balance < 0:
-              res.append("(")
-              balance += 1
-            res.append(c)
+            
+            if c == "(":
+              extra_open += 1
                 
-        res += [')'] * balance
-        return "".join(res)
+            else:
+                if c == ")":
+                  if extra_open > 0:
+                    extra_open -= 1
+
+                  else:
+                    if c == ")":
+                      res.append("(")
+                      extra_open = 0
+
+            res.append(c)
+
+        return "".join(res) + ")" * extra_open
 
 def test_minimumAddToMakeValid():
   solution = Solution()

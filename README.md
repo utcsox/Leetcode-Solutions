@@ -211,6 +211,7 @@
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
 0002 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [Python](./Python/add-two-numbers.py) | _O(n)_   | _O(1)_          | Medium         ||
 0023 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) |  [Python](./Python/merge-k-sorted-lists.py) | _O(nlogk)_| _O(1)_| Hard        | | Heap, Divide and Conquer
+0023V| [Merge k Sorted Lists Variant](./Variants/merge-k-sorted-lists.md) |  [Python](./Python/merge-k-sorted-lists-variant.py) | _O(nlogk)_| _O(1)_| Hard        | | Heap, Divide and Conquer
 0021 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)| [Python](./Python/merge-two-sorted-lists.py) | _O(n)_ | _O(1)_ | Easy         ||
 0024 | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)| [Python](./Python/swap-nodes-in-pairs.py)   | _O(n)_          | _O(1)_          | Easy         ||
 0138 | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) | [Python](./Python/copy-list-with-random-pointer.py) | _O(n)_   | _O(1)_          | Medium         ||

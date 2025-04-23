@@ -4,9 +4,9 @@ Note:  Numbers are limited to digits `0-9`.  Additionally, you may not use the s
 
 **Example 1**
 
-  Input: num = [[3,4], [1,9], [3,4], [2,1]], target = 10
+  Input: num = [[3,4], [1,9], [3,4], [2,1], [9,1], [9,1], [7,6], [1,9]], target = 10
   Output: 6
 
 **Example 2**
-  Input: num = [[0,0], [0,0], [0,0], [0,0]], target = 10
+  Input: num = [[0,0], [0,0], [0,0], [0,0], [0,0]], target = 10
   Output: 10

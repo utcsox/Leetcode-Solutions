@@ -1,6 +1,5 @@
 class Solution:
     def find_valley_element(self, nums: List[int]) -> int:
-      print('ado')
 
       left, right = 0, len(nums) - 1
       while left <= right:

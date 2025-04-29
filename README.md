@@ -62,6 +62,7 @@
 0078 | [Subsets](https://leetcode.com/problems/subsets/)       | [Python](./Python/subsets.py)    | _O(n * 2^n)_    | _O(1)_          | Medium         ||
 0079 | [Word Search](https://leetcode.com/problems/word-search/) | [Python](./Python/word-search.py) | _O(m * n * 3^l)_ | _O(l)_ | Medium         ||
 0090 | [Subsets II](https://leetcode.com/problems/subsets-ii/)    | [Python](./Python/subsets-ii.py) | _O(n * 2^n)_    | _O(1)_     | Medium         ||
+0216 | [Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)| [Python](./Python/combination-sum-iii.py) | _O(k * C(n, k))_    | _O(k)_          | Medium         ||
 
 ## Binary Heap
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 

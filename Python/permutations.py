@@ -1,5 +1,22 @@
 class Solution1:
     def permute(self, nums: List[int]) -> List[List[int]]:
+        res, permutation = [], []
+        def backtrack():
+            if len(permutation) == len(nums):
+                res.append(permutation[:])
+                return
+
+            for num in nums:
+                if num not in permutation:
+                    permutation.append(num)
+                    backtrack()
+                    permutation.pop()  
+
+        backtrack()
+        return res
+
+class Solution2:
+    def permute(self, nums: List[int]) -> List[List[int]]:
         
         def helper(first = 0):
             if first == n:
@@ -15,7 +32,7 @@ class Solution1:
         helper()
         return output
     
-class Solution2:
+class Solution3:
     def permute(self, nums: List[int]) -> List[List[int]]:
         if (nums == None or len(nums)<=1):
             return [nums]

@@ -293,6 +293,7 @@
 0227 | [Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/) | [Python](./Python/basic-calculator-ii.py) | _O(n)_| _O(n)_| Medium || 
 0227V| [Basic Calculator II Variant](./Variants//basic-calculator-ii.md) | [Python](./Python/basic-calculator-ii-variant.py) | _O(n)_| _O(n)_| Medium || 
 0496 | [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/) | [Python](./Python/next-greater-element-i.py) | _O(m + n)_       | _O(m + n)_          | Easy         || Mono Stack |
+0503 | [Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii) | [Python](./Python/next-greater-element-ii.py) | _O(n)_       | _O(n)_          | Medium         || Mono Stack |
 0636 | [Exclusive Time of Functions](https://leetcode.com/problems/exclusive-time-of-functions/) | [Python](./Python/exclusive-time-of-functions.py) | _O(n)_  | _O(n)_       | Medium        ||
 0682 | [Baseball Game](https://leetcode.com/problems/baseball-game/) | [Python](./Python/baseball-game.py) | _O(n)_  | _O(n)_         | Easy           ||
 0739 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) |  [Python](./Python/daily-temperatures.py) | _O(n)_  | _O(n)_         | Medium           ||

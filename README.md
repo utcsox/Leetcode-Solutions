@@ -324,6 +324,7 @@
 0383 | [Ransom Note](https://leetcode.com/problems/ransom-note/) | [Python](./Python/ransome-note.py) | _O(n)_ | _O(1)_ | Easy         | |
 0408 | [Valid Word Abbreviation](https://leetcode.com/problems/valid-word-abbreviation/) | [Python](./Python/valid-word-abbreviation.py) | _O(n)_ | _O(1)_ | Easy         | 🔒 |
 0415 | [Add Strings](https://leetcode.com/problems/add-strings/) | [Python](./Python/add-strings.py) | _O(n)_ | _O(1)_ | Easy         | |
+0443 | [String Compression](https://leetcode.com/problems/string-compression/) | [Python](./Python/string-compression.py) | _O(n)_ | _O(1)_ | Easy         | |
 0468 | [Validate IP Address](https://leetcode.com/problems/validate-ip-address/) | [Python](./Python/validate-ip-address.py) | _O(1)_ | _O(1)_ | Medium         | |
 0557 | [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/) | [Python](./Python/reverse-words-in-a-string-iii.py) | _O(n)_ | _O(1)_ | Easy      ||
 0647 | [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/) | [Python](./Python/palindromic-substrings.py) | _O(n)_ | _O(n)_ |  Medium||

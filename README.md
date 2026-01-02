@@ -121,7 +121,8 @@
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
 0102 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)|  [Python](./Python/binary-tree-level-order-traversal.py)| _O(n)_| _O(n)_| Medium || 
-0103 | [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)| [Python](./Python/binary-tree-zigzag-level-order-traversal.py) | _O(n)_| _O(n)_| Medium  ||  
+0103 | [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)| [Python](./Python/binary-tree-zigzag-level-order-traversal.py) | _O(n)_| _O(n)_| Medium  || 
+0127 | [Word Ladder](https://leetcode.com/problems/word-ladder/)|[C++](./C++/word-ladder.cpp) [Python](./Python/word-ladder.py) | _O(b^(d/2))_      | _O(w * l)_          | Medium         | CTCI | Bi-BFS
 0133 | [Clone Graph](https://leetcode.com/problems/clone-graph/)| [Python](./Python/clone-graph.py)   | _O(n)_       | _O(n)_     | Medium         ||
 0286 | [Walls and Gates](https://leetcode.com/problems/walls-and-gates/)| [Python](./Python/walls-and-gates.py)   | _O(m * n)_          | _O(g)_          | Medium         | 🔒 |
 0339 | [Nested List Weight Sum](https://leetcode.com/problems/nested-list-weight-sum/)| [Python](./Python/nested-list-weight-sum.py) | _O(N)_  | _O(N)_  | Medium ||

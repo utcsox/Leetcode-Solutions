@@ -278,6 +278,7 @@
 0075 | [Sort Colors](https://leetcode.com/problems/sort-colors/)   | [Python](./Python/sort-colors.py) | _O(n)_         | _O(1)_          | Medium         || Tri Partition
 0088 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)| [Python](./Python/merge-sorted-array.py) | _O(n)_ | _O(1)_       | Easy           ||
 0088V| [Merge Sorted Array Variant](./Variants/merge-sorted-array.md)| [Python](./Python/merge-sorted-array-variant.py) | _O(n)_ | _O(1)_       | Easy           ||
+0179 | [Largest Number](https://leetcode.com/problems/largest-number/) | [Python](./Python/largest-number.py) | _O(nlogn)_   | _O(1)_        | Medium         ||
 0252 | [Meeting Rooms](https://leetcode.com/problems/meeting-rooms/) |[Python](./Python/meeting-rooms.py) | _O(nlogn)_   | _O(n)_        | Easy         |🔒| |
 0253 | [Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/) | [Python](./Python/meeting-rooms-ii.py) | _O(nlogn)_   | _O(n)_        | Medium         |🔒| |
 0274 | [H-Index](https://leetcode.com/problems/h-index/) |  [Python](./Python/h-index.py)  | _O(n)_ | _O(n)_ | Medium         || Counting Sort |

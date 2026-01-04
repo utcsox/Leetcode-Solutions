@@ -16,7 +16,7 @@
 0066 | [Plus One](https://leetcode.com/problems/plus-one/)      | [Python](./Python/plus-one.py)   | _O(n)_           | _O(1)_         | Easy          || 
 0073 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/) | [Python](./Python/set-matrix-zeroes.py) | _O(m * n)_ | _O(1)_ | Medium  ||
 0118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)|  [Python](./Python/pascals-triangle.py) | _O(n^2)_ | _O(1)_     | Easy    || 
-0110 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle-ii/)| [C++](./C++/pascals-triangle.cpp) [Python](./Python/pascals-triangle-ii.py) | _O(n^2)_ | _O(1)_   | Easy    || 
+0119 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle-ii/)| [Python](./Python/pascals-triangle-ii.py) | _O(n^2)_ | _O(1)_   | Easy    || 
 0121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|[Python](./Python/best-time-to-buy-and-sell-stock.py) | _O(n)_ | _O(1)_ | Easy ||
 0121V| [Best Time to Buy and Sell Stock Variant](./Variants/best-time-to-buy-and-sell-stock.md)|[Python](./Python/best-time-to-buy-and-sell-stock-variant.py) | _O(n)_ | _O(1)_ | Easy ||
 0128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)| [Python](./Python/longest-consecutive-sequence.py) | _O(n)_ | _O(n)_ | Medium         || Tricky
@@ -183,6 +183,7 @@
 ## Greedy
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
+0042 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | [Python](./Python/trapping-rain-water.py) | _O(n)_ | _O(1)_ | Hard || Tricky
 0045 | [Jump Game II](https://leetcode.com/problems/jump-game-ii/)  | [Python](./Python/jump-game-ii.py) | _O(n)_        | _O(1)_          | Hard           ||
 0055 | [Jump Game](https://leetcode.com/problems/jump-game/)  |[Python](./Python/jump-game.py)  | _O(n)_          | _O(1)_          | Medium         ||
 0122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)| [Python](./Python/best-time-to-buy-and-sell-stock-ii.py) | _O(n)_ | _O(1)_ | Easy ||

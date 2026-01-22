@@ -213,6 +213,7 @@
 0249 | [Group Shifted Strings](https://leetcode.com/problems/group-shifted-strings/) | [Python](./Python/group-shifted-strings.py)  | _O(nlogn)_ | _O(n)_ | Medium        |🔒||
 0249V| [Group Shifted Strings Variant](./Variants/group-shifted-strings.md) | [Python](./Python/group-shifted-strings-variant.py)  | _O(nlogn)_ | _O(n)_ | Medium        |🔒||
 0314 | [Binary Tree Vertical Order Traversal](https://leetcode.com/problems/binary-tree-vertical-order-traversal/) | [Python](./Python/binary-tree-vertical-order-traversal.py) | _O(n)_ | _O(n)_| Medium  | 🔒 | BFS
+0323 | [Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/) | [Python](./Python/number-of-connected-components-in-an-undirected-graph.py) | _O(n)_ | _O(n)_| Medium         | 🔒 | Union Find
 0387 | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) | [Python](./Python/first-unique-character-in-a-string.py) | _O(n)_| _O(n)_| Easy |||
 0438 | [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) |  [Python](./Python/find-all-anagrams-in-a-string.py) | _O(n)_          | _O(1)_          | Easy           ||
 0523 | [Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/) |  [Python](./Python/continuous-subarray-sum.py) | _O(n)_          | _O(k)_       | Medium           ||
